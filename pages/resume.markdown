@@ -4,6 +4,14 @@ title: Resume
 permalink: /resume/
 ---
 
+
+[+66-824277813][tel]\
+[jaron.dilok@gmail.com][mail]\
+1771/1 Pattanakarn Road, Suan Luang, Bangkok 10250
+
+[tel]: tel:+66824277813
+[mail]: mailto:jaron.dilok@gmail.com
+
 ## Experience
 
 **Junior AI Researcher**\
