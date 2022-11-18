@@ -6,8 +6,13 @@ permalink: /resume/
 
 ## Experience
 
-**Teaching Assistant**,
-Thai-Nichi Institute of Technology Nov 2021 – Mar 2022 | Bangkok, Thailand
+**Junior AI Researcher**, *Data Science and Analytics Laboratory*,
+Thai-Nichi Institute of Technology\
+Nov 2022 – Present | Bangkok, Thailand
+
+**Teaching Assistant**, *for Engineering Mechanical Design Course*,
+Thai-Nichi Institute of Technology\
+Nov 2021 – Mar 2022 | Bangkok, Thailand
 
 - Assisted the professor to help students learn content for DGE 110: Engineering Graphics and Design
 - Tasked with creating homework assignments for students and supervising each student's assignments and projects.
@@ -16,10 +21,9 @@ Thai-Nichi Institute of Technology Nov 2021 – Mar 2022 | Bangkok, Thailand
 
 ## Education
 
-**Bachelor of Engineering in Digital Engineering**,
-Thai-Nichi Institute of Techonology, International Program
-| Jul 2020 – Mar 2024
-
+**Bachelor of Engineering in Digital Engineering**,\
+Thai-Nichi Institute of Techonology, *International Program*\
+Jul 2020 – Mar 2024\
 GPA: 3.97
 
 - Scholarship Holder (100% Tuition fee exemption)
