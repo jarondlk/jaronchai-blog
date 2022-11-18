@@ -4,7 +4,7 @@ title: Resume
 permalink: /resume/
 ---
 
-
+Jaronchai Dilokkalayakul\
 [+66-824277813][tel]\
 [jaron.dilok@gmail.com][mail]\
 1771/1 Pattanakarn Road, Suan Luang, Bangkok 10250
