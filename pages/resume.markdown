@@ -11,10 +11,14 @@ permalink: /resume/
 Thai-Nichi Institute of Technology\
 Nov 2022 – Present | Bangkok, Thailand
 
+- Insert something here
+
 **Computer Laboratory Assistant**\
 *Digital Engineering Laboratory*,
 Thai-Nichi Institute of Technology\
 Nov 2022 – Present | Bangkok, Thailand
+
+- Write something here hehe
 
 **Teaching Assistant**\
 *for Engineering Mechanical Design Course*,
@@ -30,8 +34,7 @@ Nov 2021 – Mar 2022 | Bangkok, Thailand
 
 **Bachelor of Engineering in Digital Engineering**,\
 Thai-Nichi Institute of Techonology, *International Program*\
-Jul 2020 – Mar 2024\
-GPA: 3.97
+Jul 2020 – Mar 2024 | GPA: 3.97
 
 - Scholarship Holder (100% Tuition fee exemption)
 - Volunteered peer tutor for Calculus I & II, Mechanics, and Programming.
