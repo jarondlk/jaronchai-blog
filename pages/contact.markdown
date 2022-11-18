@@ -12,6 +12,8 @@ permalink: /contact/
 
 | Github | [jarondlk][github] |
 | Linkedin | [Jaronchai Dilokkalayakul][linkedin] |
+| Telegram | [@Alfynodon][telegram] |
+| Spotify | [Alfyn][spotify] |
 
 <!-- Reference -->
 [tel]: tel:+66824277813
@@ -19,3 +21,5 @@ permalink: /contact/
 
 [github]: https://github.com/jarondlk
 [linkedin]: https://www.linkedin.com/in/jaronchai/
+[telegram]: https://t.me/Alfynodon
+[spotify]: https://open.spotify.com/user/31bk4em3a7hmexsukia5w44lh3wu?si=6aea0f277d624640
