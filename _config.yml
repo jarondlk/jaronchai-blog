@@ -35,10 +35,10 @@ minima:
     - { platform: twitter, user_url: "https://twitter.com/jekyllrb" }
 
 header_pages:
-  - pages/about.md
-  - pages/blog.md
-  - pages/resume.md
-  - pages/contact.md
+  - pages/about.markdown
+  - pages/blog.markdown
+  - pages/resume.markdown
+  - pages/contact.markdown
 
 show_excerpts: true
 
