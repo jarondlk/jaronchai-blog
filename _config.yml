@@ -31,7 +31,9 @@ github_username: jarondlk
 
 header_pages:
   - about.md
-  - portfolio.md
+  - blog.md
+  - resume.md
+  - contact.md
 
 # Build settings
 theme: minima
