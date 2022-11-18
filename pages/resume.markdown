@@ -6,11 +6,18 @@ permalink: /resume/
 
 ## Experience
 
-**Junior AI Researcher**, *Data Science and Analytics Laboratory*,
+**Junior AI Researcher**\
+*Data Science and Analytics Laboratory*,
 Thai-Nichi Institute of Technology\
 Nov 2022 – Present | Bangkok, Thailand
 
-**Teaching Assistant**, *for Engineering Mechanical Design Course*,
+**Computer Laboratory Assistant**\
+*Digital Engineering Laboratory*,
+Thai-Nichi Institute of Technology\
+Nov 2022 – Present | Bangkok, Thailand
+
+**Teaching Assistant**\
+*for Engineering Mechanical Design Course*,
 Thai-Nichi Institute of Technology\
 Nov 2021 – Mar 2022 | Bangkok, Thailand
 
