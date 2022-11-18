@@ -40,6 +40,8 @@ header_pages:
   - pages/resume.md
   - pages/contact.md
 
+show_excerpts: true
+
 # Build settings
 theme: minima
 plugins:
