@@ -12,6 +12,7 @@ permalink: /contact/
 
 | Github | [jarondlk][github] |
 | Linkedin | [Jaronchai Dilokkalayakul][linkedin] |
+| Instagram | [jarondlk][insta] |
 | Telegram | [@Alfynodon][telegram] |
 | Spotify | [Alfyn][spotify] |
 
@@ -21,5 +22,6 @@ permalink: /contact/
 
 [github]: https://github.com/jarondlk
 [linkedin]: https://www.linkedin.com/in/jaronchai/
+[insta]: https://instagram.com/jarondlk?igshid=YmMyMTA2M2Y=
 [telegram]: https://t.me/Alfynodon
 [spotify]: https://open.spotify.com/user/31bk4em3a7hmexsukia5w44lh3wu?si=6aea0f277d624640
