@@ -38,6 +38,7 @@ minima:
 header_pages:
   - pages/about.markdown
   - pages/blog.markdown
+  - pages/projects.markdown
   - pages/resume.markdown
   - pages/contact.markdown
 

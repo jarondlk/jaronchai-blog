@@ -2,6 +2,7 @@
 layout: post
 title:  "DSB-SC System Implementation in MATLAB"
 date:   2021-10-17 00:00:00 +0700
+tags: project matlab communication
 ---
 
 Double-Sideband Suppressed-Carrier Communication System Implementation in Matlab.
