@@ -30,6 +30,7 @@ url: "https://jarondlk.github.io/jaronchai-blog/" # the base hostname & protocol
 # twitter_username: jekyllrb
 github_username: jarondlk
 linkedin_username: Jaronchai
+instagram_username: jarondlk
 
 header_pages:
   - pages/about.markdown
