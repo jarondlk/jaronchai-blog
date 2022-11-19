@@ -1,5 +1,5 @@
 ---
-layout: page
-title: Projects
-permalink: /projects/
+layout: tagpage
+title: "Project"
+tag: project
 ---
