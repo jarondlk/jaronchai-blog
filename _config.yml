@@ -22,9 +22,9 @@ title: Jaronchai
 email: jaron.dilok@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   I am a engineering student currently studying, 
-  solving problems and learning the world. I am interested in Machine Learning 
-  (Especially Natural Language Processing), Artificial Intelligence and Cloud 
-  Computing. I also do static web dev as a side hustle and for fun.
+  solving problems and learning the world. I am interested in Machine Learning, 
+  Artificial Intelligence and Cloud Computing. I also do web dev as a side 
+  hustle and for fun.
 baseurl: "/jaronchai-blog" # the subpath of your site, e.g. /blog
 url: "https://jarondlk.github.io/jaronchai-blog/" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
