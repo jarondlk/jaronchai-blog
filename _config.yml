@@ -31,7 +31,7 @@ linkedin_username: Jaronchai
 instagram_username: jarondlk
 
 header_pages:
-  - pages/about.markdown
+  # - pages/about.markdown
   - pages/blog.markdown
   - pages/projects.markdown
   - pages/resume.markdown
