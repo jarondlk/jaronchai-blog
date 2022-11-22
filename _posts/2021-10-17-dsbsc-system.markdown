@@ -194,3 +194,87 @@ $$
 
 \end{align}
 $$
+
+## Demodulated signal analysis
+
+### Signal Demodulation
+
+#### Demodulated signal
+
+The first step of DSB-SC demodulation is done by multiplying the DSB-SC modulated signal with the carrier signal.
+
+$$ v(t)=y(t)\times c(t) $$
+
+$$
+\begin{align}
+{v(t)=}
+\frac{1}{2\pi}\big[
+\pi(e^{-\pi t 1800 j}+e^{\pi t 1800 j})(1+1.1392e^{-14j})- \\
+\pi(e^{-\pi t 1880 j}+e^{\pi t 1880 j})(\frac{1}{3}+3.7972e^{-15j})+ \\
+\pi(e^{-\pi t 1992 j}+e^{\pi t 1992 j})(\frac{1}{5}+2.2783e^{-15j})+ \\
+\pi(e^{-\pi t 2008 j}+e^{\pi t 2008 j})(\frac{1}{5}+2.2783e^{-15j})- \\
+\pi(e^{-\pi t 2120 j}+e^{\pi t 2120 j})(\frac{1}{3}+3.7972e^{-15j})+ \\
+\pi(e^{-\pi t 2200 j}+e^{\pi t 2200 j})(1+1.1392e^{-14j})
+\big]\
+cos(2\pi 1000t )
+
+\end{align}
+$$
+
+![]({{ site.baseurl }}/assets/image/dsbsc/11.png)
+
+#### Fourier transform of demodulated signal
+
+It is apparent in figure below, that there is 2 batches of frequencies along the frequency spectrum, which the lower frequency batch is the original message, while the higher are the DSB-SC modulated signal’s.
+
+![]({{ site.baseurl }}/assets/image/dsbsc/12.png)
+
+### Low Pass Filter (LPF)
+
+#### Application of Low pass filter
+
+This demodulated signal is passed through a low pass filter to form a scaled version of the original message signal and for the signal to pass only the message signal.
+
+![]({{ site.baseurl }}/assets/image/dsbsc/13.png)
+
+#### Characteristic of signal after application of LPF
+
+A low-pass filter or LPF passes signals with a frequency lower than the cutoff frequency and decrease the signal with frequencies higher than the cutoff frequency. Which means once the demodulated signal passes through the low pass filter, the higher frequency component, or the carrier’s frequency is removed, leaving just the original message.
+
+#### Fourier transform of signal after application of LPF
+
+From the plot of figure below, the remaining batch of frequencies on the frequency spectrum is from only the message signal, hence, the demodulation of the signal.
+
+![]({{ site.baseurl }}/assets/image/dsbsc/14.png)
+
+### Output signal result
+
+The resulting Filtered demodulated signal in time domain figure is the message signal that has been modulated, distorted through communication channel, demodulated and applied low pass filter. Which the signal presented in the said figure is the signal that the receiver will receive.
+
+#### Original message comparison in time domain
+
+By comparing the final resulting signal and the original message signal in the time domain in figure below. The following observations can be make:
+
+- The final resulting signal after modulation, distortion, demodulation and filtration is a scaled and distorted version of the original message signal.
+- The amplitude of the demodulated (final) signal appears to be slightly lower than the amplitude of the original message signal.
+
+![]({{ site.baseurl }}/assets/image/dsbsc/15.png)
+
+#### Original message comparison in frequency domain
+
+And by comparing the final resulting signal and the original message signal in the frequency domain in figure below. We can observe that:
+
+- The amplitude of the demodulated signal has been attenuated and scaled down from the original message signal.
+- However, the distribution of frequencies of the demodulated signal remains the same as the original message, which are around 4, 60 and 100 Hz on the frequency spectrum.
+
+![]({{ site.baseurl }}/assets/image/dsbsc/16.png)
+
+## Conclusions
+
+Given a baseband signal, with no prior modulation, with frequency respecting to student’s ID number. We can design a DSB-SC communication system. In order of modulation, channel distortion, demodulation and low pass filter.
+
+A message signal can be modify by multiplying with a carrier signal. This type of amplitude modulation is called “Double-sideband suppressed-carrier” or DSB-SC modulation. The signal that has been modulated, are affected with channel distortions, which are distinguish by the channel characteristics, and are differs from channels to channels.
+
+The demodulation of a signal can be obtain by the product of the modulated signal and the carrier signal. After getting the product, the signal is now demodulated, but with the carrier signal’s frequency included. In order to attenuate the carrier frequency, we can apply low pass filter to the signal. The original message will be the only thing that’s left in the output signal, while the carrier signal component is suppressed.
+
+The final signal will output a scaled and distorted version of the original message signal.
