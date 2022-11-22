@@ -41,6 +41,9 @@ show_excerpts: true
 
 author: Jaronchai Dilokkalayakul
 
+disqus:
+  shortname: jaronchai-blog
+
 # Build settings
 theme: minima
 plugins:

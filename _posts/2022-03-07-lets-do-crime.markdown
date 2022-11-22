@@ -3,6 +3,7 @@ layout: post
 title:  "Crime Data Analysis and Trend Classsification Using Python"
 date:   2022-03-07 00:00:00 +0700
 tags: project python data-analysis machine-learning
+comments: true
 ---
 
 As crime rate spikes during the last few years throughout USA, I made the decision to take data from one of the most populated city in the USA and take a closer look on the criminal activity itself in order to gain insights to the climate of the crime and it’s surrounding factors, visualize if any patterns occurred. And how the factors all related or unrelated to one another, how they can be use to correlate the occurred crime to other factors, which ultimately can help us predict and determine future circumstances of the crime in the area.

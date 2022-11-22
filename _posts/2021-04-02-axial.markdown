@@ -3,4 +3,5 @@ layout: post
 title:  "3D Printed Table-Edge-Cup-Holder the A.X.I.A.L"
 date:   2021-04-02 00:00:00 +0700
 tags:  project for-fun 3d-print
+comments: true
 ---

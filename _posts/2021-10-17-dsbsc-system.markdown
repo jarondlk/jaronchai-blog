@@ -3,6 +3,7 @@ layout: post
 title:  "DSB-SC System Design and MATLAB Implementation"
 date:   2021-10-17 00:00:00 +0700
 tags: project matlab communication
+comments: true
 ---
 
 A double-sideband suppressed-carrier communication system design project. The design in this project are presented in three major parts, which are modulation, distortion and demodulation of the signal. The project can also be 
