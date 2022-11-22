@@ -5,6 +5,14 @@ date:   2022-03-07 00:00:00 +0700
 tags: project python data-analysis machine-learning
 ---
 
+As crime rate spikes during the last few years throughout USA, I made the decision to take data from one of the most populated city in the USA and take a closer look on the criminal activity itself in order to gain insights to the climate of the crime and it’s surrounding factors, visualize if any patterns occurred. And how the factors all related or unrelated to one another, how they can be use to correlate the occurred crime to other factors, which ultimately can help us predict and determine future circumstances of the crime in the area.
+
+## 0 Project Repository
+
+You can check out the code of this project [here][link]!
+
+[link]: https://github.com/jarondlk/lets-do-crime-baby
+
 ## 1 Problem statement
 
 ### 1.1 What is a crime?
@@ -12,6 +20,8 @@ tags: project python data-analysis machine-learning
 A *crime* is an act or instance that is considered to be against the morals or laws of society*.* A *crime* can also mean illegal activity in general or a frequent committing of such activity*. Crime* can also mean a repeated or frequent performing of illegal acts*.* And *crime* can be used more generally to refer to any offense.
 
 ### 1.2 Problem
+
+As stated above:
 
 As crime rate spikes during the last few years throughout USA, I made the decision to take data from one of the most populated city in the USA and take a closer look on the criminal activity itself in order to gain insights to the climate of the crime and it’s surrounding factors, visualize if any patterns occurred. And how the factors all related or unrelated to one another, how they can be use to correlate the occurred crime to other factors, which ultimately can help us predict and determine future circumstances of the crime in the area.
 

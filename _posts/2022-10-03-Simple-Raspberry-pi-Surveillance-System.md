@@ -87,7 +87,9 @@ In our use case, we will use the Raspberry Pi camera module, which is an add-on 
 
 ![PIR]({{ site.baseurl }}/assets/image/iot-rpi/cam.png)
 
-This camera module can be easily interfaced with the Raspberry Pi's dedicated CSI camera port. This camera has a ribbon cable that attaches the camera to Pi. Refer to the official video by the Raspberry Pi foundation to install the camera on the Pi correctly. The following is the video link: <https://www.raspberrypi.org/documentation/usage/camera/README.md>.
+This camera module can be easily interfaced with the Raspberry Pi's dedicated CSI camera port. This camera has a ribbon cable that attaches the camera to Pi. Refer to the official video by the Raspberry Pi foundation to install the camera on the Pi correctly. The following is the video [link][link].
+
+[link]: https://www.raspberrypi.org/documentation/usage/camera/README.md
   
 We have learned about each and every component required to build the security surveillance system except the Raspberry Pi itself, which is the heart of the system.
 
