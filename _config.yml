@@ -23,8 +23,8 @@ email: jaron.dilok@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   I am a engineering student currently studying, solving problems and learning 
   the world. I use this blog to share my experiences during my journey.
-baseurl: "/jaronchai-blog" # the subpath of your site, e.g. /blog
-url: "https://jarondlk.github.io/jaronchai-blog/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://jaronchai.com" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username: jarondlk
 linkedin_username: Jaronchai
