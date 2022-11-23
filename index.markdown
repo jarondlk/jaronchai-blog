@@ -7,8 +7,10 @@ layout: default
 
 ## Hi there! I am **Jaronchai**
 
-I do stuff with computer and sometimes I write them [here][blog]. I am a Junior AI Developer at the Data Science Laboratory of TNIC. I am currently studying engineering in Bangkok, Thailand.
+I am a Junior AI Developer at the Data Science Laboratory of TNIC. I am currently studying engineering in Bangkok, Thailand.
 
-[blog]: blog/
+I do stuff with computer and sometimes I write them [here][blog]. I write other things too, 
 
 Have an awesome day!
+
+[blog]: blog/

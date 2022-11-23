@@ -32,7 +32,7 @@ instagram_username: jarondlk
 
 header_pages:
   # - pages/about.markdown
-  - pages/blog.markdown
+  - pages/weblog.markdown
   - pages/projects.markdown
   - pages/resume.markdown
   - pages/contact.markdown
