@@ -19,7 +19,9 @@ Jaronchai Dilokkalayakul\
 Thai-Nichi Institute of Technology\
 Nov 2022 – Present | Bangkok, Thailand
 
-- Insert something here
+- Designed and Developed a machine learning iOS application using Swift and SwiftUI
+- Integrate Tensorflow and Keras neural network into native iOS development environment
+- Tested and simulated various neural network architecture on the developed application
 
 **Computer Laboratory Assistant**\
 *Digital Engineering Laboratory*,
