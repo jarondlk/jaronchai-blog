@@ -35,9 +35,9 @@ Nov 2022 – Present | Bangkok, Thailand
 Thai-Nichi Institute of Technology\
 Nov 2021 – Mar 2022 | Bangkok, Thailand
 
-- Assisted the professor to help students learn content for DGE 110: Engineering Graphics and Design
-- Tasked with creating homework assignments for students and supervising each student's assignments and projects.
-- Maintain 3D printer operations for the student's projects and conducting a safe and efficient printing procedure.
+- Taught the contents of the Engineering Mechanical Design course along side the professor
+- Created homework assignments and evaluate each student's performance
+- Maintain 3D printer operations for conducting a safe and efficient printing procedure.
 
 ## Education
 
