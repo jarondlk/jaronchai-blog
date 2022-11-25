@@ -26,7 +26,9 @@ Nov 2022 – Present | Bangkok, Thailand
 Thai-Nichi Institute of Technology\
 Nov 2022 – Present | Bangkok, Thailand
 
-- Write something here hehe
+- Applied programming and Internet of Things concepts into an actionable laboratory stations
+- Presented and maintain laboratory stations and update when needed
+- Specialized in utilizing the modules of Raspberry-pi and Arduino
 
 **Teaching Assistant**\
 *for Engineering Mechanical Design Course*,
@@ -35,8 +37,7 @@ Nov 2021 – Mar 2022 | Bangkok, Thailand
 
 - Assisted the professor to help students learn content for DGE 110: Engineering Graphics and Design
 - Tasked with creating homework assignments for students and supervising each student's assignments and projects.
-- The assignments' difficulties needed to scale with the students' learning capabilities.
-- In charge of operating the 3D printer for the student's projects and conducting a safe and efficient printing procedure.
+- Maintain 3D printer operations for the student's projects and conducting a safe and efficient printing procedure.
 
 ## Education
 
