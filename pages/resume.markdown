@@ -19,24 +19,27 @@ Jaronchai Dilokkalayakul\
 Thai-Nichi Institute of Technology\
 Nov 2022 – Present | Bangkok, Thailand
 
-- Insert something here
+- Designed and Developed a machine learning iOS application using Swift and SwiftUI
+- Integrate Tensorflow and Keras neural network into native iOS development environment
+- Tested and simulated various neural network architecture on the developed application
 
 **Computer Laboratory Assistant**\
 *Digital Engineering Laboratory*,
 Thai-Nichi Institute of Technology\
 Nov 2022 – Present | Bangkok, Thailand
 
-- Write something here hehe
+- Applied programming and Internet of Things concepts into an actionable laboratory stations
+- Presented and maintain laboratory stations and update when needed
+- Specialized in utilizing the modules of Raspberry-pi and Arduino
 
 **Teaching Assistant**\
 *for Engineering Mechanical Design Course*,
 Thai-Nichi Institute of Technology\
 Nov 2021 – Mar 2022 | Bangkok, Thailand
 
-- Assisted the professor to help students learn content for DGE 110: Engineering Graphics and Design
-- Tasked with creating homework assignments for students and supervising each student's assignments and projects.
-- The assignments' difficulties needed to scale with the students' learning capabilities.
-- In charge of operating the 3D printer for the student's projects and conducting a safe and efficient printing procedure.
+- Taught the contents of the Engineering Mechanical Design course along side the professor
+- Created homework assignments and evaluate each student's performance
+- Maintain 3D printer operations for conducting a safe and efficient printing procedure.
 
 ## Education
 
