@@ -13,4 +13,4 @@ I do stuff with computer and sometimes I write them [here][blog]. I write about 
 
 Have an awesome day!
 
-[blog]: blog/
+[blog]: pages/weblog/
