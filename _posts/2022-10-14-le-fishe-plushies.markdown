@@ -6,7 +6,7 @@ tags: project webdev
 comments: true
 ---
 
-I made an e-commerce based on human computer interaction principles, the e-commerce site is called "Le Fishe Plushies" Which you can view it [here](link)
+I made an e-commerce based on human computer interaction principles, the e-commerce site is called "Le Fishe Plushies" Which you can view it [here](https://jarondlk.github.io/le-fishe-plushies/)
 
 Welcome to Le Fishe Plushies, an e-commerce site that's all about making your shopping experience as easy and enjoyable as possible. 
 
@@ -21,5 +21,3 @@ And last but not least, we want your shopping experience to be as simple and eff
 At Le Fishe Plushies, we believe that by incorporating HCI principles, we've created an e-commerce experience that's not only user-friendly but also enjoyable for our customers. We are constantly looking for ways to improve our site and welcome any feedback from our customers.
 
 Thank you for choosing Le Fishe Plushies, and happy shopping!
-
-[link](https://jarondlk.github.io/le-fishe-plushies/)
