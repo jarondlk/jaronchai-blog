@@ -4,3 +4,14 @@ title: About
 permalink: /about/
 ---
 
+Welcome to my blog about technology and shenanigans! As an undergraduate student studying technology, I have a passion for all things related to gadgets, software, and the latest advancements in the tech industry. But, let's be real, not everything in life is all work and no play. That's why I also like to write about my experiences and thoughts on the lighter side of life, the shenanigans.
+
+In this blog, you'll find a mix of informative articles on the latest technology trends, reviews of the latest gadgets and software, as well as personal anecdotes and musings on my experiences as a student and young adult.
+
+One of the things I love most about technology is how it is constantly evolving and improving. I'll be sharing my thoughts on the latest innovations in the tech industry, and what impact they might have on our daily lives. For example, I recently wrote about the potential of 5G networks and how they could change the way we interact with technology.
+
+Of course, there's also a fun side to technology. I'll be sharing my experiences with the latest gaming systems, virtual reality headsets, and other cool gadgets. Whether you're a hardcore gamer or just someone who likes to play around with the latest tech, there will be something for you here.
+
+But I'm not all about technology all the time, I also like to share my thoughts on the lighter side of life. From my latest travel experiences to my thoughts on the latest movie or TV show, there will be something for everyone to enjoy.
+
+So, whether you're a tech enthusiast or just someone looking for a good read, I hope you'll find something here that interests you. Thanks for stopping by and I hope you'll come back for more technology and shenanigans!
