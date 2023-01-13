@@ -6,7 +6,15 @@ tags:  project for-fun c-language terminal
 comments: true
 ---
 
-Dungeon rollin’, the dice rolling simulators based on dungeon and dragon game.
+Dungeon rollin’ is a dice rolling simulator based on the popular role-playing game, Dungeons and Dragons (D&D). Written in C language, it allows players to simulate dice rolls for various actions and events in the game, such as character creation, combat, and skill checks.
+
+One of the main advantages of using a dice rolling simulator like Dungeon rollin’ is the ability to quickly and easily generate random results for various in-game actions. This can save time and eliminate the need for physical dice, making it a useful tool for both experienced and new players.
+
+To use the simulator, players simply input the type of dice they wish to roll, such as a d4, d6, d8, d10, d12, or d20. The program then generates a random number within the range of that type of dice and displays the result. Additionally, players can also input a modifier to add or subtract from the roll. This can be useful for simulating bonuses or penalties based on character abilities or situational factors.
+
+One of the standout features of Dungeon rollin’ is its ability to roll multiple dice at once. This is useful for actions such as rolling damage for a spell or weapon attack. Players can input the number of dice they wish to roll, along with the type of dice, and the program will generate the results for all of them at once.
+
+Overall, Dungeon rollin’ is a great tool for any D&D player looking to streamline their dice rolling and keep track of their rolls during game play. Its ease of use, speed, and variety of features make it a valuable addition to any player's arsenal of D&D tools. It is a must have for any avid D&D player who wants to take their game to the next level.
 
 But what exactly is DND? DND is a fantasy tabletop role-playing game. DND departs from traditional wargaming by allowing each player to create their own character, by the maximum player of 6, Together they solve dilemmas, engage in battle, explore,  gather treasure and knowledge. In the process, the character will earn experience points in order to rise in levels and become increasingly powerful. But in order for you to decide whether if you can engage in battle or gather treasure and some source of that progress, you need to roll dices.
 
