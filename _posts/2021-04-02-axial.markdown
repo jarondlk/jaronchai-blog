@@ -6,4 +6,16 @@ tags:  project for-fun 3d-print
 comments: true
 ---
 
-Test Text
+3D printing technology has revolutionized the way we design and create products. One of the most popular applications of 3D printing is in the field of product design and prototyping. In this blog post, we will take a look at how to design and print a 3D printed table-edge cup holder, also known as the "A.X.I.A.L, Auxiliary Extension Ideal Angle Loader" using CATIA and a 3D printer.
+
+The first step in designing the A.X.I.A.L cup holder is to use CATIA, a powerful 3D design software. CATIA allows users to create detailed 3D models of products and parts, including complex curves and surfaces. Using CATIA, we can design the A.X.I.A.L cup holder with precision and accuracy.
+
+The design process begins with creating the basic shape of the cup holder. This includes defining the dimensions, such as the width and height, as well as the shape of the holder itself. Once the basic shape is established, we can then add features such as the notches that will hold the cup securely in place.
+
+Next, we will add the necessary features to the design such as the clips that will hold the cup holder to the table edge and the angle adjuster which allows the user to adjust the angle of the cup holder for maximum comfort.
+
+After the design is complete, it can be exported as an .STL file, which is the standard file format for 3D printing. The .STL file is then imported into the slicing software, where it is prepared for printing by generating the G-code, which is the machine code that the 3D printer uses to produce the physical object.
+
+Finally, the G-code is loaded into the 3D printer, which begins the printing process. Depending on the size and complexity of the model, it may take several hours to print. Once the printing is complete, the A.X.I.A.L cup holder can be removed from the printer, cleaned up, and it is ready to use.
+
+In conclusion, 3D printing technology has made it possible to design and create complex products with precision and accuracy. The A.X.I.A.L cup holder is a perfect example of this, showcasing the capabilities of 3D printing in product design and prototyping. The A.X.I.A.L cup holder is a handy and useful device that can be placed on any table edge, providing a secure and comfortable place for the user to hold their cup.
