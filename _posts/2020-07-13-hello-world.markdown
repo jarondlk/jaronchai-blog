@@ -4,6 +4,7 @@ title:  "Hello World!"
 date:   2020-07-13 00:00:00 +0700
 tags:  hello-world
 comments: true
+featured: true
 ---
 
 Welcome to my technology and shenanigans blog! My name is Jaronchai and I am a Junior AI Developer at the Data Science Laboratory of TNIC. As a student studying engineering in Bangkok, Thailand, I have a passion for all things technology and am excited to share my knowledge and experiences with you.

@@ -4,6 +4,7 @@ title:  "Installing Tensorflow-Metal on Apple Silicon MacOS with Miniconda"
 date:   2023-01-20 07:00:00 +0700
 tags: python tensorflow
 comments: true
+featured: true
 ---
 
 Tensorflow is one of the most popular open-source machine learning libraries available today, and it's no surprise that many developers and data scientists want to get their hands on it. Unfortunately, installing Tensorflow can sometimes be a bit tricky, especially on MacOS, speaking from experience 😔. In this post, I'm going to walk you through the process of installing Tensorflow on MacOS using Miniconda, a lightweight version of Anaconda. By the end of this post, you'll have Tensorflow up and running on your machine and be ready to start experimenting with it.
