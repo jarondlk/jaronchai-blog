@@ -26,7 +26,7 @@ Nov 2022 – Present | Bangkok, Thailand
 **Computer Laboratory Assistant**\
 *Digital Engineering Laboratory*,
 Thai-Nichi Institute of Technology\
-Nov 2022 – Present | Bangkok, Thailand
+Mar 2022 – Present | Bangkok, Thailand
 
 - Applied programming and Internet of Things concepts into an actionable laboratory stations
 - Presented and maintain laboratory stations and update when needed
