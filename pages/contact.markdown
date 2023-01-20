@@ -5,7 +5,8 @@ permalink: /contact/
 ---
 
 | Tel | [+66-824277813][tel] |
-| E-mail | [jaron.dilok@gmail.com][mail] |
+| Personal E-mail | [jaron.dilok@gmail.com][mail] |
+| University E-mail | [di.jaronchai_st@tni.ac.th][unimail] |
 | Address | 1771/1 Pattanakarn Road, Suan Luang, Bangkok 10250 |
 
 **Links**
@@ -19,6 +20,7 @@ permalink: /contact/
 <!-- Reference -->
 [tel]: tel:+66824277813
 [mail]: mailto:jaron.dilok@gmail.com
+[unimail]: mailto:di.jaronchai_st@tni.ac.th
 
 [github]: https://github.com/jarondlk
 [linkedin]: https://www.linkedin.com/in/jaronchai/
