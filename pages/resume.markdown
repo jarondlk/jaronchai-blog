@@ -67,4 +67,4 @@ In recognition of outstanding academic performance
 - [Python Skill Verification Test](https://www.hackerrank.com/certificates/ff38330cca41) (HackerRank)
 - [IELTS] (Overall 7.5)
 
-Download the resume [here](assets/documents/JaronchaiResume.pdf)!
+Download the resume [here]({{site.baseurl}}/assets/documents/JaronchaiResume.pdf)!
