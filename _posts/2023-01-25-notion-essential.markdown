@@ -21,6 +21,10 @@ To pass the Notion Certification Exam, you'll need to demonstrate a solid unders
 
 Before taking the exam, it's important to make sure that you are familiar with the Notion interface and have a good understanding of its basic features. You can also check Notion's official website for more information about the exam and take some sample questions.
 
+So, earning the Notion Essentials Badge through the Notion Certification Exam is a great way to demonstrate your knowledge and expertise in using Notion. By preparing for the exam and focusing on the key areas of relational databases, formula property, commenting, and team collaboration, you can increase your chances of passing the exam and earning your badge.
+
 <div data-iframe-width="200" data-iframe-height="270" data-share-badge-id="530aa4de-5333-4439-b8a0-a7b5aced660b" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 
-In conclusion, earning the Notion Essentials Badge through the Notion Certification Exam is a great way to demonstrate your knowledge and expertise in using Notion. By preparing for the exam and focusing on the key areas of relational databases, formula property, commenting, and team collaboration, you can increase your chances of passing the exam and earning your badge.
+Overall, Notion has been a game-changer for me in terms of productivity. It helps me to stay organized, manage my time more effectively, and access the information I need when I need it. And I am proud to say that I have recently obtained the Notion Essentials certification badge, which demonstrates my knowledge and expertise in using the tool.
+
+You can see my Notion Essentials certification badge proudly displayed on my about me page and feel free to reach out if you have any questions about how I use notion to increase my productivity.
