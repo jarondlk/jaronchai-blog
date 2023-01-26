@@ -12,4 +12,10 @@ But I'm not all about technology all the time, I also like to share my thoughts 
 
 So, whether you're a tech enthusiast or just someone looking for a good read, I hope you'll find something here that interests you. Thanks for stopping by and I hope you'll come back for more technology and shenanigans!
 
-<div data-iframe-width="210" data-iframe-height="270" data-share-badge-id="530aa4de-5333-4439-b8a0-a7b5aced660b" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+<div style="display: flex; justify-content: center;">
+
+    <div data-iframe-width="210" data-iframe-height="270" data-share-badge-id="530aa4de-5333-4439-b8a0-a7b5aced660b" data-share-badge-host="https://www.credly.com" style="margin: 10px;"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
+    <div data-iframe-width="210" data-iframe-height="270" data-share-badge-id="1cb2139a-e856-4c51-a9e2-f03c91bfdb05" data-share-badge-host="https://www.credly.com" style="margin: 10px;"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
+</div>
