@@ -65,6 +65,6 @@ In recognition of outstanding academic performance
 - [Natural Language Processing Skill Track](https://www.datacamp.com/statement-of-accomplishment/track/3b1556e979d1e7321fc916eed3d7278eeee8c275) (Datacamp)
 - [Operate and Manage Cloud Servers](https://drive.google.com/file/d/1SE47v5Cfa_oATcQnMbt2QiiqRwESxRQO/view?usp=sharing) (Alibaba Cloud)
 - [Python Skill Verification Test](https://www.hackerrank.com/certificates/ff38330cca41) (HackerRank)
-- [IELTS] (Overall 7.5)
+- [IELTS](https://drive.google.com/file/d/1uspRw_ta0C4L3F3NheQ6QnZNQq8N7pQT/view) (Overall 7.5)
 
 Download the resume [here]({{site.baseurl}}/assets/documents/JaronchaiResume.pdf)!
