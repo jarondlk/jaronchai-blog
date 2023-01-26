@@ -8,8 +8,6 @@ Welcome to my blog about technology and shenanigans! As an undergraduate student
 
 In this blog, you'll find a mix of informative articles on the latest technology trends, reviews of the latest gadgets and software, as well as personal anecdotes and musings on my experiences as a student and young adult.
 
-One of the things I love most about technology is how it is constantly evolving and improving. I'll be sharing my thoughts on the latest innovations in the tech industry, and what impact they might have on our daily lives. For example, I recently wrote about the potential of 5G networks and how they could change the way we interact with technology.
-
 But I'm not all about technology all the time, I also like to share my thoughts on the lighter side of life. From my latest travel experiences to my thoughts on the latest movie or TV show, there will be something for everyone to enjoy.
 
 So, whether you're a tech enthusiast or just someone looking for a good read, I hope you'll find something here that interests you. Thanks for stopping by and I hope you'll come back for more technology and shenanigans!
