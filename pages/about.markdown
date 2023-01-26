@@ -13,3 +13,5 @@ One of the things I love most about technology is how it is constantly evolving 
 But I'm not all about technology all the time, I also like to share my thoughts on the lighter side of life. From my latest travel experiences to my thoughts on the latest movie or TV show, there will be something for everyone to enjoy.
 
 So, whether you're a tech enthusiast or just someone looking for a good read, I hope you'll find something here that interests you. Thanks for stopping by and I hope you'll come back for more technology and shenanigans!
+
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="530aa4de-5333-4439-b8a0-a7b5aced660b" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
