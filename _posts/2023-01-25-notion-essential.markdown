@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Notion Essential Certification"
-date:   2023-01-25 00:00:00 +0700
+date:   2023-01-25 07:00:00 +0700
 tags: productivity notion
 comments: true
 featured: true
