@@ -4,7 +4,7 @@
 
 <li style="list-style-type: none;">
 
-    {{ post.date | date: "%m / %Y" }}
+    <span style="opacity: 0.5;">{{ post.date | date: "%m / %Y" }}</span>
     &emsp;
     <a href=" {{ post.url | relative_url }}">{{ post.title }}</a>
 
