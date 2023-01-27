@@ -18,7 +18,6 @@ I do stuff with computer and sometimes I write them [here][blog]. I write about 
 **Selected Writings**
 {%- include featured.html -%}
 \
-\
 Have an awesome day!
 
 [blog]: weblog/
