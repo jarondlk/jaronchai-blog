@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Notion Essential Certification"
+title:  "Notion Essential Certification: What to Expect?"
 date:   2023-01-25 07:00:00 +0700
 tags: productivity notion
 comments: true
