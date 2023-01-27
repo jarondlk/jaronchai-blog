@@ -2,6 +2,7 @@
 layout: post
 title:  "Let's Build a Simple Raspberry-pi Surveillance System"
 date:   2022-10-03 00:00:00 +0700
+year: 2022
 tags: project python iot
 comments: true
 ---

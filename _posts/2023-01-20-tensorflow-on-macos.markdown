@@ -2,6 +2,7 @@
 layout: post
 title:  "Installing Tensorflow-Metal on Apple Silicon MacOS with Miniconda"
 date:   2023-01-20 07:00:00 +0700
+year: 2023
 tags: python tensorflow
 comments: true
 featured: true

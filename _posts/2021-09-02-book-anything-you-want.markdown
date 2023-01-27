@@ -2,6 +2,7 @@
 layout: post
 title:  "Book note: Anything you want"
 date:   2021-09-02 00:00:00 +0700
+year: 2021
 tags: book-note productivity
 comments: true
 ---

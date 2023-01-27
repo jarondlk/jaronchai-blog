@@ -2,6 +2,7 @@
 layout: post
 title:  "Building Le Fishe Plushie E-Commerce Website"
 date:   2022-10-14 00:00:00 +0700
+year: 2022
 tags: project webdev
 comments: true
 ---
