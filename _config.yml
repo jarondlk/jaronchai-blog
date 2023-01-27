@@ -37,7 +37,7 @@ header_pages:
   - pages/resume.markdown
   - pages/contact.markdown
 
-show_excerpts: true
+show_excerpts: false
 
 author: Jaronchai Dilokkalayakul
 

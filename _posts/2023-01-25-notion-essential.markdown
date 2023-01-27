@@ -25,7 +25,7 @@ So, earning the Notion Essentials Badge through the Notion Certification Exam is
 
 <div style="display: flex; justify-content: center;">
 
-    <div data-iframe-width="210" data-iframe-height="270" data-share-badge-id="530aa4de-5333-4439-b8a0-a7b5aced660b" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+    <div data-iframe-width="500" data-iframe-height="270" data-share-badge-id="530aa4de-5333-4439-b8a0-a7b5aced660b" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 
 </div>
 

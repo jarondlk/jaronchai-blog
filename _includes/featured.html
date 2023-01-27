@@ -2,8 +2,14 @@
 
 {% if post.featured == true %}
 
-<li>
-    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+<li style="list-style-type: none;">
+
+    {{ post.date | date: "%m / %Y" }}
+    &emsp;
+    <a href=" {{ post.url | relative_url }}">{{ post.title }}</a>
+
+    <br>
+
 </li>
 
 {% endif %}
