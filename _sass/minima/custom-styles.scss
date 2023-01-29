@@ -1,0 +1,21 @@
+.site-title {
+  color: #111111;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  @include relative-font-size(1.25);
+  margin-top: 24px;
+  letter-spacing: 0.3px;
+  border-style: hidden;
+  border-radius: 5px;
+  // background-color: #f3f4f6;
+  background-color: lighten(#eedbb9, 8%);
+  padding: 0px 5px;
+  &:hover {
+    border-style: hidden;
+    border-radius: 5px;
+    // background-color: #d1d5db;
+    background-color: #eedbb9;
+    border-width: thin;
+    text-decoration: none;
+  }
+}
