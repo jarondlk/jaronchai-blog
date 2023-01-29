@@ -36,19 +36,24 @@ layout: default
   {%- endif -%}
   <br /> -->
 
+  <br />
+
   {% for post in site.posts %}
   {% assign currentdate = post.date | date: "%Y" %}
   {% if currentdate != date %}
-  <h3 id="y{{currentdate}}">{{ currentdate }}</h3>
+  <br />
+  <h3 style="font-weight: bold;" id="y{{currentdate}}">{{ currentdate }}</h3>
   {% assign date = currentdate %}
   {% endif %}
   <ul class="post-list">
-    <li>
-      <a href="{{ post.url | relative_url }}">
-        {{ post.title | escape }}
-      </a>
-      <span class="post-meta">{{ post.date | date: date_format }}</span>
-    </li>
+    <p>
+      <li>
+        <a href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+      </li>
+    </p>
   </ul>
   {% endfor %}
   <br />
