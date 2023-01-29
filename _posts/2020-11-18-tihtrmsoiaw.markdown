@@ -2,7 +2,6 @@
 layout: post
 title:  "Things I have to remind myself once in a while"
 date:   2020-11-18 00:00:00 +0700
-year: 2020
 tags:  productivity
 comments: false
 ---
