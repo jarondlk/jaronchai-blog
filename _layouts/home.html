@@ -46,14 +46,14 @@ layout: default
   {% assign date = currentdate %}
   {% endif %}
   <ul class="post-list">
-    <p>
+    <h4>
       <li>
         <a href="{{ post.url | relative_url }}">
           {{ post.title | escape }}
         </a>
         <span class="post-meta">{{ post.date | date: date_format }}</span>
       </li>
-    </p>
+    </h4>
   </ul>
   {% endfor %}
   <br />
