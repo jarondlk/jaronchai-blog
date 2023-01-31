@@ -7,7 +7,7 @@ layout: default
 
 ## Hi there! I am **Jaronchai**
 
-I am a Junior AI Researcher at the Data Science and Analytics Laboratory of TNIC. I am currently pursuing my Bachelor of Engineering in Digital Engineering at the TNIC. 
+I am a Junior AI Researcher at the Data Science and Analytics Laboratory of [TNIC](https://tnic.tni.ac.th). I am currently pursuing my Bachelor of Engineering in Digital Engineering at the TNIC.
 
 My interests include Artificial Intelligence, Computer Science and Data Science. As an experienced Computer Laboratory Assistant, I have a strong background in the field of technology, and I am excited to share my knowledge, experiences AND shenanigans with you ;3
 
