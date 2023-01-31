@@ -13,7 +13,8 @@
 .site-title {
   @include relative-font-size(1.625);
   font-weight: 300;
-  line-height: $base-line-height * $base-font-size * 2.25;
+  // Change line height to adjust top margin HERE
+  line-height: $base-line-height * $base-font-size * 2.75;
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
@@ -30,7 +31,8 @@
 
 .site-nav {
   float: right;
-  line-height: $base-line-height * $base-font-size * 2.25;
+  // AND HERE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  line-height: $base-line-height * $base-font-size * 2.75;
 
   .nav-trigger {
       display: none;
@@ -111,7 +113,7 @@
  */
 .site-footer {
   // border-top: 1px solid $grey-color-light;
-  padding: $spacing-unit 0;
+  padding: $spacing-unit*1.25 $spacing-unit 0 0;
 }
 
 .footer-heading {
