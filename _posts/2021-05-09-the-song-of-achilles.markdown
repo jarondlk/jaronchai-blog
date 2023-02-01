@@ -9,6 +9,9 @@ featured: true
 
 The Song of Achilles: A Masterpiece of Modern Literature
 
+Author: Madeline Miller
+Rating: ⭐️⭐️⭐️⭐️⭐️ Masterpiece
+
 Madeline Miller's "The Song of Achilles" is a retelling of the classic Greek myth of Achilles, the greatest warrior of the Trojan War, and his boyfriend, Patroclus. This novel is a stunning exploration of love, loyalty, and the power of storytelling.
 
 The writing style in this book is simply beautiful. Miller's prose is poetic, evocative, and powerful. She seamlessly blends elements of ancient Greek mythology with a modern sensibility, creating a unique and captivating narrative. The descriptions of the world and its characters are vivid and rich, and the dialogue is natural and engaging.
