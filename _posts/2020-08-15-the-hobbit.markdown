@@ -7,9 +7,7 @@ comments: true
 featured: true
 ---
 
-## The Hobbit: The
-
-Author: J.R.R. Tolkien
+Author: J.R.R. Tolkien\
 Rating: ⭐️⭐️⭐️⭐️⭐️
 
 ### Behind the Book
