@@ -8,13 +8,13 @@ Welcome to my blog about technology and shenanigans! As an undergraduate student
 
 ## What is this blog about?
 
-In this blog, you'll find a mix of informative articles on the latest technology trends, reviews of the latest gadgets and software, as well as personal anecdotes and musings on my experiences as a student and young adult.
+In this blog, you'll find a mix of informative articles on the latest technology trends, reviews of the latest gadgets and software, as well as personal anecdotes and musings on my experiences as a student and young adult. In addition, I'll also be reviwing books that I enjoyed or movies and music that I particularly like as well!
 
-But I'm not all about technology all the time, I also like to share my thoughts on the lighter side of life. From my latest travel experiences to my thoughts on the latest movie or TV show, there will be something for everyone to enjoy.
-
-So, whether you're a tech enthusiast or just someone looking for a good read, I hope you'll find something here that interests you. Thanks for stopping by and I hope you'll come back for more technology and shenanigans!
+I hope you'll find something here that interests you. Thanks for stopping by and I hope you'll come back for more technology and shenanigans!
 
 ## About me
+
+### 🚧 Work in Progress 🚧
 
 ### Notion
 
