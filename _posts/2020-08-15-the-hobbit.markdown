@@ -4,7 +4,7 @@ title:  "Book Review: The Hobbit - History, Analysis and My Opinion"
 date:   2020-08-15 07:00:00 +0700
 tags: 
 comments: true
-featured: true
+featured: false
 ---
 
 Author: J.R.R. Tolkien\
