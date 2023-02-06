@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "An overview of SVM and why I like the algoritm so much"
+title:  "An overview of SVM and why I like the algorithm so much"
 date:   2021-10-03 00:00:00 +0700
 tags: 
 comments: true
