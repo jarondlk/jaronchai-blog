@@ -9,17 +9,17 @@ featured: false
 
 Hey everyone! So, I recently used Support Vector Machines (SVM) in my final project for a course in my second year and I wanted to share my experience with all of you. In this post, I'll give a quick rundown of what SVM is, its usage, and some examples to help you understand it better. And if you're interested in learning more, I'll also suggest some reading materials at the end.
 
-So, what is SVM?
+### So, what is SVM?
 
 SVM is a type of supervised machine learning algorithm used for classification and regression analysis. It's called a "Support Vector Machine" because it creates a line or a hyperplane (in higher dimensions) that separates the data into classes in the best possible way. This line or hyperplane is called the "decision boundary."
 
 The goal of SVM is to find the best decision boundary that maximizes the margin between the classes. The margin is the distance between the decision boundary and the closest data points from each class, also known as "support vectors."
 
-Usage:
+### Usage
 
 SVM is used for binary classification problems, where the data can be separated into two classes, and multi-class classification problems, where the data can be separated into more than two classes. SVM can also be used for regression analysis, where the goal is to predict a continuous output value for a given input.
 
-Examples:
+### Examples
 
 Here are a few examples of where SVM can be used:
 
@@ -29,7 +29,9 @@ Here are a few examples of where SVM can be used:
 
 These are just a few examples, but SVM has a wide range of applications in fields such as biology, finance, and text classification.
 
-I've found it to be a very effective tool for solving a variety of problems. Here are some reasons why I love using SVM:
+I've found it to be a very effective tool for solving a variety of problems.
+
+### Here are some reasons why I love using SVM
 
 * Robustness: SVM is known for its robustness in handling noisy data and high dimensional data. It also has a regularization parameter, which helps to prevent overfitting, making it a great choice for real-world data that can be messy and complex.
 * Non-linear decision boundaries: SVM can handle non-linear decision boundaries by transforming the data into a higher-dimensional space where a linear boundary can be found. This is a big advantage, as many real-world problems have non-linear relationships between the input and output variables.
@@ -39,7 +41,9 @@ I've found it to be a very effective tool for solving a variety of problems. Her
 
 These are just a few of the reasons why I love using SVM in my data analysis projects. Whether I'm working on a binary classification problem or a regression analysis, SVM has proven to be a valuable tool in helping me find meaningful insights from my data.
 
-If you're interested in learning more about SVM, I suggest checking out these resources:
+If you're interested in learning more about SVM, 
+
+### I suggest checking out these resources
 
 1. "An Introduction to Support Vector Machines" by Nello Cristianini and John Shawe-Taylor
 2. "The Elements of Statistical Learning" by Trevor Hastie, Robert Tibshirani, and Jerome Friedman
