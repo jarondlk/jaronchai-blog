@@ -24,6 +24,8 @@ My main setup:
 * Apple iPad Pro 11-inch 2018 (1st generation)
 * Samsung Portable SSD T5 (500GB): Acts as a Time Machine for the MacBook, as a Document and Media Archive.
 
+The softwares the I use concurrently with these devices will be discuss in the follwing sections.
+
 ### Stationaries
 
 #### Muji Customizable Journal
@@ -103,3 +105,5 @@ So far this paged described the setup that I'm currently using. The following ar
 ## What I stopped using
 
 * Goodnotes.
+* Google Chrome. I stopped using Google Chrome since I started using Apple's Safari for about two months. Chrome feels too clunky for using on Apple's device, and Safari is by far a way more secure browser.
+* Pycharm. 
