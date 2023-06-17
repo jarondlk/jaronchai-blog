@@ -23,3 +23,10 @@ I hope you'll find something here that interests you. Thanks for stopping by and
     <div data-iframe-width="500" data-iframe-height="270" data-share-badge-id="530aa4de-5333-4439-b8a0-a7b5aced660b" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 
 </div>
+
+### Uses
+
+I share the tools, hardware, and software that I use on a daily basis to support my work and productivity in this page:
+**[here]({{ site.url }}/uses/)**
+
+If you're interested in similar lists, I recommend that you visit the [wesbos/awesome-uses](https://github.com/wesbos/awesome-uses) repository on GitHub.
