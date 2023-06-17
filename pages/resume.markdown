@@ -17,7 +17,7 @@ Jaronchai Dilokkalayakul\
 **Junior AI Researcher**\
 *Data Science and Analytics Laboratory*,
 Thai-Nichi Institute of Technology\
-Nov 2022 – Present | Bangkok, Thailand
+Nov 2022 – May 2023 | Bangkok, Thailand
 
 - Designed and Developed a machine learning iOS application using Swift and SwiftUI
 - Integrate Tensorflow and Keras neural network into native iOS development environment
@@ -26,7 +26,7 @@ Nov 2022 – Present | Bangkok, Thailand
 **Computer Laboratory Assistant**\
 *Digital Engineering Laboratory*,
 Thai-Nichi Institute of Technology\
-Mar 2022 – Present | Bangkok, Thailand
+Mar 2022 – April 2023 | Bangkok, Thailand
 
 - Applied programming and Internet of Things concepts into an actionable laboratory stations
 - Presented and maintain laboratory stations and update when needed
@@ -45,7 +45,7 @@ Nov 2021 – Mar 2022 | Bangkok, Thailand
 
 **Bachelor of Engineering in Digital Engineering**,\
 Thai-Nichi Institute of Techonology, *International Program*\
-Jul 2020 – Mar 2024 | GPA: 3.97
+Jul 2020 – Mar 2024 | GPA: 3.9/4.0
 
 - First rank of the program and full scholarship holder (100%)
 - International Student Council (ISC), Volunteer work, and leadership demonstration.
@@ -55,7 +55,7 @@ Jul 2020 – Mar 2024 | GPA: 3.97
 
 **Certificate of Academic Excellence in 2020 and 2021**\
 Issued by Thai-Nichi Institute of Technology, Year 2020 and 2021\
-In recognition of outstanding academic performance 
+In recognition of outstanding academic performance
 
 ## Certificates
 
