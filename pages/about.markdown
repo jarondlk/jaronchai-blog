@@ -10,7 +10,9 @@ Welcome to my blog about technology and shenanigans! As an undergraduate student
 
 In this blog, you'll find a mix of informative articles on the latest technology trends, reviews of the latest gadgets and software, as well as personal anecdotes and musings on my experiences as a student and young adult. In addition, I'll also be reviwing books that I enjoyed or movies and music that I particularly like as well!
 
-I hope you'll find something here that interests you. Thanks for stopping by and I hope you'll come back for more technology and shenanigans!
+## What am I doing now?
+
+See [my “now” page](/now).
 
 ## About me
 
