@@ -294,3 +294,29 @@
 //     &:nth-child(1) { text-align: end; }
 //   }
 // }
+
+// ===========================================================================
+// CUSTOM STARTS HERE
+// ===========================================================================
+
+.footer-center {
+  text-align: center;
+}
+
+.copyright {
+    color: lighten(#111, 40%);
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.footer-underline {
+  text-decoration: underline;
+  color: lighten(#111, 30%);
+  margin: 0px 5px;
+  font-size: 14px;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+}

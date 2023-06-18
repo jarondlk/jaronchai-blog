@@ -1,9 +1,9 @@
-<footer class="site-footer h-card">
+<!-- <footer class="site-footer h-card">
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
   <div class="wrapper">
 
-    <!-- <h2 class="footer-heading">{{ site.title | escape }}</h2> -->
+    <h2 class="footer-heading">{{ site.title | escape }}</h2>
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-custom">
@@ -33,11 +33,28 @@
       </div>
 
 
-      <!-- <div class="footer-col footer-col-3">
+      <div class="footer-col footer-col-3">
         <p>{{- site.description | escape -}}</p>
-      </div> -->
+      </div>
     </div>
 
   </div>
 
+</footer> -->
+
+<footer class="site-footer h-card">
+  <nav class="wrapper footer-center">
+    <div class="contact-list">
+      <a href="https://www.linkedin.com/in/jaronchai/" rel="me" class="footer-underline">LinkedIn</a>
+      <a href="https://github.com/jarondlk" rel="me" class="footer-underline">GitHub</a>
+      <a href="mailto:{{ site.email }}" class="footer-underline">Email</a>
+      <span class="footer-underline" style="text-decoration: none ;">•</span>
+      <a href="{{ 'feed.xml' | relative_url }}" class="footer-underline">RSS</a>
+      <a href="/now" class="footer-underline">Now</a>
+
+    </div>
+  </nav>
+  <div class="wrapper footer-center copyright">
+    © 2020 - 2023 Jaronchai Dilokkalayakul
+  </div>
 </footer>

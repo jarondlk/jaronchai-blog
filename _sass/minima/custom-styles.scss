@@ -1,5 +1,5 @@
 .site-title {
-  color: #111111;
+  color: lighten(#111, 15%);
   font-weight: 600;
   font-family: 'Montserrat', sans-serif;
   @include relative-font-size(1.25);
@@ -19,3 +19,4 @@
     text-decoration: none;
   }
 }
+
