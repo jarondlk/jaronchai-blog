@@ -14,9 +14,6 @@ This is a [now page](https://nownownow.com/about#how) and this is what I'm curre
 * Start working out and going to the gym again
 * Got back to journaling (digital + physical)
 
-### 2022-03
+### I was
 
-* Finished 3rd year university
-* Moved to Ari area to prepare for internship
-* text
-
+See [the archive](/past) of my "now" page
