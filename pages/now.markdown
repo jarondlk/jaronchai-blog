@@ -20,17 +20,3 @@ This is a [now page](https://nownownow.com/about#how) and this is what I'm curre
 * Moved to Ari area to prepare for internship
 * text
 
-<details>
-  <summary>Click here to toggle</summary>
-  
-  This is regular text.
-  
-  *This is italicized text.*
-  
-  **This is bold text.**
-  
-* This is a list item.
-* This is another list item.
-
-</details>
-
