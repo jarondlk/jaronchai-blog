@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+![guitar]({{ site.url }}/assets/image/about/guitar.png)
+
 Welcome to my blog about technology and shenanigans! As an undergraduate student studying technology, I have a passion for all things related to gadgets, software, and the latest advancements in the tech industry. But, let's be real, not everything in life is all work and no play. That's why I also like to write about my experiences and thoughts on the lighter side of life, the shenanigans.
 
 ## What am I doing now?
