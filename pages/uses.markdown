@@ -34,9 +34,19 @@ The softwares the I use concurrently with these devices will be discuss in the f
 
 ### Stationaries
 
+The stationery items that are essential to my creative process, organization, and daily note-taking. These tools are integral to keeping my thoughts organized and turning ideas into actionable tasks. Let's explore:
+
 #### Muji Customizable Journal
 
-#### Pens
+I swear by the Muji Customizable Journal as my go-to notebook for all my note-taking needs. Its minimalistic design and high-quality paper provide the perfect canvas for jotting down ideas, sketches, and to-do lists. The ability to **customize the journal's layout** to my preferences makes it a versatile companion for both work and personal projects.
+
+#### Gel Pens
+
+For everyday writing, I rely on gel pens. Muji Gel pen line are my preferred gel pen brands. The smooth ink flow and vibrant colors make writing a pleasure, and they are perfect for taking quick notes, jotting down ideas, or working on creative projects.
+
+##### Fountain Pens
+
+I find fountain pens to be a delight to use, offering a smooth and elegant writing experience. Among my collection, I particularly enjoy using Lamy and Waterman fountain pens. Lamy's ergonomic design and interchangeable nibs allow for different writing styles, while Waterman pens exude a timeless charm. These fountain pens are perfect for journaling, personal reflections, or any writing that deserves a touch of sophistication.
 
 ---
 
