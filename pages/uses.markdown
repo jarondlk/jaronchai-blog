@@ -44,15 +44,27 @@ The softwares the I use concurrently with these devices will be discuss in the f
 
 ### Global Services and Apps
 
+In this section, I'll introduce you to the software applications and services I use across various platforms. These tools play a crucial role in organizing my work, staying productive, and keeping me entertained. Let's explore each one:
+
 #### Notion
+
+Notion is the backbone of my productivity and organization. It serves as an all-in-one workspace, combining note-taking, task management, project planning, and more. With its flexible structure and powerful features, I use Notion to create detailed to-do lists, maintain databases, and store valuable information. The ability to customize layouts and templates makes it a versatile tool that adapts to my ever-changing needs.
 
 #### Things
 
+Things is my go-to task manager on macOS and iOS. Its elegant and intuitive design allows me to organize and prioritize my tasks effortlessly. I rely on Things to create daily to-do lists, set reminders, and track my progress on various projects. Its seamless integration with Apple's ecosystem ensures that I stay on top of my tasks, whether I'm at my desk or on the go.
+
 #### Apple Calendar
+
+Apple Calendar is my primary tool for scheduling and time management. I use it to keep track of meetings, appointments, deadlines, and personal events. Its user-friendly interface and cross-device synchronization make it easy to stay organized and never miss an important event.
 
 #### Spotify
 
+For entertainment and background music while working, Spotify is my preferred music streaming service. Its extensive library of songs and curated playlists cater to my diverse musical tastes, helping me stay focused and motivated during long working hours.
+
 #### Apple Books
+
+As an avid reader, I turn to Apple Books for my digital reading needs. Whether it's fiction, non-fiction, or educational material, Apple Books provides a vast selection of e-books that I can access on my iPad or iPhone.
 
 #### Others
 
@@ -61,20 +73,26 @@ The softwares the I use concurrently with these devices will be discuss in the f
 
 #### Note on Dark/Light Theme
 
+I prefer the **light theme** over the dark theme in my software applications. The bright interface helps me maintain focus and clarity while working. Additionally, I appreciate the Solarized theme, which strikes a balance between light and dark, providing a soothing color scheme that is easy on the eyes.
+
 ### MacOS
+
+In this section, I'll introduce you to the macOS-specific software applications I use to streamline my development, simplify the Mac menubar, and enhance my productivity. Let's explore each application:
 
 #### Visual Studio Code
 
+Visual Studio Code (VS Code) is my preferred code editor for macOS. Its lightweight yet powerful features make it perfect for coding in various programming languages. With a vast array of extensions available, I customize VS Code to suit my specific needs, boosting my coding efficiency and providing a seamless development experience.
+
 #### Xcode
+
+Xcode is an essential macOS application for iOS and macOS developers. As an integrated development environment (IDE), it allows me to create, debug, and test apps for Apple devices. Xcode's comprehensive set of tools, including the Interface Builder and SwiftUI, enables me to build cutting-edge applications for the Apple ecosystem.
 
 #### Dozer and Stats
 
-Both are swift based application that helps me simplify the Mac menubar while also providing useful at-a-glance
-status of the mac such as CPU, GPU, storage or network status in realtime.
+Dozer and Stats are two Swift-based applications that enhance my Mac menubar experience and provide valuable real-time system status information.
 
-<https://github.com/Mortennn/Dozer>\
-<https://github.com/exelban/stats>
-
+[Dozer](https://github.com/Mortennn/Dozer): Dozer allows me to simplify the menubar by hiding or rearranging status icons, reducing visual clutter and providing a cleaner desktop environment.
+[Stats](https://github.com/exelban/stats): Stats delivers at-a-glance real-time information on my Mac's CPU, GPU, storage, and network status. This helps me monitor system performance and ensure optimal efficiency during resource-intensive tasks.
 
 #### Others
 
