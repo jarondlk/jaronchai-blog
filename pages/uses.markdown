@@ -21,7 +21,7 @@ If you're interested in similar lists, I recommend that you visit the [wesbos/aw
 
 ### Devices
 
-My main setup:
+The devices that make up my main setup. Each device plays a crucial role in supporting my work, productivity, and lifestyle. Let's take a closer look:
 
 * Apple MacBook Pro 14" 2021 with M1 Pro: read my review [here]({{site.url}}/2022/05/02/macbook-pro-14.html)!
 * Logitech [LIFT Ergonomic Mouse](https://www.logitech.com/products/mice/lift-vertical-ergonomic-mouse.910-006481.html) and [k380 Keyboard](https://www.logitech.com/products/keyboards/k380-multi-device.html) Combo
@@ -44,7 +44,7 @@ I swear by the Muji Customizable Journal as my go-to notebook for all my note-ta
 
 For everyday writing, I rely on gel pens. Muji Gel pen line are my preferred gel pen brands. The smooth ink flow and vibrant colors make writing a pleasure, and they are perfect for taking quick notes, jotting down ideas, or working on creative projects.
 
-##### Fountain Pens
+#### Fountain Pens
 
 I find fountain pens to be a delight to use, offering a smooth and elegant writing experience. Among my collection, I particularly enjoy using Lamy and Waterman fountain pens. Lamy's ergonomic design and interchangeable nibs allow for different writing styles, while Waterman pens exude a timeless charm. These fountain pens are perfect for journaling, personal reflections, or any writing that deserves a touch of sophistication.
 
