@@ -150,12 +150,12 @@ As a legacy user of Notability, this app remains my top choice for note-taking o
 
 ## Potential Upgrades in the Future
 
-So far this paged described the setup that I'm currently using. The following are tools or hardware, I would like to learn to use in the future.
+While I'm currently content with my setup, I'm always eager to explore new tools and hardware that could further enhance my productivity and overall experience. Here are some exciting potential upgrades that I'm considering for the future:
 
-* Apple Watch (upgrade from Xiaomi Smart Band 7)
+* Apple Watch (upgrade from Xiaomi Smart Band 7): As my interest in fitness and health tracking grows, I'm intrigued by the possibilities offered by the Apple Watch. With its advanced features, including heart rate monitoring, ECG, and a range of fitness apps, it promises to be a significant upgrade from my current Xiaomi Smart Band 7. The seamless integration with other Apple devices is also appealing, making it a potential addition to my Apple ecosystem.
 
 ## What I stopped using
 
-* Goodnotes (to Notability): I feel like the tools bar is taking up too much workspace area and once you have quite a large library of notes, the application feels sluggish.
-* Google Chrome (to Safari): I stopped using Google Chrome since I started using Apple's Safari for about two months. Chrome feels too clunky for using on Apple's device, and Safari is by far a way more secure browser.
-* Pycharm (to VScode): Since later VScode updates, nearly all of the features that I normally use on pycharm, is available on VScode.
+* Goodnotes (to Notability): As much as I enjoyed using Goodnotes for note-taking, I eventually switched to Notability due to its more intuitive interface and seamless iCloud integration. With Notability, I found that the tools bar takes up less workspace area, allowing me to focus more on my notes and sketches. Additionally, as my note library grew, Goodnotes began to feel sluggish, while Notability continues to provide a smooth and responsive experience.
+* Google Chrome (to Safari): For a long time, I relied on Google Chrome as my go-to browser. However, after giving Apple's Safari a try, I was pleasantly surprised by its speed, efficiency, and integration with macOS and iOS devices. Safari's focus on privacy and security also resonated with me, making it my preferred browser for the past couple of months. Its seamless synchronization with my Apple devices ensures a consistent and secure browsing experience.
+* Pycharm (to VScode): As a developer, Pycharm was my IDE of choice for Python programming. However, with the latest updates to Visual Studio Code (VScode), I've found that nearly all the features I normally use in Pycharm are now available in VScode. Its lightweight yet powerful nature and extensive library of extensions have made it a compelling alternative. I'm considering making the switch to VScode in the future to streamline my development workflow across different languages and projects.
