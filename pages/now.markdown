@@ -8,6 +8,7 @@ This is a [now page](https://nownownow.com/about#how) and this is what I'm curre
 
 ## I am
 
+* A Data Engineer Intern at IBM
 * Living in Bangkok, in Ari area
 * I’m listening to a lot of more Taylor Swift
 * Getting back to my digital art hobby

@@ -24,5 +24,3 @@ What am I doing now? - See [my "now" page](/now)
 {%- include featured.html -%}
 \
 Have an awesome day!
-
-[blog]: weblog/
