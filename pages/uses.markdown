@@ -106,13 +106,17 @@ Dozer and Stats are two Swift-based applications that enhance my Mac menubar exp
 
 #### Others
 
-* [MATLAB (R2022a)](https://www.mathworks.com)
-* [Figma](https://www.figma.com): General prototyping
+* [MATLAB (R2022a)](https://www.mathworks.com): numerical computing software that I use for data analysis, simulation, and algorithm development
+* [Figma](https://www.figma.com): general prototyping and design work
 * [Apple Preview](https://support.apple.com/en-gb/guide/preview/welcome/mac): All time best go-to file opener :D
-* [OBS](https://obsproject.com) + [Streamlabs](https://streamlabs.com):
-* [Rectangle](<https://rectangleapp.com>):
+* [OBS](https://obsproject.com) + [Streamlabs](https://streamlabs.com): live streaming and content creation
+* [Rectangle](<https://rectangleapp.com>): window management tool that helps me organize and arrange application windows on my desktop efficiently
 
 ### iOS
+
+#### Audible
+
+#### Sparks mail
 
 #### PCalc
 
