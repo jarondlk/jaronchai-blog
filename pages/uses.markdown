@@ -91,7 +91,7 @@ Xcode is an essential macOS application for iOS and macOS developers. As an inte
 
 Dozer and Stats are two Swift-based applications that enhance my Mac menubar experience and provide valuable real-time system status information.
 
-[Dozer](https://github.com/Mortennn/Dozer): Dozer allows me to simplify the menubar by hiding or rearranging status icons, reducing visual clutter and providing a cleaner desktop environment.
+[Dozer](https://github.com/Mortennn/Dozer): Dozer allows me to simplify the menubar by hiding or rearranging status icons, reducing visual clutter and providing a cleaner desktop environment.\
 [Stats](https://github.com/exelban/stats): Stats delivers at-a-glance real-time information on my Mac's CPU, GPU, storage, and network status. This helps me monitor system performance and ensure optimal efficiency during resource-intensive tasks.
 
 #### Others
