@@ -14,6 +14,10 @@ Jaronchai Dilokkalayakul\
 
 ## Experience
 
+**Data Engineer**\
+*IBM • Internship*
+June 2023 – Present | Bangkok, Thailand
+
 **Junior AI Researcher**\
 *Data Science and Analytics Laboratory*,
 Thai-Nichi Institute of Technology\
