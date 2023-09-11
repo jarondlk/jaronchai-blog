@@ -71,4 +71,4 @@ In recognition of outstanding academic performance, achieving the highest GPA in
 - [Python Skill Verification Test](https://www.hackerrank.com/certificates/ff38330cca41) (HackerRank)
 - [IELTS](https://drive.google.com/file/d/1uspRw_ta0C4L3F3NheQ6QnZNQq8N7pQT/view) (Overall 7.5)
 
-Download the resume [here]({{site.baseurl}}/assets/documents/JaronchaiResume.pdf)!
+Download the resume [here]({{site.baseurl}}/assets/documents/jaronchai_resume.pdf)!
