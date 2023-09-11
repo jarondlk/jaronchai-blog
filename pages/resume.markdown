@@ -16,7 +16,7 @@ permalink: /resume/
 
 ## Experience
 
-**Data Engineer**, *IBM*\
+**Data Engineer**, *[IBM](https://www.ibm.com/)*\
 June 2023 – Present | Bangkok, Thailand
 
 - Developed and deployed a domain-specific, fine-tuned customer service chatbot using Large Language Models (LLM) from extensive industry-specific data to optimize call center services for a leading bank in Thailand.
@@ -24,22 +24,22 @@ June 2023 – Present | Bangkok, Thailand
 - Utilized advanced prompt engineering techniques to fine-tune an LLM model, elevating it to an advanced API for seamless information extraction and formatting. This transformation led to accelerated decision-making processes.
 - Demonstrated excellence by participating in the IBM WatsonX Challenge 2023, implementing a WatsonX Assistant, revolutionizing the customer service process, and contributing to enhanced service delivery.
 
-**Junior AI Researcher**, *Thai-Nichi International College*\
+**Junior AI Researcher**, *[Thai-Nichi International College](http://tnic.tni.ac.th)*\
 Nov 2022 – April 2023 | Bangkok, Thailand
 
-- Designed and developed an image processing machine-learning iOS app within the Data Science and AI Laboratory.
+- Designed and developed an image processing machine-learning iOS app within the [Data Science and AI Laboratory](https://research.tni.ac.th/).
 - Developed and fine-tuned various neural network models, resulting in a 20% increase in application accuracy.
 - Seamlessly integrated Keras neural network models into the native iOS development environment using CoreML.
 - Conducted testing and simulation of various architectures within the application, enhancing model robustness.
 
-**Computer Laboratory Assistant**, *Thai-Nichi International College*\
+**Computer Laboratory Assistant**, *[Thai-Nichi International College](http://tnic.tni.ac.th)*\
 Mar 2022 – April 2023 | Bangkok, Thailand
 
 - Designed and executed hands-on IoT and Programming lab stations within the Digital Engineering Laboratory
 - Maintained the optimal functionality of laboratory stations, ensuring uninterrupted access for over 300 students.
 - Demonstrated subject matter expertise in IoT, offering comprehensive guidance and practical technology exposure.
 
-**Teaching Assistant**, *Thai-Nichi International College*\
+**Teaching Assistant**, *[Thai-Nichi International College](http://tnic.tni.ac.th)*\
 Nov 2021 – Mar 2022 | Bangkok, Thailand
 
 - Collaborated with the instructor to deliver course content effectively for the Engineering Mechanical Design course
@@ -48,12 +48,13 @@ Nov 2021 – Mar 2022 | Bangkok, Thailand
 
 ## Education
 
-**Digital Engineering (B.Eng.)**, *Thai-Nichi International College*\
+**Digital Engineering (B.Eng.)**, *[Thai-Nichi International College](http://tnic.tni.ac.th)*\
 Jul 2020 – Mar 2024 | GPA: 3.95/4.0
 
 - First-ranked student in the program and full scholarship holder (covering 100% of tuition fees)
-- International Student Council (ISC) active contribution and demonstrated leadership through volunteer work
+- [International Student Council (ISC)](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjBnc-fraKBAxVGHnAKHY8cAkAQFnoECAoQAQ&url=https%3A%2F%2Fm.facebook.com%2FISCTNIC%2F&usg=AOvVaw1VO65OMpJ-rHbD2rL2ZWxN&opi=89978449) active contribution and demonstrated leadership through volunteer work
 - Department Representative, impactful community outreach initiatives in collaboration with professors and faculty.
+- An active participating member of the [Sakura Science Club](https://ssp.jst.go.jp/sns/top.html) of the Japan Science and Technology Institute.
 
 ## Awards
 
@@ -71,4 +72,4 @@ In recognition of outstanding academic performance, achieving the highest GPA in
 - [Python Skill Verification Test](https://www.hackerrank.com/certificates/ff38330cca41) (HackerRank)
 - [IELTS](https://drive.google.com/file/d/1uspRw_ta0C4L3F3NheQ6QnZNQq8N7pQT/view) (Overall 7.5)
 
-Download the resume [here]({{site.baseurl}}/assets/documents/jaronchai_resume.pdf)!
+Download the resume [here]({{site.baseurl}}/assets/documents/jaronchai_cv.pdf)!
