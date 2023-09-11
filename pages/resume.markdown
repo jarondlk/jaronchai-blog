@@ -52,7 +52,7 @@ Nov 2021 – Mar 2022 | Bangkok, Thailand
 Jul 2020 – Mar 2024 | GPA: 3.95/4.0
 
 - First-ranked student in the program and full scholarship holder (covering 100% of tuition fees)
-- [International Student Council (ISC)](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjBnc-fraKBAxVGHnAKHY8cAkAQFnoECAoQAQ&url=https%3A%2F%2Fm.facebook.com%2FISCTNIC%2F&usg=AOvVaw1VO65OMpJ-rHbD2rL2ZWxN&opi=89978449) active contribution and demonstrated leadership through volunteer work
+- International Student Council (ISC) active contribution and demonstrated leadership through volunteer work
 - Department Representative, impactful community outreach initiatives in collaboration with professors and faculty.
 - An active participating member of the [Sakura Science Club](https://ssp.jst.go.jp/sns/top.html) of the Japan Science and Technology Institute.
 
@@ -72,4 +72,4 @@ In recognition of outstanding academic performance, achieving the highest GPA in
 - [Python Skill Verification Test](https://www.hackerrank.com/certificates/ff38330cca41) (HackerRank)
 - [IELTS](https://drive.google.com/file/d/1uspRw_ta0C4L3F3NheQ6QnZNQq8N7pQT/view) (Overall 7.5)
 
-Download the resume [here]({{site.baseurl}}/assets/documents/jaronchai_cv.pdf)!
+Download the resume [here]({{site.baseurl}}/assets/documents/Jaronchai_cv.pdf)!
