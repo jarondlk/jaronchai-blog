@@ -14,52 +14,50 @@ Jaronchai Dilokkalayakul\
 
 ## Experience
 
-**Data Engineer**\
-*IBM • Internship*
+**Data Engineer**, *IBM*\
 June 2023 – Present | Bangkok, Thailand
 
-**Junior AI Researcher**\
-*Data Science and Analytics Laboratory*,
-Thai-Nichi Institute of Technology\
-Nov 2022 – May 2023 | Bangkok, Thailand
+- Developed and deployed a domain-specific, fine-tuned customer service chatbot using Large Language Models (LLM) from extensive industry-specific data to optimize call center services for a leading bank in Thailand.
+- Successfully executed an enterprise-scale data migration project for the banking industry, leveraging a robust awk-based framework, resulting in minimal downtime and allowing the bank to serve customers more efficiently
+- Utilized advanced prompt engineering techniques to fine-tune an LLM model, elevating it to an advanced API for seamless information extraction and formatting. This transformation led to accelerated decision-making processes.
+- Demonstrated excellence by participating in the IBM WatsonX Challenge 2023, implementing a WatsonX Assistant, revolutionizing the customer service process, and contributing to enhanced service delivery.
 
-- Designed and Developed a machine learning iOS application using Swift and SwiftUI
-- Integrate Tensorflow and Keras neural network into native iOS development environment
-- Tested and simulated various neural network architecture on the developed application
+**Junior AI Researcher**, *Thai-Nichi International College*\
+Nov 2022 – April 2023 | Bangkok, Thailand
 
-**Computer Laboratory Assistant**\
-*Digital Engineering Laboratory*,
-Thai-Nichi Institute of Technology\
+- Designed and developed an image processing machine-learning iOS app within the Data Science and AI Laboratory.
+- Developed and fine-tuned various neural network models, resulting in a 20% increase in application accuracy.
+- Seamlessly integrated Keras neural network models into the native iOS development environment using CoreML.
+- Conducted testing and simulation of various architectures within the application, enhancing model robustness.
+
+**Computer Laboratory Assistant**, *Thai-Nichi International College*\
 Mar 2022 – April 2023 | Bangkok, Thailand
 
-- Applied programming and Internet of Things concepts into an actionable laboratory stations
-- Presented and maintain laboratory stations and update when needed
-- Specialized in utilizing the modules of Raspberry-pi and Arduino
+- Designed and executed hands-on IoT and Programming lab stations within the Digital Engineering Laboratory
+- Maintained the optimal functionality of laboratory stations, ensuring uninterrupted access for over 300 students.
+- Demonstrated subject matter expertise in IoT, offering comprehensive guidance and practical technology exposure.
 
-**Teaching Assistant**\
-*for Engineering Mechanical Design Course*,
-Thai-Nichi Institute of Technology\
+**Teaching Assistant**, *Thai-Nichi International College*\
 Nov 2021 – Mar 2022 | Bangkok, Thailand
 
-- Taught the contents of the Engineering Mechanical Design course along side the professor
-- Created homework assignments and evaluate each student's performance
-- Maintain 3D printer operations for conducting a safe and efficient printing procedure.
+- Collaborated with the instructor to deliver course content effectively for the Engineering Mechanical Design course
+- Demonstrated proactive involvement by designing and administering assignments that encouraged active learning.
+- Orchestrated the operation of the lab's 3D printer, optimizing its utilization and providing technical assistance.
 
 ## Education
 
-**Bachelor of Engineering in Digital Engineering**,\
-Thai-Nichi Institute of Techonology, *International Program*\
-Jul 2020 – Mar 2024 | GPA: 3.9/4.0
+**Digital Engineering (B.Eng.)**, *Thai-Nichi International College*\
+Jul 2020 – Mar 2024 | GPA: 3.95/4.0
 
-- First rank of the program and full scholarship holder (100%)
-- International Student Council (ISC), Volunteer work, and leadership demonstration.
-- Department Representative, Assist professors and faculty with community outreach
+- First-ranked student in the program and full scholarship holder (covering 100% of tuition fees)
+- International Student Council (ISC) active contribution and demonstrated leadership through volunteer work
+- Department Representative, impactful community outreach initiatives in collaboration with professors and faculty.
 
 ## Awards
 
 **Certificate of Academic Excellence in 2020 and 2021**\
-Issued by Thai-Nichi Institute of Technology, Year 2020 and 2021\
-In recognition of outstanding academic performance
+Issued by *Thai-Nichi International College*, Year 2020 and 2021\
+In recognition of outstanding academic performance, achieving the highest GPA in the program.
 
 ## Certificates
 
