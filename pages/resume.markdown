@@ -5,11 +5,9 @@ permalink: /resume/
 ---
 
 **Jaronchai Dilokkalayakul**\
-[+66-824277813][tel]\
 [jaron.dilok@gmail.com][mail]\
-[Jaronchai's LinkedIn][linkedin]\
+[Jaronchai's LinkedIn][linkedin]
 
-[tel]: tel:+66824277813
 [mail]: mailto:jaron.dilok@gmail.com
 [linkedin]: https://www.linkedin.com/in/jaronchai/
 
