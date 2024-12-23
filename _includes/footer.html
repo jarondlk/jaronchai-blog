@@ -55,6 +55,11 @@
     </div>
   </nav>
   <div class="wrapper footer-center copyright">
-    © 2020 - 2023 Jaronchai Dilokkalayakul
+    © 2020 - <span id="current-year"></span> Jaronchai Dilokkalayakul
   </div>
 </footer>
+
+<script>
+  // Update the year dynamically
+  document.getElementById("current-year").textContent = new Date().getFullYear();
+</script>
