@@ -12,14 +12,26 @@ I’ve been an [engineer](https://ibm.com), a [researcher](https://www.is.tohoku
 <!-- I’m an avid reader, explorer, xenophile, and I love a different point of view. -->
 
 [Bangkok, Thailand](https://maps.app.goo.gl/Rrm5AFaLUZ42k3GG6) native, I now live in [Sendai, Japan](https://maps.app.goo.gl/HHWvrCXHT9ouUT4T9).
+\
+\
 
 ## Me in 10 minutes
 
 See [my "about" page](/about)
+\
+\
 
 ## What am I doing now?
 
 See [my "now" page](/now)
+\
+\
+
+## Contact me
+
+See [my "contact" page](/contact) or [send me an email!](mailto:jaron.dilok@gmail.com)
+\
+\
 
 **Selected Writings**
 {%- include featured.html -%}
