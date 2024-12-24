@@ -4,19 +4,19 @@ title: About
 permalink: /about/
 ---
 
-Welcome to my blog about technology and shenanigans! As an undergraduate student studying technology, I have a passion for all things related to gadgets, software, and the latest advancements in the tech industry. But, let's be real, not everything in life is all work and no play. That's why I also like to write about my experiences and thoughts on the lighter side of life, the shenanigans.
+## About
 
-## What am I doing now?
+Last Update: 24 december 2024
 
-See [my “now” page](/now).
+## Timeline for context
+
+- 2001: born in Khonkaen, Thailand
+- 2012: started playing guitar
+- 2016: moved to Indiana, USA
+- 2017: moved back to Khonkaen
+- 2020: moved to Bangkok
+- 2022: started to do research part-time
+- 2024 Q1: started working as a Data Engineer
+- 2024 Q4: moved to Sendai, Japan
 
 ## About me
-
-🚧 Work in Progress 🚧
-
-## Uses
-
-I share the tools, hardware, and software that I use on a daily basis to support my work and productivity in this page:
-**[here]({{ site.url }}/uses/)**
-
-If you're interested in similar lists, I recommend that you visit the [wesbos/awesome-uses](https://github.com/wesbos/awesome-uses) repository on GitHub.
