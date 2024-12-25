@@ -6,21 +6,20 @@ permalink: /now/
 
 This is a [now page](https://nownownow.com/about#how) and this is what I'm currently up to:
 
-Last Update August 2023
+Updated December 25th, 2024, from my lab in Sendai
 
-## I am
+## Doing my masters degree
 
-* A Data Engineer Intern at IBM
-* Living in Bangkok, in Ari area
-* I’m listening to a lot of more Taylor Swift
-* Getting back to my digital art hobby
-* Start working out and going to the gym again
-* Got back to journaling (digital + physical)
+Currently doing my masters degree in the Graduate School of Information Science and researching after leaving my job at IBM.
 
-### 2023-03
+## Living in Japan
 
-* Finished 3rd year university
-* Still working for the data science lab at TNIC
-* Moved to Ari area to prepare for internship
+It is drastically different than living back in Bangkok, the price are similar however, but the culture and the foods are very fascinating. I'm enjoying it a lot here so far.
 
-### 2022-12
+## Seaching for Good Cafes in Sendai
+
+I'm always up for a great cup of coffee, and unlike Bangkok, the abundance of cafe in the city is significantly less, which means that the process of finding a great cafe is even harder, however, this cafe is my favorite right now:
+
+- [Flat White Coffee Factory](https://maps.app.goo.gl/WEqdX36mpnLvt3yw6)
+
+I had a chance to chat with the owner a little bit, and he named his cafe this because he's actually from New Zealand and wanted to bring the coffee influence from there into the coffee culture in Sendai.
