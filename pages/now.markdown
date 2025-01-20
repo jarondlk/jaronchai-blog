@@ -6,7 +6,7 @@ permalink: /now/
 
 This is a [now page](https://nownownow.com/about#how) and this is what I'm currently up to:
 
-Updated December 25th, 2024, from my lab in Sendai
+Updated Jauary 20th, 2025, from my lab in Sendai
 
 ## Doing my masters degree
 

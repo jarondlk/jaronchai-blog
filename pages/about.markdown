@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Last Update: 24 december 2024
+Last Update: 20 January 2025
 
 ## Timeline for context
 
