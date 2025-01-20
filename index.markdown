@@ -9,31 +9,31 @@ I’ve been an [engineer](https://ibm.com), a [researcher](https://www.is.tohoku
 I’m a coffee drinker, avid reader, explorer, and I love a being a [dog on the internet](https://alfyn.page) sometimes.\
 [Bangkok](https://maps.app.goo.gl/Rrm5AFaLUZ42k3GG6) native, I now live in [Sendai, Japan](https://maps.app.goo.gl/HHWvrCXHT9ouUT4T9).
 
-<!-- &nbsp; -->
+&nbsp;
 
 ## Me in 10 minutes
 
 See [my "about" page](/about)
 
-<!-- &nbsp; -->
+&nbsp;
 
 ## What am I doing now?
 
 See [my "now" page](/now)
 
-<!-- &nbsp; -->
+&nbsp;
 
 ## Tools I use?
 
 See [my "uses" page](/uses)
 
-<!-- &nbsp; -->
+&nbsp;
 
 ## Contact me
 
 See [my "contact" page](/contact) or [send me an email!](mailto:jaron.dilok@gmail.com)
 
-<!-- &nbsp; -->
+&nbsp;
 
 **Selected Writings**
 {%- include featured.html -%}
