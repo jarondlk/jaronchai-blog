@@ -37,6 +37,8 @@ Software applications and services I use across various platforms:
 
 Life dashboard. Research dashboard. Studies dashboard. Finance dashboard. Goals dashboard. Planning dashboard. Archive dashboard. Dashboard of dashboards.
 
+<https://www.notion.com>
+
 #### Apple Reminder
 
 Things is my go-to task manager on macOS and iOS - Siri integration is what sells it for me.
@@ -51,16 +53,16 @@ I like music.
 
 #### Apple Books
 
-As an avid reader, I turn to Apple Books for my digital reading needs. Whether it's fiction, non-fiction, or educational material, Apple Books provides a vast selection of e-books that I can access on my iPad or iPhone.
+Don't cancel me, but I like reding on my iPad Mini more than an actual book, its just so much easier to carry around and involve less friction.
 
-#### Others
+#### Other Global Apps
 
 * [Reeder](https://reederapp.com): Minimalistic RSS reader
 * [Canva](https://www.canva.com): General presentation making, interchangable with Keynote
 
 #### Note on Dark/Light Theme
 
-I prefer the **light theme** over the dark theme in ALL of my software and applications. Astigmatism moment.
+I prefer the **light theme** over the dark theme in ALL of my software and applications. [Astigmatism](https://en.wikipedia.org/wiki/Astigmatism) moment.
 
 ---
 
@@ -72,16 +74,20 @@ MacOS specific software applications I use:
 
 Visual Studio Code (VS Code) is my preferred code editor for macOS, it's light-weight nature is what I like, with minimal start up time and flexible extentions.
 
+<https://code.visualstudio.com>
+
 #### Xcode
 
 Sometimes I do some dev on here, but mostly this is for the command line interface.
+
+<https://developer.apple.com/xcode/>
 
 #### Dozer and Stats
 
 [Dozer](https://github.com/Mortennn/Dozer): Minimalize mac menu bar.\
 [Stats](https://github.com/exelban/stats): Real time CPU/GPU/RAM usage - useful when monitoring specific codes.
 
-#### Others
+#### Other MacOS Softwares
 
 * [MATLAB (R2025a)](https://www.mathworks.com): I'm an engineer, of course I use MATLAB
 * [Figma](https://www.figma.com): prototyping
@@ -96,6 +102,8 @@ Here are some of my favorite apps that have transformed how I use my iOS device:
 #### Audible
 
 Readers without times to read unite!
+
+<https://audible.com>
 
 ---
 
@@ -117,9 +125,7 @@ Legacy user version of Notability (flex). Love the native-feel and snappiness of
 
 ## Potential Upgrades in the Future
 
-While I'm currently content with my setup, I'm always eager to explore new tools and hardware that could further enhance my productivity and overall experience. Here are some exciting potential upgrades that I'm considering for the future:
-
-* Apple Watch (upgrade from Xiaomi Smart Band 7): As my interest in fitness and health tracking grows, I'm intrigued by the possibilities offered by the Apple Watch. With its advanced features, including heart rate monitoring, ECG, and a range of fitness apps, it promises to be a significant upgrade from my current Xiaomi Smart Band 7. The seamless integration with other Apple devices is also appealing, making it a potential addition to my Apple ecosystem.
+* None yet haha
 
 ## What I stopped using
 
