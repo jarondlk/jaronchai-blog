@@ -3,15 +3,16 @@ layout: page
 title: Uses
 permalink: /uses/
 ---
-[.../ Back to About]({{ site.url }}/about/)
 
-Welcome to my 'Uses' page, where I share the tools, hardware, and software that I use on a daily basis. From my favorite text editor to the computer I work on.
+I share the tools, hardware, and software that I use on a daily basis here.
 
 If you're interested in similar lists, I recommend that you visit the [wesbos/awesome-uses](https://github.com/wesbos/awesome-uses) repository on GitHub.
 
 #### Last update: 20 January 2025
 
 ---
+
+&nbsp;
 
 ## Hardware
 
@@ -26,6 +27,8 @@ The devices that make up my main setup:
 * Apple iPad Mini 7
 
 ---
+
+&nbsp;
 
 ## Software
 
@@ -66,6 +69,8 @@ I prefer the **light theme** over the dark theme in ALL of my software and appli
 
 ---
 
+&nbsp;
+
 ### MacOS
 
 MacOS specific software applications I use:
@@ -95,6 +100,8 @@ Sometimes I do some dev on here, but mostly this is for the command line interfa
 
 ---
 
+&nbsp;
+
 ### iOS
 
 Here are some of my favorite apps that have transformed how I use my iOS device:
@@ -106,6 +113,8 @@ Readers without times to read unite!
 <https://audible.com>
 
 ---
+
+&nbsp;
 
 ### iPadOS
 
@@ -122,6 +131,8 @@ Legacy user version of Notability (flex). Love the native-feel and snappiness of
 <https://notability.com>
 
 ---
+
+&nbsp;
 
 ## Potential Upgrades in the Future
 

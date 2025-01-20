@@ -23,3 +23,7 @@ I'm always up for a great cup of coffee, and unlike Bangkok, the abundance of ca
 - [Flat White Coffee Factory](https://maps.app.goo.gl/WEqdX36mpnLvt3yw6)
 
 I had a chance to chat with the owner a little bit, and he named his cafe this because he's actually from New Zealand and wanted to bring the coffee influence from there into the coffee culture in Sendai.
+
+## Got back to play Magic The Gathering in Japan
+
+I love playing [commanders](https://magic.wizards.com/en/formats/commander), and in Japan Magic cards are relatively cheaper than Thailand. 
