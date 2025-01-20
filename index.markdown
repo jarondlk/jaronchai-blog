@@ -1,5 +1,5 @@
 ---
-title: Jaronchai Dilokkalayakul
+title: Jaronchai Blog
 layout: default
 ---
 
