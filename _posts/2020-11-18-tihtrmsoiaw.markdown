@@ -6,9 +6,7 @@ tags:  productivity
 comments: false
 ---
 
-This is a page that I will update periodically, as I discover more and more life “lessons" and stuff that I feel worth sharing. I will divide the list into 3 major categories: Life in general, Wellbeing, and Growth.
-
-Disclaimer: I am by no mean forcing you, the reader, to do any of this. I made this page to remind *myself*, and I just feel like they are worth sharing. But if you find any points in the list that relates to you and you could apply it for the betterment of your life, that’s amazing!! :3
+Disclaimer: I am by no mean forcing you, the reader, to do any of this. I made this page to remind *myself*, and I just feel like they are worth sharing. But if you find any points in the list that relates to you and you could apply it for the your life, that’s amazing!! :3
 
 ## Life in General
 

@@ -9,23 +9,23 @@ comments: true
 Author: Derek Sivers\
 Rating: ⭐️⭐️⭐️⭐️
 
-### 💡 The Book in 3 Sentences
+### The Book in 3 Sentences
 
 1. You could have anything in the world, but would that makes you the person who you wanted to be.
 2. You are doing what you are doing because the point of doing anything in the end is it makes you happy.
 3. It's not about making money, or growing larger, or conquering the world, it's simply about filling a need that makes you happy.
 
-### ⭐️ Impression
+### Impression
 
 This book is one of the most “real” book to me, as of right now(I am starting to get into non-fiction from now on). Sivers told his story in a way that is both entertaining and insightful. Lessons in the book derives from the core meaning of what it takes to be happy. Some of which he told in the book, are a little bit too luck-based and too specific of a situation. But, the way he tells the story and the lessons in it makes the reading worth it.
 
-### 🔍 How I Discovered It
+### How I Discovered It
 
 This book itself is some-what prominent since it first published back in 2011, and I happened to stumbled upon it when I was finding some non-fiction book to read, since I wanted to get into non-fiction. Also, the book is in “People’s Library to Success” and “Best books for beginning entrepreneurs” recommendation list at Goodreads. I picked it up blindly at first, knowing that the Author, Derek Sivers, appears in one of my english listening lesson, in a TED talk about how to start a movement.
 
 * A bit of a side note; Later, I found out that Derek Sivers has a website solely for book notes, so I went ahead and browse the web, and his notes are as engaging as his book. Someday, I would also going to make a book note website for myself.
 
-### 👤 Who Should Read It
+### Who Should Read It
 
 Although the subtitle of the book is “40 Lessons for a New Kind of Entrepreneur”, I don’t think that it is “only” for entrepreneurs, the lessons in it is also worth for:
 
@@ -35,17 +35,17 @@ Although the subtitle of the book is “40 Lessons for a New Kind of Entrepreneu
 
 In the end, I think everyone will get at least something out of this book.
 
-### 🌱 How the Book Changed Me
+### How the Book Changed My Perspective
 
 It changes how I reflect my opportunities and circumstances. I used to think that I need this or that to help me achieve being who I wanted to be, in the end I’m running in an endless loop of happiness and fulfillment chasing. A different perspective that Sivers introduced in the book pushes me to view my personal needs in a different way. “Do I really need a Mac to be a productive person, just because I watched several good reviews of it?” Is the question that I immediately ask myself after finished the book. The answer for me, is weighted heavily on the “maybe” side, now. As an opposition to the original “I absolutely have to buy a Mac to ‘speed-up my workflow’”.  Which it tells me that, what I really want is not to be productive, but to make myself happy about myself for being productive.
 
-### ✒️ My Top Three Quotes
+### My Top Three Quotes
 
 * But the whole point of doing anything is because it makes you happy! That’s it!... In the end, it’s about what you want to be, not what you want to have.
 * Never forget why you are doing what you are doing. Are you helping people? Are they happy? Are you happy? Are you profitable? Isn’t that enough?
 * Success comes from persistently improving and inventing, not from persistently doing what’s not working.
 
-### 📒 Summary + Notes
+### Summary + Notes
 
 * Don’t pursue little distractions instead of big dream.
   * Many people loves to distract ourselves from what really matters.

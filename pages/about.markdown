@@ -24,3 +24,14 @@ Last Update: 20 January 2025
 - Present: Masters degree, Researching, working as an IT engineer in my lab
 
 ## About me
+
+### I am researching about Microorganisms in Onagawa Area
+
+After the 2011 earthquake, the coastal area of [Onagawa](https://en.wikipedia.org/wiki/Onagawa,_Miyagi) has been recovering, along with the sea life! My current research focuses on exploring the connections between various factors in the ocean and how they contribute to its recovery.
+
+### More about me:
+
+* I am a productivity nerd
+* I am an optimist
+* I single-task, focusing on one thing at a time proves to be a better for me.
+* I use light-mode exclusively (Dark modes in apps can triggers my Astigmatism)
