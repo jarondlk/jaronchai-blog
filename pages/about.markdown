@@ -53,7 +53,7 @@ I like to have my notes [unsorted](https://en.wikipedia.org/wiki/Zettelkasten), 
 
 - I am an optimist
 - I am a minimalist
-- I single-task, focusing on one thing at a time proves to be a better for me.
+- I single-tasker, focusing on one thing at a time proves to be a better, more effective way of doing things for me.
 - I am a Spontaneous Person - Even though I like to have plans on my fancy dashboard, I also like to be randomly called on a Saturday morning to go on a road trip to another city.
 - I use light-mode exclusively, OS, editors, note takings, Dark modes in apps can triggers my Astigmatism.
 
