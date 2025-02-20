@@ -17,7 +17,7 @@ Last Update: 27 January 2025
 - 2021: started my bachelor degree + start doing teaching assistant
 - 2022: started to do research part-time
 - 2023: started interning at IBM as a Data Engineer
-- 2024: completed my bachelor degree with 1st class honor
+- 2024: graduated with a bachelor degree with 1st class honor and medal
 - 2024 Q1: started working in IBM full-time as a Data Engineer
 - 2024 Q2: granted MEXT full ride scholarship for masters degree
 - 2024 Q4: left IBM and moved to Sendai, Japan for my masters at Tohoku University
@@ -25,7 +25,7 @@ Last Update: 27 January 2025
 
 ## About me, Professionally
 
-### I prominently work on:
+### I am prominently working on:
 
 - **Large Language Model + RAG** and Vector Database with semantic searches. Built and train foundation models and implement within chatbots and search engine projects.
 - **Aritificial Intelligence**, back to back, from models to application, in the brach of natural language processing, computer vision, and statistical applications.
@@ -33,9 +33,11 @@ Last Update: 27 January 2025
 - **Data Engieering** with data migration and manipulation, ETL, ELT, for Data Warehouse and Data Lake. Set up automated jobs with Airflow and Google Cloud implementations.
 - **IT System Engineering** - I worked with setting up and maintaining servers. With automated backup schedules and scalable storage, with RAID levels system.
 
-### I am researching about Microorganisms in Onagawa Area
+### I am researching about Microorganisms genomics using AI applications
 
-After the 2011 earthquake, the coastal area of [Onagawa](https://en.wikipedia.org/wiki/Onagawa,_Miyagi) has been recovering, along with the sea life! My current research focuses on exploring the connections between various factors in the ocean and how they contribute to its recovery.
+Particularly using large language models (LLMs) for various applications such as integrated in one of my porject for species classification. My research integrates bioinformatics, machine learning, and data science.
+
+One of the topic being planktons monitoring with an AI-powered analysis pipeline, to identify taxonomy and analyze plankton trends and their influence on the marine ecosystem along with LLMs technologies.
 
 #### Common Misconceptions about my field of work
 
@@ -43,11 +45,19 @@ Yes, I do programming. Yes, I am in tech. No, I do not code website or do fronte
 
 ## About me, Personally
 
-### I am a Huge Productivity Nerd
+I am a huge nerd, I gladly accepted that, and the following section will be the topics that I nerd on.
+
+### I am a Productivity Nerd
 
 I like to have my life figured out, of sort, in a way or another. I like to have a Life dashboard, a Research dashboard, a Studies dashboard, a Finance dashboard, a Goals dashboard, a Planning dashboard, an Archive dashboard, and a Dashboard of my all dashboards.
 
 I like to have my notes [unsorted](https://en.wikipedia.org/wiki/Zettelkasten), my files [sorted](https://fortelabs.com/blog/para/), and my system [simple](https://en.wikipedia.org/wiki/Getting_Things_Done)!
+
+### I am a Coffee Nerd
+
+I love brewing a nice cup or two everyday, before I go to bed, I am looking forward to brew my next cup haha. I really enjoy lighter roast, more complex coffees with interesting characters. I actively looking for new interesting cafes and roasters to try. 
+
+I also just got a new Aeropress recently, and have been trying to perfect my cold pressed methods with it, so far so good!
 
 ### More about me:
 
