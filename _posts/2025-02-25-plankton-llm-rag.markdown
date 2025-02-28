@@ -7,4 +7,4 @@ comments: True
 featured: True
 ---
 
-[Presentation document](assets/documents/plankton_llm_rag.pdf)
+[Download the Plankton LLM RAG PDF companion]({{ site.baseurl }}/assets/documents/plankton_llm_rag.pdf)
