@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-Last Update: 27 January 2025
-
 ## Timeline for context
 
 - 2001: born in Khonkaen, Thailand
@@ -22,6 +20,10 @@ Last Update: 27 January 2025
 - 2024 Q2: granted MEXT full ride scholarship for masters degree
 - 2024 Q4: left IBM and moved to Sendai, Japan for my masters at Tohoku University
 - Present: Masters degree, Researching, working as an IT engineer in my lab
+
+&nbsp;
+
+---
 
 ## About me, Professionally
 
@@ -43,6 +45,8 @@ One of the topic being planktons monitoring with an AI-powered analysis pipeline
 
 Yes, I do programming. Yes, I am in tech. No, I do not code website or do frontend, I barely know anything about html, however, I am mainly in the field of Data Science and Data Engineering. Even though I am doing data, I still able to do backend, which includes making API callables and building backend data pipeline.
 
+---
+
 ## About me, Personally
 
 I am a huge nerd, I gladly accepted that, and the following section will be the topics that I nerd on.
@@ -59,6 +63,10 @@ I love brewing a nice cup or two everyday, before I go to bed, I am looking forw
 
 I also just got a new Aeropress recently, and have been trying to perfect my cold pressed methods with it, so far so good!
 
+### I am a Music Nerd
+
+I’ve been playing guitar (and cello) for over a decade. I love playing around with fingerstyle arrangements or pop-music covers. I occasionally transcribe random songs I like for fun (and frustration).
+
 ### More about me:
 
 - I am an optimist
@@ -66,6 +74,13 @@ I also just got a new Aeropress recently, and have been trying to perfect my col
 - I single-tasker, focusing on one thing at a time proves to be a better, more effective way of doing things for me.
 - I am a Spontaneous Person - Even though I like to have plans on my fancy dashboard, I also like to be randomly called on a Saturday morning to go on a road trip to another city.
 - I use light-mode exclusively, OS, editors, note takings, Dark modes in apps can triggers my Astigmatism.
+
+### Quick Facts
+
+- Favorite editor: VSCode (light mode, of course!!)
+- Coffee style: Mugen + Switch, light roast only
+- Keyboard layout: QWERTY, but thinking of going Colemak
+- Weekend plans: café hopping + spontaneous train trips
 
 ## FAQs
 
@@ -80,3 +95,7 @@ Please [send over your details](mailto:jaron.dilok@gmail.com), and we can discus
 ### Do you want to go grab some coffee?
 
 Absolutely! When we both get the chance to, please do [let me know!](/contact)
+
+---
+
+Site Last Update: {{ site.time | date: "%-d %B %Y" }}

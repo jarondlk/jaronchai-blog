@@ -4,6 +4,7 @@ title:  "Dungeon Rolling: A DnD Dice Roller built using C"
 date:   2020-10-30 00:00:00 +0700
 tags:  project for-fun c-language terminal
 comments: true
+project: true
 ---
 
 Dungeon rollin’ is a dice rolling simulator based on the role-playing game, Dungeons and Dragons (D&D). Written in C language, it allows players to simulate dice rolls for various actions and events.

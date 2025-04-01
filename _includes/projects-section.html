@@ -1,0 +1,60 @@
+<div class="projects-grid">
+    {% for post in site.posts %}
+      {% if post.project %}
+        <a href="{{ post.url }}" class="project-card">
+          <div class="project-header">
+            <!-- <div class="project-emoji">{{ post.emoji | default: "✏️" }}</div> -->
+            <h3 class="project-title">{{ post.title }}</h3>
+          </div>
+          <p class="project-desc">{{ post.excerpt | strip_html | truncate: 100 }}</p>
+        </a>
+      {% endif %}
+    {% endfor %}
+  </div>
+  
+  <style>
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  .project-card {
+    /* background: #f9f9f9; */
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-decoration: none;
+    color: inherit;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, padding 0.2s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+    /* padding: 1.7rem; */
+  }
+  
+  .project-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .project-emoji {
+    font-size: 2rem;
+  }
+  
+  .project-title {
+    margin: 0;
+  }
+  
+  .project-desc {
+    font-size: 0.95rem;
+    color: #a8a8a8;
+    margin-top: 0.5rem;
+  }
+  </style>
+  
