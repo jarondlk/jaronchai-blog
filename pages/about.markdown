@@ -79,7 +79,6 @@ I’ve been playing guitar (and cello) for over a decade. I love playing around 
 
 - Favorite editor: VSCode (light mode, of course!!)
 - Coffee style: Mugen + Switch, light roast only
-- Keyboard layout: QWERTY, but thinking of going Colemak
 - Weekend plans: café hopping + spontaneous train trips
 
 ## FAQs
