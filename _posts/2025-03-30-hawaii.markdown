@@ -1,0 +1,56 @@
+---
+layout: post
+title:  "Talking about Planktons: First International Conference in Hawaii"
+date:   2025-03-30 07:00:00 +0700
+comments: True
+featured: true
+---
+
+### Day 1: Departure & Arrival in Honolulu - March 3
+
+- Final prep: Reviewing slides and refining notes en route
+- First impressions of Hawaii: the warmth, breeze, and open skies
+- Checking in and unwinding: settling into the hotel, quick stroll near Waikiki
+
+- Visit to the University of Hawaiʻi at Mānoa campus
+  - Met with fellow researchers and faculty in the marine biology and AI departments
+  - Campus impressions – mix of tropical flora and academic energy
+- Dry run of the presentation with peers
+- Brief tour of their lab setups – comparison with Info-Bio Lab at Tohoku
+- Dinner with local researchers: conversations about ocean monitoring, culture, and AI
+
+### Day 2: Conference Day – March 4
+
+- Early morning setup: tech check, nerves, and excitement
+- **Presentation Highlights**:
+  - Discussed auto-imaging pipelines and classification of plankton
+  - Showcased the LLM + RAG integration for plankton taxonomy
+  - Emphasized GUI/API use, JSON-format output, and feedback loop
+- Audience reactions: lots of interest in the generative pipeline, environmental applications
+- Engaging Q&A: inquiries on edge deployment, real-time tracking, and dataset availability
+- Afternoon panel and networking with other marine AI researchers
+- Celebration dinner: Hawaiian cuisine and live music
+
+### Day 3: University Tour and Culture – March 5
+
+- Organized marine biology field trip with UH team
+  - Visited a coastal research station—discussion on sample collection techniques
+  - Compared local plankton ecosystems with Mutsu Bay samples
+- Cultural immersion: short hike + sunset at Diamond Head
+- Reflections on AI's role in local marine sustainability
+
+### Day 4: Free Exploration and Departure – March 6
+
+- Morning at Honolulu Museum of Art or Bishop Museum (marine history)
+- Walk along Ala Moana Beach Park – inspiration and journaling
+- Light work session: reviewed presentation feedback, sent thank-you notes
+- Coffee shop people-watching (song lyrics moment? ☕🎶)
+- Quick gift shopping and last stroll near the coast
+- Reflections on the trip: personal growth, academic validation, new collaborations
+- Flight back to Japan – plans for follow-up research and collaborative papers
+
+### Closing Thoughts
+
+- What I took home: not just sunshine, but shared purpose in protecting oceans
+- Renewed motivation for integrating AI in ecological monitoring
+- Gratitude for the opportunity and people I met
