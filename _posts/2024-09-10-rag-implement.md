@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Milvus VectorDB Knowledge-base COMPLETE WALKTHROUGH"
+title:  "How to LLM+RAG with Milvus VectorDB WALKTHROUGH"
 date:   2024-09-10 07:00:00 +0700
 comments: True
 featured: true
