@@ -107,10 +107,11 @@ Systems outgrow themselves.
 So I rebuild — with *new context and fewer assumptions*.
 
 I like quiet systems and quiet mornings.  
-I like loud thoughts and loud music.
+I like loud thoughts and loud music.  
 I like to do one thing at a time.  
 
-I plan in dashboards and take notes like wiki pages.  
+I plan in dashboards.  
+I take notes like wiki pages.  
 But I still leave room for spontaneous ideas.
 
 Some of my best work starts as a hobby.  
