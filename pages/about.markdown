@@ -88,7 +88,7 @@ If you've read this far, congratulations. You're either extremely curious or jus
 
 ---
 
-## My Philosophy
+## My Philosophy {#philosophy}
 
 I like building systems that make sense.  
 I like when things are simple and understandable.  

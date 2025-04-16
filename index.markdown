@@ -17,7 +17,7 @@ See [my "about" page](/about)
 
 ## My Philosophy
 
-Also in [my "about" page](/about/#my%20philosophy)
+Also in [my "about" page](/about/#philosophy)
 
 ## What am I doing now?
 
