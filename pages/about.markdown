@@ -88,36 +88,37 @@ If you've read this far, congratulations. You're either extremely curious or jus
 
 ---
 
-## Mini Manifesto
+## My Philosophy - A Mini Manifesto
 
 I like building systems that make sense.
-
-I care about systems that last.  
 I like when things are simple and understandable.  
+
+I build systems that last.  
+I build for long-term clarity, not quick wins.
+
 I value structure over shortcuts, and consistency over cleverness.  
 I value doing things properly—especially when no one’s watching.  
-I build for long-term clarity, not quick wins.
 
 I organize everything.  
 Then I break the system.  
 Then I reorganize it better.
 
-Even the cleanest systems outgrow themselves.  
+Systems outgrow themselves.  
 So I rebuild — with *new context and fewer assumptions*.
 
 I like quiet systems and quiet mornings.  
 I like loud thoughts and loud music.
+I like to do one thing at a time.  
 
 I plan in dashboards and take notes like wiki pages.  
-I focus best when I’m doing one thing at a time.  
-But I still leave room for detours—for spontaneous ideas that spiral in directions I didn’t plan for.
+But I still leave room for spontaneous ideas.
 
 Some of my best work starts as a hobby.  
 Some of my best systems begin as accidents.
 
-I’m designing a system that grows deliberately and leaves room for good detours.
-
 *I take my work seriously, but not myself.*
+
+I’m designing a system that grows deliberately and leaves room for good detours.
 
 ---
 
