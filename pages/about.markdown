@@ -59,7 +59,7 @@ I am a huge nerd, I'm obsessive about the right things, and chasing systems that
 I like to have my life figured out, of sort, in a way or another. I like to have a Life dashboard, a Research dashboard, a Studies dashboard, a Finance dashboard, a Goals dashboard, a Planning dashboard, an Archive dashboard, and a Dashboard of my all dashboards.
 Osidian is supposed to be my second brain (and to be honest withthe current state of things, probably my first haha. I believe a well-structured folder helps with anxiety, and that chaos, when tagged properly, is just potential energy.
 
-I like to have my notes [unsorted](https://en.wikipedia.org/wiki/Zettelkasten), my files [sorted](https://fortelabs.com/blog/para/), and my system [simple](https://en.wikipedia.org/wiki/Getting_Things_Done)!
+> I like to have my notes [unsorted](https://en.wikipedia.org/wiki/Zettelkasten), my files [sorted](https://fortelabs.com/blog/para/), and my system [simple](https://en.wikipedia.org/wiki/Getting_Things_Done)!
 
 ### I am a Coffee Nerd
 
@@ -70,7 +70,7 @@ I also just got a new Aeropress recently, and have been trying to perfect my col
 
 I’ve been playing guitar (and cello) for over a decade. Fingerstyle covers? Yes. Originals? Sometimes. Rage-quitting mid-transcription? Frequently. If we jam together and you suggest a 4/4, I’ll still play—but I’ll sneak in a 7/8 bar somewhere, you know, as a treat. This keeps me sane and curious.
 
-### More about me:
+### More about me
 
 - I am an optimist
 - I am a minimalist. Functional Minimalist. Every byte must justify its place.
@@ -85,6 +85,41 @@ I’ve been playing guitar (and cello) for over a decade. Fingerstyle covers? Ye
 - Weekend plans: café hopping + spontaneous train trips
 
 If you've read this far, congratulations. You're either extremely curious or just vibing. Either way: hello.
+
+---
+
+## Mini Manifesto
+
+I like building systems that make sense.
+
+I care about systems that last.  
+I like when things are simple and understandable.  
+I value structure over shortcuts, and consistency over cleverness.  
+I value doing things properly—especially when no one’s watching.  
+I build for long-term clarity, not quick wins.
+
+I organize everything.  
+Then I break the system.  
+Then I reorganize it better.
+
+Even the cleanest systems outgrow themselves.  
+So I rebuild — with *new context and fewer assumptions*.
+
+I like quiet systems and quiet mornings.  
+I like loud thoughts and loud music.
+
+I plan in dashboards and take notes like wiki pages.  
+I focus best when I’m doing one thing at a time.  
+But I still leave room for detours—for spontaneous ideas that spiral in directions I didn’t plan for.
+
+Some of my best work starts as a hobby.  
+Some of my best systems begin as accidents.
+
+I’m designing a system that grows deliberately and leaves room for good detours.
+
+*I take my work seriously, but not myself.*
+
+---
 
 ## FAQs
 
