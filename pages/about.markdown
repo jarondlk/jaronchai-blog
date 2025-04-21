@@ -93,11 +93,8 @@ If you've read this far, congratulations. You're either extremely curious or jus
 I like building systems that make sense.  
 I like when things are simple and understandable.  
 
-I build systems that last.  
-I build for long-term clarity, not quick wins.
-
-I value structure over shortcuts, and consistency over cleverness.  
-I value doing things properly—especially when no one’s watching.  
+I value structure over shortcuts.  
+I value consistency over cleverness.  
 
 I organize everything.  
 Then I break the system.  
@@ -106,20 +103,9 @@ Then I reorganize it better.
 Systems outgrow themselves.  
 So I rebuild — with *new context and fewer assumptions*.
 
-I like quiet systems and quiet mornings.  
-I like loud thoughts and loud music.  
-I like to do one thing at a time.  
-
-I plan in dashboards.  
-I take notes like wiki pages.  
-But I still leave room for spontaneous ideas.
-
-Some of my best work starts as a hobby.  
-Some of my best systems begin as accidents.
-
 *I take my work seriously, but not myself.*
 
-I’m designing a system that grows deliberately and leaves room for good detours.
+I’m designing my system to grow deliberately and leaves room for good detours.
 
 ---
 
