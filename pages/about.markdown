@@ -90,18 +90,18 @@ If you've read this far, congratulations. You're either extremely curious or jus
 
 ## My Philosophy {#philosophy}
 
-I like building systems that make sense.  
-I like when things are simple and understandable.  
+Build systems that make sense.  
+Things should be simple and understandable.  
 
-I value structure over shortcuts.  
-I value consistency over cleverness.  
+Structure over shortcuts.  
+Consistency over cleverness.  
 
-I organize everything.  
-Then I break the system.  
-Then I reorganize it better.
+Organize everything.  
+Then break the system.  
+Then reorganize it better.
 
 Systems outgrow themselves.  
-So I rebuild — with *new context and fewer assumptions*.
+So rebuild — with *new context and fewer assumptions*.
 
 *I take my work seriously, but not myself.*
 
