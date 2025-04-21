@@ -15,10 +15,6 @@ I’m a coffee drinker, media enjoyer, and I love a being a [dog on the internet
 
 See [my "about" page](/about)
 
-## My Philosophy
-
-Also in [my "about" page](/about/#philosophy)
-
 ## What am I doing now?
 
 See [my "now" page](/now)
@@ -26,6 +22,10 @@ See [my "now" page](/now)
 ## Tools I use?
 
 See [my "uses" page](/uses)
+
+## My Philosophy
+
+Also in [my "about" page](/about/#philosophy)
 
 ## Contact me
 
