@@ -8,35 +8,21 @@ I decided to map out my thoughts and my direction in doing things, so this mini 
 
 ---
 
-I like building systems that make sense.  
-I like when things are simple and understandable.  
+Build systems that make sense.  
+Things should be simple and understandable.  
 
-I build systems that last.  
-I build for long-term clarity, not quick wins.
+Structure over shortcuts.  
+Consistency over cleverness.  
 
-I value structure over shortcuts, and consistency over cleverness.  
-I value doing things properly—especially when no one’s watching.  
-
-I organize everything.  
-Then I break the system.  
-Then I reorganize it better.
+Organize everything.  
+Then break the system.  
+Then reorganize it better.
 
 Systems outgrow themselves.  
-So I rebuild — with *new context and fewer assumptions*.
-
-I like quiet systems and quiet mornings.  
-I like loud thoughts and loud music.  
-I like to do one thing at a time.  
-
-I plan in dashboards.  
-I take notes like wiki pages.  
-But I still leave room for spontaneous ideas.
-
-Some of my best work starts as a hobby.  
-Some of my best systems begin as accidents.
+So rebuild — with *new context and fewer assumptions*.
 
 *I take my work seriously, but not myself.*
 
-I’m designing a system that grows deliberately and leaves room for good detours.
+I’m designing my system to grow deliberately and leaves room for good detours.
 
 ---

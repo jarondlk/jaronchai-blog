@@ -23,10 +23,6 @@ See [my "now" page](/now)
 
 See [my "uses" page](/uses)
 
-## My Philosophy
-
-Also in [my "about" page](/about/#philosophy)
-
 ## Contact me
 
 See [my "contact" page](/contact) \
