@@ -1,0 +1,22 @@
+- title: "Using AI to Classify Plankton"
+  event: "Marine Biology Symposium"
+  date: "2025-05-20"
+  location: "Sendai, Japan"
+  abstract: "How we trained a deep learning model on plankton microscopy data using CNNs and the Segment Anything Model."
+  slides: "https://example.com/slides"
+  video: "https://example.com/video"
+  paper: "https://example.com/paper"
+  images:
+    - /assets/images/intonator/confusion-intonator.png
+    - /assets/images/intonator/confusion-intonator.png
+
+- title: "Building an Interactive Neural Network Playground"
+  event: "Python Japan"
+  date: "2025-04-10"
+  location: "Tokyo, Japan"
+  abstract: "An educational tool to visualize how neural networks learn from data."
+  slides: ""
+  video: "https://example.com/nnplayground"
+  paper: ""
+  images:
+    - /assets/images/intonator/confusion-intonator.png
