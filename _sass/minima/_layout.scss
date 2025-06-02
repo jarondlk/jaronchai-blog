@@ -333,3 +333,24 @@ img[alt=guitar] {
   margin-right: auto;
 }
 
+
+
+// ===========================================================================
+// TALKS PAGE
+// ===========================================================================
+
+.talk-entry {
+  margin-bottom: 3rem;
+}
+
+.talk-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 1rem;
+}
+.talk-images img {
+  border-radius: 8px;
+  max-height: 180px;
+  object-fit: cover;
+}

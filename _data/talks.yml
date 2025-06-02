@@ -2,21 +2,48 @@
   event: "Marine Biology Symposium"
   date: "2025-05-20"
   location: "Sendai, Japan"
-  abstract: "How we trained a deep learning model on plankton microscopy data using CNNs and the Segment Anything Model."
-  slides: "https://example.com/slides"
-  video: "https://example.com/video"
-  paper: "https://example.com/paper"
+  description: >
+    How we trained a deep learning model on plankton microscopy data using CNNs and the Segment Anything Model.
+  links:
+    slides: "https://example.com/slides"
+    video: "https://example.com/video"
+    paper: "https://example.com/paper"
+    abstract: "https://example.com/abstract"
+    poster: ""
   images:
-    - /assets/images/intonator/confusion-intonator.png
-    - /assets/images/intonator/confusion-intonator.png
+    - /{{site.baseurl}}/assets/image/intonator/confusion-intonator.png
+    - {{site.baseurl}}/assets/image/intonator/confusion-intonator.png
 
 - title: "Building an Interactive Neural Network Playground"
   event: "Python Japan"
   date: "2025-04-10"
   location: "Tokyo, Japan"
-  abstract: "An educational tool to visualize how neural networks learn from data."
-  slides: ""
-  video: "https://example.com/nnplayground"
-  paper: ""
+  description: >
+    An educational tool to visualize how neural networks learn from data.
+  links:
+    slides: ""
+    video: "https://example.com/nnplayground"
+    paper: ""
+    abstract: ""
+    poster: ""
   images:
-    - /assets/images/intonator/confusion-intonator.png
+    - {{site.baseurl}}/assets/image/intonator/confusion-intonator.png
+
+
+- title: "Building an Interactive Neural Network Playground"
+  event: "Python Japan"
+  date: "2025-04-10"
+  location: "Tokyo, Japan"
+  description: >
+    An educational tool to visualize how neural networks learn from data.
+  links:
+    slides: ""
+    video: "https://example.com/nnplayground"
+    paper: ""
+    abstract: ""
+    poster: ""
+  images:
+    - {{site.baseurl}}/assets/image/intonator/confusion-intonator.png
+    - {{site.baseurl}}/assets/image/intonator/confusion-intonator.png
+    - {{site.baseurl}}/assets/image/intonator/confusion-intonator.png
+    

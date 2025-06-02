@@ -10,13 +10,18 @@ permalink: /talks/
   <p><strong>Event:</strong> {{ talk.event }}</p>
   <p><strong>Date:</strong> {{ talk.date }}</p>
   <p><strong>Location:</strong> {{ talk.location }}</p>
-  <p><strong>Abstract:</strong> {{ talk.abstract }}</p>
+  <p>{{ talk.description }}</p>
 
-  <p>
-    {% if talk.slides %}<a href="{{ talk.slides }}">Slides</a>{% endif %}
-    {% if talk.video %}{% if talk.slides %} | {% endif %}<a href="{{ talk.video }}">Video</a>{% endif %}
-    {% if talk.paper %}{% if talk.video or talk.slides %} | {% endif %}<a href="{{ talk.paper }}">Paper</a>{% endif %}
-  </p>
+  {% assign links = talk.links %}
+  {% if links.slides or links.video or links.paper or links.abstract or links.poster %}
+    <p>
+      {% if links.slides %}<a href="{{ links.slides }}">Slides</a>{% endif %}
+      {% if links.video %}{% if links.slides %} | {% endif %}<a href="{{ links.video }}">Video</a>{% endif %}
+      {% if links.paper %}{% if links.video or links.slides %} | {% endif %}<a href="{{ links.paper }}">Paper</a>{% endif %}
+      {% if links.abstract %}{% if links.paper or links.video or links.slides %} | {% endif %}<a href="{{ links.abstract }}">Abstract</a>{% endif %}
+      {% if links.poster %}{% if links.abstract or links.paper or links.video or links.slides %} | {% endif %}<a href="{{ links.poster }}">Poster</a>{% endif %}
+    </p>
+  {% endif %}
 
   {% if talk.images %}
   <div class="talk-images">
