@@ -11,7 +11,7 @@
     abstract: "https://example.com/abstract"
     poster: ""
   images:
-    - /{{site.baseurl}}/assets/image/intonator/confusion-intonator.png
+    - {{site.baseurl}}/assets/image/intonator/confusion-intonator.png
     - {{site.baseurl}}/assets/image/intonator/confusion-intonator.png
 
 - title: "Building an Interactive Neural Network Playground"
