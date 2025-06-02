@@ -33,8 +33,9 @@ header_pages:
   - pages/about.markdown
   - pages/weblog.markdown
   # - pages/projects.markdown
+  - pages/talks.markdown
   - pages/resume.markdown
-  - pages/contact.markdown
+  # - pages/contact.markdown
 
 show_excerpts: false
 
