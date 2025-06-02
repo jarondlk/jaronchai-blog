@@ -3,6 +3,7 @@ layout: page
 title: Talks
 permalink: /talks/
 ---
+## Talks & Presentations
 
 {% for talk in site.data.talks %}
 <div class="talk-entry">
@@ -26,7 +27,7 @@ permalink: /talks/
   {% if talk.images %}
   <div class="talk-images">
     {% for img in talk.images %}
-      <img src="{{ img }}" alt="Image from {{ talk.title }}" style="max-width: 300px; margin: 5px;">
+      <img src="{{ site.baseurl }}/{{ img }}" alt="Image from {{ talk.title }}" style="max-width: 300px; margin: 5px;">
     {% endfor %}
   </div>
   {% endif %}
