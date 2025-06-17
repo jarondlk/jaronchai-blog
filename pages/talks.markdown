@@ -3,7 +3,6 @@ layout: page
 title: Talks
 permalink: /talks/
 ---
-## Talks & Presentations
 
 {% for talk in site.data.talks %}
 <div class="talk-entry">

@@ -10,8 +10,7 @@
     abstract: "https://jaronchai.com/assets/talks/2025-06-03/ESS-Ⅺ-2025_abst_Jaronchai.pdf"
     poster: "https://jaronchai.com/assets/talks/2025-06-03/semantic.pdf"
   images:
-    - assets/image/intonator/confusion-intonator.png
-    - assets/image/intonator/confusion-intonator.png
+    - assets/talks/2025-06-03/semantic.png
 
 - title: "Building an Interactive Neural Network Playground"
   event: "Python Japan"
