@@ -5,6 +5,8 @@ layout: default
 
 # Jaronchai Dilokkalayakul
 
+<img src="{{ site.baseurl }}/assets/index/me.png" alt="" style="max-width: 600px; margin: 5px;">
+
 ## Me in 10 seconds
 
 I’ve been a [data engineer](https://ibm.com), a [researcher](https://www.is.tohoku.ac.jp/en/), and a musician.\
