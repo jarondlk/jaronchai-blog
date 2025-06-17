@@ -5,7 +5,7 @@ layout: default
 
 # Jaronchai Dilokkalayakul
 
-<img src="{{ site.baseurl }}/assets/index/me.png" alt="" style="max-width: 600px; margin: 5px;">
+<img src="{{ site.baseurl }}/assets/index/me.png" alt="" style="max-width: 250px; margin: 5px;">
 
 ## Me in 10 seconds
 
