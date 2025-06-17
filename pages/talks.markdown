@@ -26,7 +26,7 @@ permalink: /talks/
   {% if talk.images %}
   <div class="talk-images">
     {% for img in talk.images %}
-      <img src="{{ site.baseurl }}/{{ img }}" alt="Image from {{ talk.title }}" style="max-width: 300px; margin: 5px;">
+      <img src="{{ site.baseurl }}/{{ img }}" alt="Image from {{ talk.title }}" style="max-width: 500px; margin: 5px;">
     {% endfor %}
   </div>
   {% endif %}
