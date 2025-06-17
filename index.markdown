@@ -46,7 +46,6 @@ Frequently asked questions are loacted in [my "about" page](/about/#faqs)
 
 Work E-mail: [jaron.dilok@gmail.com][mail]  
 University E-mail: [dilokkalayakul.jaronchai.p8@dc.tohoku.ac.jp][unimail]  
-Address: Aoba Ward, Sendai, Miyagi 980-0845  
 Links: [Github][github], [LinkedIn][linkedin], [Instagram][insta]
 
 <!-- Reference -->

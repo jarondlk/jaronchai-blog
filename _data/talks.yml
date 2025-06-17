@@ -1,15 +1,14 @@
-- title: "Using AI to Classify Plankton"
-  event: "Marine Biology Symposium"
-  date: "2025-05-20"
-  location: "Sendai, Japan"
+- title: "Semantic Plankton: Multimodal LLMs and RAG for Automated Ocean Microorganism Analysis"
+  event: "Earth, Sea and Sky XI: Workshop for International Joint Graduate Program & Core Research Cluster in Earth and Environmental Sciences"
+  date: "2025-06-03"
+  location: "Tohoku University, Sendai, Japan"
   description: >
-    How we trained a deep learning model on plankton microscopy data using CNNs and the Segment Anything Model.
+    Poster presentation on my Semantic Plankton project, in the event organized by Tohoku University and GP-EES,
+    focusing on the use of multimodal large language models (LLMs) and retrieval-augmented generation (RAG) techniques
+    for automated analysis of ocean microorganisms.
   links:
-    slides: "https://example.com/slides"
-    video: "https://example.com/video"
-    paper: "https://example.com/paper"
-    abstract: "https://example.com/abstract"
-    poster: ""
+    abstract: "https://jaronchai.com/assets/talks/2025-06-03/ESS-Ⅺ-2025_abst_Jaronchai.pdf"
+    poster: "https://jaronchai.com/assets/talks/2025-06-03/semantic.pdf"
   images:
     - assets/image/intonator/confusion-intonator.png
     - assets/image/intonator/confusion-intonator.png
