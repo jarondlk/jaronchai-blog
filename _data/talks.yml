@@ -12,20 +12,18 @@
   images:
     - assets/talks/2025-06-03/semantic.png
 
-- title: "Building an Interactive Neural Network Playground"
-  event: "Python Japan"
-  date: "2025-04-10"
-  location: "Tokyo, Japan"
+- title: "WPI-AIMEC workshop at Hawaii University"
+  event: "Advance Institute for Marine Ecosystem and Climate (AIMEC) Workshop"
+  date: "2025-03-04"
+  location: "Hawaii University, Hawaii, USA"
   description: >
-    An educational tool to visualize how neural networks learn from data.
+    Gave a talk on applications of Multimodal Large Language Models (LLMs) in marine ecosystem research,
+    main example is from my Semantic Plankton project. Check out the slides for more details on the implementations.
   links:
-    slides: ""
-    video: "https://example.com/nnplayground"
-    paper: ""
-    abstract: ""
-    poster: ""
+    slides: "https://jaronchai.com/assets/talks/2025-03-04/plankton_llm_rag.pdf"
   images:
-    - assets/image/intonator/confusion-intonator.png
+    - assets/talks/2025-03-04/hawaii1.jpg
+    - assets/talks/2025-03-04/hawaii2.jpg
 
 
 - title: "Building an Interactive Neural Network Playground"
