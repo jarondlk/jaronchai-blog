@@ -13,12 +13,13 @@ permalink: /resume/
 
 ## Experience
 
-**IT System Engineer**, *[Information Biology Lab, Tohoku University](https://www.is.tohoku.ac.jp/en/)*\
+**Data and IT System Engineer**, *[Information Biology Lab, Tohoku University](https://www.is.tohoku.ac.jp/en/)*\
 November 2024 – Present | Sendai, Japan
 
-- Engineered reliable server operations to support research activities.
-- Architected Backup Strategies, and implemented tape backup, ensuring data redundancy and integrity.
-- Optimized workflow automation, automated server tasks, and streamlined scheduling.
+- Engineered pipelines for Semantic vector embedding generation and indexing.
+- Implemented on-prem LLM inference APIs for local network infrastructure.
+- Architected reliable server operations and backup strategies and automated workflow, server tasks, and streamlined scheduling.
+- Designed and deployed scalable vector databases on local servers to support biological data semantic search.
 
 **Data Engineer**, *[IBM](https://www.ibm.com/)*\
 May 2024 – October 2024 | Bangkok, Thailand
@@ -74,7 +75,10 @@ July 2020 – March 2024 | GPA: 3.95/4.0
 ## Awards
 
 **MEXT Scholarship (Monbukagakusho Scholarship)**\
-Full scholarship from the Japanese government
+Full scholarship from the Japanese government for Masters Degree in Graduate School of Information Sciences, Tohoku University.
+
+**Medal of Academic Excellence**\
+In recognition of outstanding academic performance, highest GPA in the program for the whole 4 academic years.
 
 **Certificate of Academic Excellence in 2020 and 2021**\
 Issued by *Thai-Nichi International College*, Year 2020 and 2021\
