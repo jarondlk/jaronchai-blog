@@ -90,22 +90,7 @@ If you've read this far, congratulations. You're either extremely curious or jus
 
 ## My Philosophy {#philosophy}
 
-Build systems that make sense.  
-Things should be simple and understandable.  
-
-Structure over shortcuts.  
-Consistency over cleverness.  
-
-Organize everything.  
-Then break the system.  
-Then reorganize it better.
-
-Systems outgrow themselves.  
-So rebuild — with *new context and fewer assumptions*.
-
-*I take my work seriously, but not myself.*
-
-I’m designing my system to grow deliberately and leaves room for good detours.
+If you're doing it alone, you're doing it wrong. 
 
 ---
 
