@@ -25,7 +25,7 @@ permalink: /about/
 
 ---
 
-## About me, Professionally
+## About me, <span style="background-color:#fbffa1">Professionally</span>
 
 ### What I Do (a non-exhaustive brain dump):
 
@@ -50,7 +50,7 @@ One of the topic being planktons monitoring with an AI-powered analysis pipeline
 
 ---
 
-## About me, Personally
+## About me, <span style="background-color:#fbffa1">Personally</span>
 
 I am a huge nerd, I'm obsessive about the right things, and chasing systems that make life just a bit more elegant.
 
@@ -113,7 +113,7 @@ I’m designing my system to grow deliberately and leaves room for good detours.
 
 ### How are you doing today?
 
-Pretty amazing actually — thanks so much for asking! I hope you’re having an amazing day as well! :3
+Pretty amazing actually — thanks so much for asking! I hope you’re having an amazing day as well!
 
 ### Can we collaborate on a project?
 
