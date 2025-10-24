@@ -1,5 +1,17 @@
 # TALKS
 
+- title: "The 11th EAFES International Congress - Context-Aware Marine Plankton Classification with Multimodal Large Language Model and Retrieval-Augmented Generation Reasoning"
+  event: "The 11th EAFES International Congress"
+  date: "2025-07-20"
+  location: "Tokyo, Japan"
+  description: >
+    EAFES2025 Website: https://eafes2025.com/index.html
+  links:
+    abstract: "https://jaronchai.com/assets/talks/2025-07-20/eafes_abs.pdf"
+    poster: "https://jaronchai.com/assets/talks/2025-07-20/EAFES2025.PDF"
+  images:
+    - assets/talks/2025-07-20/eafes.png
+
 - title: "IMBC2025 Oral Presentation Awards - Automated Taxonomic Identification of Marine Plankton"
   event: "International Marine Biotechnology Congress 2025"
   date: "2025-07-08"
@@ -15,6 +27,7 @@
   images:
     - assets/talks/2025-07-08/imbc1.png
     - assets/talks/2025-07-08/imbc2.png
+    - assets/talks/2025-07-08/imbc3.png
 
 - title: "Semantic Plankton: Multimodal LLMs and RAG for Automated Ocean Microorganism Analysis"
   event: "Earth, Sea and Sky XI: Workshop for International Joint Graduate Program & Core Research Cluster in Earth and Environmental Sciences"
