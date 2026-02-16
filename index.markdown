@@ -23,18 +23,11 @@ See [my "now" page](/now)
 
 See [my "uses" page](/uses)
 
-## Contact me
-
-See [my "contact" page](/contact) \
-Or [send me an email!](mailto:jaron.dilok@gmail.com) I check my email often!
-
 ## Selected Writings
 
 {%- include featured.html -%}
 
-## Some of my recent talks
-
-## Some of my recent talks
+## Recent talks
 
 {% assign talks_sorted = site.data.talks | sort: "date" | reverse %}
 
@@ -102,6 +95,7 @@ Frequently asked questions are loacted in [my "about" page](/about/#faqs)
 
 ## Get in Touch!
 
+See [my "contact" page](/contact) \
 Work E-mail: [jaron.dilok@gmail.com][mail]  
 University E-mail: [dilokkalayakul.jaronchai.p8@dc.tohoku.ac.jp][unimail]  
 Links: [Github][github], [LinkedIn][linkedin], [Instagram][insta]
