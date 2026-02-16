@@ -1,5 +1,20 @@
 # TALKS
 
+- title: "Data Integration and Platform Unification Challenges in Marine Bioinformatics"
+  event: "COSMEC and ANEMONE Global Joint Symposium 2026"
+  date: "2026-02-06"
+  location: "Tokyo, Japan"
+  description: >
+    In this talk, I have discussed the challenges of data integration and platform unification in
+    marine bioinformatics, with a focus on the ANEMONE project. I have highlighted the importance
+    of integrating diverse datasets and unifying platforms to enhance our understanding of marine
+    ecosystems and improve conservation efforts.
+  links:
+    slides: "https://jaronchai.com/assets/talks/2026-02-06/anemone.pdf"
+  images:
+    - assets/talks/2026-02-06/anemone1.JPG
+    - assets/talks/2026-02-06/anemone2.JPG
+
 - title: "The 11th EAFES International Congress - Context-Aware Marine Plankton Classification with Multimodal Large Language Model and Retrieval-Augmented Generation Reasoning"
   event: "The 11th EAFES International Congress"
   date: "2025-07-20"
