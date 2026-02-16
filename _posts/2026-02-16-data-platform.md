@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Data Platform Prototype: Batch + Streaming + Lakehouse + Monitoring for Marine Bioinformatics"
+title:  "Data Platform: Batch + Streaming + Lakehouse + Monitoring for Bioinformatics"
 date:   2026-02-16 07:00:00 +0700
 tags: data-engineering, lakehouse, iceberg, airflow, spark, minio, podman, streaming, kafka, redpanda, grafana, marine-biology
 comments: true
