@@ -354,3 +354,86 @@ img[alt=guitar] {
   max-height: 250px;
   object-fit: cover;
 }
+
+.talk-list {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+  margin-top: .5rem;
+}
+
+.talk-item {
+  padding: .65rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, .12);
+}
+
+.talk-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: .75rem;
+  flex-wrap: wrap;
+}
+
+.talk-title {
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.talk-meta {
+  color: #666;
+  font-size: .95em;
+  margin-top: .15rem;
+}
+
+.talk-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .4rem;
+  margin-top: .05rem;
+}
+
+.talk-link {
+  font-size: .9em;
+  padding: .12rem .5rem;
+  border: 1px solid rgba(0, 0, 0, .18);
+  border-radius: 999px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.talk-link:hover {
+  text-decoration: underline;
+}
+
+.talk-details {
+  margin-top: .35rem;
+}
+
+.talk-details summary {
+  cursor: pointer;
+  color: #444;
+  font-size: .95em;
+}
+
+.talk-desc {
+  margin: .35rem 0 0;
+  color: #555;
+}
+
+.talk-images {
+  margin-top: .4rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+}
+
+.talk-images img {
+  max-width: 220px;
+  height: auto;
+  border-radius: .5rem;
+}
+
+.talks-more {
+  margin-top: .6rem;
+}
