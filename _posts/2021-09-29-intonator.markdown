@@ -5,7 +5,7 @@ date:   2021-09-29 00:00:00 +0700
 tags: project python machine-learning
 comments: true
 featured: false
-project: true
+project: false
 ---
 
 [Intonator][link] intonate tone of text with the help of machine learning model trained using Support vector machines classification and Natural language processing methods. Using Flask library to wrap the model into a web app.

@@ -4,7 +4,7 @@ title:  "Let's Build a Simple Raspberry-pi Surveillance System"
 date:   2022-10-03 00:00:00 +0700
 tags: project python iot
 comments: true
-project: true
+project: false
 ---
 
 Let's build a security monitoring system that will watch over your house, business, garage, or any other property while you're away. If someone enters your property without permission, it will sound an alarm, capture photos and videos of the intruders, and email them to you.

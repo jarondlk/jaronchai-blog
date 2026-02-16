@@ -4,7 +4,7 @@ title:  "DSB-SC System Design and MATLAB Implementation"
 date:   2021-10-17 00:00:00 +0700
 tags: project matlab communication
 comments: true
-project: true
+project: false
 emoji: 📶
 ---
 
