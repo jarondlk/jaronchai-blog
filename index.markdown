@@ -27,6 +27,8 @@ See [my "uses" page](/uses)
 
 {%- include featured.html -%}
 
+<p class="talks-more"><a href="{{ '/weblog' | relative_url }}">See all weblogs →</a></p>
+
 ## Recent talks
 
 {% assign talks_sorted = site.data.talks | sort: "date" | reverse %}
