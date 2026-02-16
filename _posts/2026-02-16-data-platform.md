@@ -1,14 +1,12 @@
 ---
 layout: post
-title:  "Local-First Marine Biology Data Platform Prototype: Batch + Streaming + Lakehouse + Monitoring"
+title:  "Data Platform Prototype: Batch + Streaming + Lakehouse + Monitoring for Marine Bioinformatics"
 date:   2026-02-16 07:00:00 +0700
 tags: data-engineering, lakehouse, iceberg, airflow, spark, minio, podman, streaming, kafka, redpanda, grafana, marine-biology
 comments: true
 project: true
 featured: true
 ---
-
-## TL;DR
 
 I built a **local-first** marine biology data platform prototype that mirrors a cloud-style architecture, but runs entirely on one machine using **Podman Compose**. It supports:
 
@@ -52,6 +50,8 @@ A dataset contract blocks downstream writes if checks fail (fail-fast).
 
 - Airflow is **not** used as a streaming runtime (no long-running streaming tasks in Airflow).
 - Object storage is not used as “one event = one file”; streaming uses **micro-batch landing** to avoid small-files hell.
+
+![alt text]({{ site.baseurl }}/assets/image/data-platform/data.png)
 
 ---
 
@@ -104,6 +104,8 @@ A dataset contract blocks downstream writes if checks fail (fail-fast).
 
 ### Object storage (MinIO)
 
+![alt text]({{ site.baseurl }}/assets/image/data-platform/s3.png)
+
 #### Bucket: `raw`
 
 - Batch raw landing (per Airflow run):
@@ -149,6 +151,8 @@ Airflow Postgres is internal-only unless explicitly exposed (optional mapping `5
 ---
 
 ## Batch MVP: Raw → Contract validation → Iceberg Bronze
+
+![alt text]({{ site.baseurl }}/assets/image/data-platform/airflow.png)
 
 ### Batch mode characteristics
 
@@ -208,6 +212,8 @@ Validates dataset-level rules:
 
 ## Streaming MVP: Kafka transport + micro-batch landing
 
+![alt text]({{ site.baseurl }}/assets/image/data-platform/stream.png)
+
 ### Streaming vs micro-batch (clarification)
 
 - **Transport is streaming:** producer emits events continuously → consumer reads continuously with offsets.
@@ -232,7 +238,7 @@ This avoids small-file explosion while remaining near-real-time.
   "qc_flag": "ok",
   "source": ""
 }
-````
+```
 
 ### Streaming outputs
 
@@ -251,6 +257,8 @@ Grafana reads from metrics-db, so dashboards update immediately when the consume
 
 ## Monitoring MVP: Grafana dashboards backed by metrics Postgres
 
+![alt text]({{ site.baseurl }}/assets/image/data-platform/dash.png)
+
 ### What Grafana is used for (domain monitoring)
 
 Not system metrics. It shows marine monitoring signals:
@@ -263,6 +271,8 @@ Not system metrics. It shows marine monitoring signals:
 ---
 
 # Full platform architecture (batch + streaming + stores)
+
+![alt text]({{ site.baseurl }}/assets/image/data-platform/architecture.png)
 
 ```mermaid
 flowchart TB
@@ -325,6 +335,8 @@ flowchart TB
 ---
 
 ## ER diagram (entities + relationships + storage placement)
+
+![alt text]({{ site.baseurl }}/assets/image/data-platform/er.png)
 
 ```mermaid
 erDiagram
