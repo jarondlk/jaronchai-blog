@@ -8,7 +8,10 @@ layout: default
 <section class="home-issue" aria-labelledby="home-title">
   <div class="home-issue__copy">
     <p class="home-kicker">Incoming PhD Student (October 2026)</p>
-    <h1 id="home-title">Jaronchai Dilokkalayakul</h1>
+    <h1 id="home-title">
+      Jaronchai
+      <span>Dilokkalayakul</span>
+    </h1>
     <p class="home-deck">
       Data engineer and bioinformatics researcher, focusing on heterogeneous data integration.
     </p>
@@ -86,17 +89,17 @@ layout: default
               {% if talk.event %}{{ talk.event }}{% endif %}
               {% if talk.location %}{% if talk.event %} · {% endif %}{{ talk.location }}{% endif %}
             </div>
-          </div>
 
-          {% if links.slides or links.video or links.paper or links.abstract or links.poster %}
-          <div class="talk-links">
-            {% if links.slides %}<a class="talk-link" href="{{ links.slides }}">Slides</a>{% endif %}
-            {% if links.video %}<a class="talk-link" href="{{ links.video }}">Video</a>{% endif %}
-            {% if links.paper %}<a class="talk-link" href="{{ links.paper }}">Paper</a>{% endif %}
-            {% if links.abstract %}<a class="talk-link" href="{{ links.abstract }}">Abstract</a>{% endif %}
-            {% if links.poster %}<a class="talk-link" href="{{ links.poster }}">Poster</a>{% endif %}
+            {% if links.slides or links.video or links.paper or links.abstract or links.poster %}
+            <div class="talk-links">
+              {% if links.slides %}<a class="talk-link" href="{{ links.slides }}">Slides</a>{% endif %}
+              {% if links.video %}<a class="talk-link" href="{{ links.video }}">Video</a>{% endif %}
+              {% if links.paper %}<a class="talk-link" href="{{ links.paper }}">Paper</a>{% endif %}
+              {% if links.abstract %}<a class="talk-link" href="{{ links.abstract }}">Abstract</a>{% endif %}
+              {% if links.poster %}<a class="talk-link" href="{{ links.poster }}">Poster</a>{% endif %}
+            </div>
+            {% endif %}
           </div>
-          {% endif %}
         </div>
       </div>
     </li>

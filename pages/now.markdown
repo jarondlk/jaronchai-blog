@@ -4,26 +4,43 @@ title: Now
 permalink: /now/
 ---
 
-This is a [now page](https://nownownow.com/about#how) and this is what I'm currently up to:
+<section class="now-hero" aria-label="Now summary">
+  <p class="section-kicker">Now</p>
+  <p class="now-deck">
+    Currently in Sendai, finishing my master's chapter at Tohoku University and
+    preparing for PhD work starting in October 2026.
+  </p>
+  <p class="now-updated">Updated 14 July 2026 · Sendai, Japan</p>
+</section>
 
-Updated Jauary 20th, 2025, from my lab in Sendai
+<section class="now-section" aria-labelledby="now-research">
+  <h2 id="now-research">Research</h2>
+  <p>
+    I am focusing on biological data integration, data infrastructure for
+    monitoring workflows, and practical AI systems that make scattered evidence
+    easier to use.
+  </p>
+</section>
 
-## Doing my masters degree
+<section class="now-section" aria-labelledby="now-building">
+  <h2 id="now-building">Building</h2>
+  <ul class="now-list">
+    <li>Research data pipelines and platform notes for marine bioinformatics.</li>
+    <li>Cleaner ways to explain talks, posters, and technical projects.</li>
+    <li>This site, slowly turning it into a sharper academic home base.</li>
+  </ul>
+</section>
 
-Currently doing my masters degree in the Graduate School of Information Science and researching after leaving my job at IBM.
+<section class="now-section" aria-labelledby="now-outside">
+  <h2 id="now-outside">Outside Work</h2>
+  <p>
+    Keeping notes on coffee, useful tools, stationery, and small systems that
+    make research life feel more orderly. Still happiest when there is a good
+    cafe nearby.
+  </p>
+</section>
 
-## Living in Japan
-
-It is drastically different than living back in Bangkok, the price are similar however, but the culture and the foods are very fascinating. I'm enjoying it a lot here so far.
-
-## Seaching for Good Cafes in Sendai
-
-I'm always up for a great cup of coffee, and unlike Bangkok, the abundance of cafe in the city is significantly less, which means that the process of finding a great cafe is even harder, however, this cafe is my favorite right now:
-
-- [Flat White Coffee Factory](https://maps.app.goo.gl/WEqdX36mpnLvt3yw6)
-
-I had a chance to chat with the owner a little bit, and he named his cafe this because he's actually from New Zealand and wanted to bring the coffee influence from there into the coffee culture in Sendai.
-
-## Got back to play Magic The Gathering in Japan
-
-I love playing [commanders](https://magic.wizards.com/en/formats/commander), and in Japan Magic cards are relatively cheaper than Thailand. 
+<p class="now-note">
+  This is a <a href="https://nownownow.com/about#how">now page</a>: a short,
+  current snapshot rather than a full biography.
+</p>

@@ -1,0 +1,189 @@
+---
+layout: post
+title:  "Site Overhaul 2026"
+date:   2026-07-14 07:00:00 +0900
+tags: site, design, portfolio
+comments: true
+featured: false
+---
+
+This site had a major visual and structural reset in July 2026.
+
+The main direction:
+
+- More academic.
+- More editorial.
+- Cleaner, easier to scan.
+- Still personal enough
+
+I wanted the site to sit somewhere between:
+
+- a portfolio
+- a notebook
+- a CV
+- a talk archive
+
+---
+
+## What changed
+
+- Rebuilt the homepage around a clearer editorial structure:
+  - identity
+  - current affiliations
+  - current focus
+  - recent talks
+  - selected work
+  - personal links
+
+- Added a stronger talks section:
+  - recent talks appear on the homepage
+  - the full talks page now works as a conference record
+  - talk links are sharp text links instead of rounded buttons
+  - images and video are attached directly to talk entries
+
+- Updated the main navigation:
+  - added Talks
+  - removed the old mobile hamburger style
+  - made the navigation align better with the editorial look
+
+- Reworked the About, Resume, Weblog, and Now pages:
+  - cleaner hierarchy
+  - fewer components
+  - more consistent spacing
+  - more intentional writing
+
+- Cleaned up project structure:
+  - added a `Makefile`
+  - added a `.ruby-version`
+  - refreshed the README
+  - fixed broken talk image formats
+  - improved build compatibility
+
+Added sitemap. 
+
+---
+
+## Design principles
+
+- **Academic first**
+  - It should foreground work, talks, writing, and context.
+
+- **Editorial, not corporate**
+  - Typography and spacing carry most of the personality.
+  - Lines, rules, and white space do more work than cards or panels.
+  - The design should feel like a journal page.
+
+---
+
+## Palette
+
+The color system is intentionally small. The main idea is: warm paper, dark text,
+baby blue structure, and two secondary colors kept mostly in reserve.
+
+<ul class="palette-list">
+  <li>
+    <span class="palette-swatch" style="--swatch: #fffefd"></span>
+    <div>
+      <strong>Warm paper</strong> <code>#fffefd</code>
+      <p>The background. Almost white, but a little softer than pure white.</p>
+    </div>
+  </li>
+  <li>
+    <span class="palette-swatch" style="--swatch: #23201b"></span>
+    <div>
+      <strong>Ink</strong> <code>#23201b</code>
+      <p>The main text color. Dark, warm, and less harsh than black.</p>
+    </div>
+  </li>
+  <li>
+    <span class="palette-swatch" style="--swatch: #5f6970"></span>
+    <div>
+      <strong>Muted text</strong> <code>#5f6970</code>
+      <p>Used for metadata, dates, secondary descriptions, and quiet context.</p>
+    </div>
+  </li>
+  <li>
+    <span class="palette-swatch" style="--swatch: #56B4E9"></span>
+    <div>
+      <strong>Baby blue accent</strong> <code>#56B4E9</code>
+      <p>The main identity color: section rules, active navigation, focus lines, and small structural accents.</p>
+    </div>
+  </li>
+  <li>
+    <span class="palette-swatch" style="--swatch: #dceff8"></span>
+    <div>
+      <strong>Blue rule</strong> <code>#dceff8</code>
+      <p>A softer version of the blue for dividers and low-emphasis structure.</p>
+    </div>
+  </li>
+  <li>
+    <span class="palette-swatch" style="--swatch: #247fae"></span>
+    <div>
+      <strong>Accessible blue ink</strong> <code>#247fae</code>
+      <p>A darker blue reserved for cases where baby blue needs better contrast as text.</p>
+    </div>
+  </li>
+  <li>
+    <span class="palette-swatch" style="--swatch: #F6AA00"></span>
+    <div>
+      <strong>Gold reserve</strong> <code>#F6AA00</code>
+      <p>A secondary accent, intentionally used sparingly so the site does not become too colorful.</p>
+    </div>
+  </li>
+  <li>
+    <span class="palette-swatch" style="--swatch: #00A785"></span>
+    <div>
+      <strong>Green reserve</strong> <code>#00A785</code>
+      <p>Another secondary accent, available for future diagrams, status notes, or special emphasis.</p>
+    </div>
+  </li>
+</ul>
+
+Usage notes:
+
+- `#56B4E9` should appear often enough to feel like the site identity.
+- It should not be used for long body text because the contrast is too light.
+- Thin blue rules are better than blue-filled blocks.
+- Gold and green are supporting colors, not primary colors.
+- The palette should leave the page mostly white.
+
+---
+
+## Typography
+
+<div class="type-specimen-list">
+  <article class="type-specimen type-specimen--serif">
+    <p class="type-specimen__sample">Jaronchai Dilokkalayakul</p>
+    <div>
+      <h3>Literata</h3>
+      <p>
+        Used for the main editorial title treatment. It gives the site an
+        academic, bookish texture without making the whole interface feel
+        old-fashioned.
+      </p>
+    </div>
+  </article>
+
+  <article class="type-specimen type-specimen--sans">
+    <p class="type-specimen__sample">Research data, talks, notes, and systems.</p>
+    <div>
+      <h3>IBM Plex Sans</h3>
+      <p>
+        Used for body text, navigation, headings, and most interface elements.
+        It keeps the site clear, technical, and readable across longer pages.
+      </p>
+    </div>
+  </article>
+
+  <article class="type-specimen type-specimen--mono">
+    <p class="type-specimen__sample">batch -> lakehouse -> monitoring -> evidence</p>
+    <div>
+      <h3>IBM Plex Mono</h3>
+      <p>
+        Used for code, palette values, filenames, and technical snippets. It
+        adds precision only where the content benefits from a more mechanical
+        voice.
+      </p>
+    </div>
+  </article>
+</div>
