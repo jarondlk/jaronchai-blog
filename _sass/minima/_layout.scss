@@ -15,7 +15,7 @@
   font-weight: 300;
   // Change line height to adjust top margin HERE
   line-height: $base-line-height * $base-font-size * 2.75;
-  letter-spacing: -1px;
+  letter-spacing: 0;
   margin-bottom: 0;
   float: left;
 
@@ -58,7 +58,7 @@
     right: $spacing-unit / 2;
     background-color: $background-color;
     border: 1px solid $grey-color-light;
-    border-radius: 5px;
+    border-radius: 0;
     text-align: right;
 
     label[for="nav-trigger"] {
@@ -227,7 +227,7 @@
 
 .post-title {
   @include relative-font-size(2.25);
-  letter-spacing: -1px;
+  letter-spacing: 0;
   line-height: 1;
 
   @include media-query($on-laptop) {
@@ -296,144 +296,1014 @@
 // }
 
 // ===========================================================================
-// CUSTOM STARTS HERE
+// EDITORIAL REVAMP
 // ===========================================================================
 
-.footer-center {
-  text-align: center;
+body {
+  font-family: $editorial-sans;
+  letter-spacing: 0;
 }
 
-.copyright {
-    color: lighten(#111, 40%);
-    margin-top: 10px;
-    font-size: 12px;
+::selection {
+  background: rgba($accent-blue, .24);
 }
 
-.footer-underline {
-  text-decoration: underline;
-  color: lighten(#111, 30%);
-  margin: 0px 5px;
-  font-size: 14px;
+h1,
+h2,
+h3,
+.site-title,
+.home-deck,
+.editorial-title,
+.talk-title {
+  font-family: $editorial-sans;
+  letter-spacing: 0;
+}
 
-  &:hover {
-    text-decoration: none;
+.home-issue h1,
+.post-title {
+  font-family: $editorial-serif;
+  letter-spacing: 0;
+}
+
+a {
+  text-underline-offset: .16em;
+}
+
+.skip-link {
+  position: absolute;
+  top: .75rem;
+  left: $spacing-unit / 2;
+  z-index: 20;
+  transform: translateY(-180%);
+  background: $background-color;
+  border: 1px solid $accent-blue;
+  color: $text-color;
+  font-size: .86rem;
+  font-weight: 600;
+  padding: .35rem .55rem;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+a:focus-visible,
+.site-title:focus-visible,
+.page-link:focus-visible,
+.footer-underline:focus-visible,
+.section-link:focus-visible,
+.talk-link:focus-visible {
+  outline: 2px solid $accent-blue;
+  outline-offset: .18rem;
+}
+
+.site-header {
+  min-height: 0;
+  border-top: 3px solid $accent-blue;
+  border-bottom: 1px solid $editorial-rule;
+  background: rgba(255, 254, 253, .97);
+}
+
+.site-header .wrapper {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: $spacing-unit;
+  padding-top: 1.35rem;
+  padding-bottom: 1.05rem;
+}
+
+.site-header .wrapper:after {
+  content: none;
+  display: none;
+}
+
+.site-title {
+  float: none;
+  margin: 0;
+  line-height: 1;
+  font-size: 1.08rem;
+  font-weight: 600;
+
+  &,
+  &:visited {
+    color: $text-color;
+  }
+}
+
+.site-nav {
+  float: none;
+  line-height: 1;
+}
+
+.site-nav .nav-trigger,
+.site-nav label[for="nav-trigger"],
+.site-nav .menu-icon {
+  display: none;
+}
+
+.site-nav .trigger {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.site-nav .page-link {
+  margin: 0;
+  color: $editorial-muted;
+  border-bottom: 1px solid transparent;
+  font-size: .78rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 1;
+  padding-bottom: .16rem;
+  text-transform: uppercase;
+
+  &:not(:last-child) {
+    margin-right: 0;
   }
 
+  &:hover {
+    border-bottom-color: $accent-blue;
+    color: $text-color;
+    text-decoration: none;
+  }
 }
 
-
-// ===========================================================================
-// IMAGE WIDHT ADJUSTMENT
-// ===========================================================================
-
-img[alt=guitar] { 
-  width: 300px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.site-nav .page-link[aria-current="page"] {
+  border-bottom-color: $accent-blue;
+  color: $text-color;
 }
 
-
-
-// ===========================================================================
-// TALKS PAGE
-// ===========================================================================
-
-.talk-entry {
-  margin-bottom: 3rem;
+.page-content {
+  padding: 3rem 0 4rem;
 }
 
-.talk-images {
+.post-header {
+  border-bottom: 1px solid $editorial-rule;
+  margin-bottom: 2rem;
+  padding-bottom: 1.25rem;
+}
+
+.post-title {
+  color: $text-color;
+  font-size: 2.45rem;
+  font-weight: 500;
+  line-height: 1.08;
+}
+
+.post-content {
+  color: $text-color;
+
+  h2 {
+    font-size: 1.55rem;
+    font-weight: 500;
+    line-height: 1.25;
+  }
+
+  h3 {
+    font-size: 1.06rem;
+    font-weight: 500;
+    line-height: 1.3;
+  }
+}
+
+.page-intro {
+  max-width: 680px;
+  color: $editorial-muted;
+  font-family: $editorial-serif;
+  font-size: 1.12rem;
+  line-height: 1.55;
+}
+
+.home-issue {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 290px;
+  gap: 3rem;
+  align-items: start;
+  border-bottom: 1px solid rgba($accent-blue, .22);
+  padding: .75rem 0 2.75rem;
+}
+
+.home-issue__copy {
+  border-left: 4px solid $accent-blue;
+  padding-left: 1.15rem;
+}
+
+.home-kicker,
+.section-kicker {
+  margin-bottom: .85rem;
+  color: #20252a;
+  font-size: .78rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.home-issue h1 {
+  margin-bottom: 1.1rem;
+  color: $text-color;
+  font-size: 3.18rem;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.home-deck {
+  max-width: 710px;
+  color: #38342c;
+  font-size: 1.22rem;
+  line-height: 1.5;
+}
+
+.home-context {
+  border-top: 1px solid rgba($accent-blue, .22);
+  max-width: 650px;
+  margin: 1.8rem 0 0;
+  padding-top: .9rem;
+  color: $editorial-muted;
+  font-size: .98rem;
+  line-height: 1.55;
+}
+
+.home-brief {
+  border-top: 3px solid $accent-blue;
+  margin-top: .25rem;
+  padding-top: 1rem;
+}
+
+.home-brief__label {
+  margin-bottom: .9rem;
+  color: #20252a;
+  font-size: .78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.home-brief dl {
+  margin: 0;
+}
+
+.home-brief div {
+  padding: .55rem 0;
+}
+
+.home-brief dt {
+  margin-bottom: .15rem;
+  color: $text-color;
+  font-size: .82rem;
+  font-weight: 600;
+}
+
+.home-brief dd {
+  margin: 0;
+  color: $editorial-muted;
+  font-size: .92rem;
+  line-height: 1.45;
+}
+
+.home-section {
+  padding: 3rem 0;
+}
+
+.home-section + .home-section {
+  border-top: 1px solid rgba($accent-blue, .18);
+}
+
+.home-section h2 {
+  max-width: 780px;
+  margin-top: 0;
+}
+
+.home-section--focus p {
+  max-width: 760px;
+}
+
+.focus-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.6rem;
+}
+
+.focus-grid > div {
+  border-top: 2px solid rgba($accent-blue, .65);
+  padding-top: .85rem;
+}
+
+.focus-grid h3 {
+  margin-top: 0;
+  font-size: 1.02rem;
+  font-weight: 500;
+}
+
+.focus-grid p,
+.home-note,
+.editorial-copy p,
+.talk-desc {
+  color: $editorial-muted;
+}
+
+.home-note {
+  border-left: 2px solid $accent-blue;
+  margin-top: 1.8rem;
+  padding-left: 1rem;
+  font-size: .95rem;
+}
+
+.section-heading {
+  margin-bottom: 1.25rem;
+}
+
+.section-heading--with-link {
   display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-top: 1rem;
-}
-.talk-images img {
-  border-radius: 8px;
-  max-height: 250px;
-  object-fit: cover;
+  align-items: end;
+  justify-content: space-between;
+  gap: 1.5rem;
 }
 
+.section-link {
+  border-bottom: 1px solid $accent-blue;
+  color: $brand-color;
+  font-size: .8rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  padding-bottom: .1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.section-link:hover {
+  color: $text-color;
+  text-decoration: none;
+}
+
+.editorial-list,
 .talk-list {
   list-style: none;
-  padding-left: 0;
-  margin-left: 0;
-  margin-top: .5rem;
+  margin: 0;
+  padding: 0;
 }
 
+.editorial-list {
+  border-top: 0;
+}
+
+.editorial-item {
+  display: grid;
+  grid-template-columns: 8.5rem minmax(0, 1fr);
+  gap: 1.5rem;
+  margin: 0;
+  padding: .58rem 0;
+}
+
+.editorial-date,
+.talk-date {
+  color: $editorial-muted;
+  font-size: .82rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.editorial-title {
+  color: $text-color;
+  font-size: 1.08rem;
+  font-weight: 400;
+  line-height: 1.3;
+  text-decoration: none;
+}
+
+.editorial-title:hover {
+  text-decoration: underline;
+  text-decoration-color: $accent-blue;
+}
+
+.editorial-copy p {
+  margin: .35rem 0 0;
+  line-height: 1.55;
+}
+
+.home-archive .section-heading {
+  border-left: 0;
+  padding-left: 0;
+}
+
+.home-archive .section-kicker {
+  color: $editorial-muted;
+}
+
+.home-archive h2 {
+  font-size: 1.24rem;
+  font-weight: 500;
+}
+
+.home-archive .editorial-item {
+  padding: .68rem 0;
+}
+
+.home-archive .editorial-date {
+  font-weight: 600;
+}
+
+.home-archive .editorial-title {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.home-index {
+  border-bottom: 0;
+  padding: 1.75rem 0 1rem;
+}
+
+.index-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .55rem 1.1rem;
+}
+
+.index-links a {
+  border-bottom: 1px solid transparent;
+  color: $text-color;
+  font-size: .92rem;
+  font-weight: 500;
+  padding-bottom: .1rem;
+  text-decoration: none;
+}
+
+.index-links a:hover {
+  border-bottom-color: $accent-blue;
+}
+
+.conference-record {
+  margin-top: 2.5rem;
+}
+
+.record-year {
+  border-top: 1px solid rgba($accent-blue, .62);
+  margin: 2.75rem 0 0;
+  padding-top: .65rem;
+  color: $text-color;
+  font-size: 1.18rem;
+  font-family: $editorial-sans;
+  font-weight: 500;
+}
+
+.talk-entry,
 .talk-item {
-  padding: .65rem 0;
-  border-bottom: 1px solid rgba(0, 0, 0, .12);
+  display: grid;
+  grid-template-columns: 8.5rem minmax(0, 1fr);
+  gap: 1.5rem;
+  margin: 0;
+  padding: 1.1rem 0;
+}
+
+.conference-record .talk-entry + .talk-entry {
+  border-top: 1px solid rgba($accent-blue, .18);
+}
+
+.talk-list--compact {
+  border-top: 0;
 }
 
 .talk-row {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  gap: .75rem;
+  gap: 1rem;
   flex-wrap: wrap;
 }
 
 .talk-title {
-  font-weight: 600;
-  line-height: 1.2;
+  margin: 0;
+  color: $text-color;
+  font-size: 1.06rem;
+  font-weight: 500;
+  line-height: 1.28;
 }
 
 .talk-meta {
-  color: #666;
-  font-size: .95em;
-  margin-top: .15rem;
+  margin: .25rem 0 0;
+  color: $editorial-muted;
+  font-size: .94rem;
 }
 
 .talk-links {
   display: flex;
   flex-wrap: wrap;
-  gap: .4rem;
-  margin-top: .05rem;
+  gap: .45rem .75rem;
+  margin-top: .1rem;
 }
 
 .talk-link {
-  font-size: .9em;
-  padding: .12rem .5rem;
-  border: 1px solid rgba(0, 0, 0, .18);
-  border-radius: 999px;
+  border: 0;
+  border-bottom: 1px solid $editorial-rule;
+  color: $brand-color;
+  font-size: .76rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 1.35;
+  padding: 0 0 .08rem;
   text-decoration: none;
+  text-transform: uppercase;
   white-space: nowrap;
 }
 
 .talk-link:hover {
-  text-decoration: underline;
-}
-
-.talk-details {
-  margin-top: .35rem;
-}
-
-.talk-details summary {
-  cursor: pointer;
-  color: #444;
-  font-size: .95em;
+  border-bottom-color: $accent-blue;
+  color: $text-color;
+  text-decoration: none;
 }
 
 .talk-desc {
-  margin: .35rem 0 0;
-  color: #555;
+  margin: .7rem 0 0;
 }
 
 .talk-images {
-  margin-top: .4rem;
   display: flex;
   flex-wrap: wrap;
-  gap: .5rem;
+  align-items: flex-start;
+  gap: .75rem;
+  margin-top: 1rem;
 }
 
 .talk-images img {
-  max-width: 220px;
+  width: 360px;
+  max-width: 100%;
+  max-height: 280px;
   height: auto;
-  border-radius: .5rem;
+  border-radius: 0;
+  display: block;
+  object-fit: contain;
 }
 
-.talks-more {
-  margin-top: .6rem;
+.weblog-record {
+  margin-top: 2.5rem;
+}
+
+.weblog-year {
+  border-top: 1px solid rgba($accent-blue, .5);
+  margin: 2.5rem 0 .65rem;
+  padding-top: .65rem;
+  color: $text-color;
+  font-size: 1.08rem;
+  font-weight: 500;
+}
+
+.weblog-entry {
+  display: grid;
+  grid-template-columns: 8.5rem minmax(0, 1fr);
+  gap: 1.5rem;
+  margin: 0;
+  padding: .85rem 0;
+}
+
+.weblog-entry + .weblog-entry {
+  border-top: 1px solid rgba($accent-blue, .12);
+}
+
+.weblog-date {
+  color: $editorial-muted;
+  font-size: .82rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.weblog-title {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+.weblog-title a {
+  color: #2f3538;
+  text-decoration: none;
+}
+
+.weblog-title a:hover {
+  text-decoration: underline;
+  text-decoration-color: $accent-blue;
+}
+
+.weblog-meta {
+  margin: .22rem 0 0;
+  color: $editorial-muted;
+  font-size: .88rem;
+  line-height: 1.4;
+}
+
+.post-content .weblog-year {
+  font-size: 1.08rem;
+  font-weight: 500;
+}
+
+.post-content .weblog-title {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.about-hero {
+  border-left: 4px solid $accent-blue;
+  max-width: 780px;
+  margin-bottom: 2.75rem;
+  padding-left: 1.15rem;
+}
+
+.about-deck {
+  color: #38342c;
+  font-family: $editorial-serif;
+  font-size: 1.12rem;
+  line-height: 1.62;
+}
+
+.about-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .6rem 1.1rem;
+  margin-top: 1.1rem;
+}
+
+.about-links a {
+  border-bottom: 1px solid $accent-blue;
+  color: $text-color;
+  font-size: .92rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.about-section {
+  border-top: 1px solid rgba($accent-blue, .28);
+  margin-top: 2.75rem;
+  padding-top: 1rem;
+}
+
+.about-section h2 {
+  margin: 0 0 1rem;
+  color: $text-color;
+  font-size: .84rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.about-section > p {
+  max-width: 780px;
+  color: $editorial-muted;
+  line-height: 1.65;
+}
+
+.about-facts {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.35rem;
+  margin: 0;
+}
+
+.about-facts dt {
+  margin-bottom: .2rem;
+  color: $editorial-muted;
+  font-size: .75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.about-facts dd {
+  margin: 0;
+  color: $text-color;
+  line-height: 1.45;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.about-grid article {
+  border-top: 1px solid rgba($accent-blue, .44);
+  padding-top: .85rem;
+}
+
+.about-grid h3,
+.about-faq h3 {
+  margin: 0;
+  color: $text-color;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.about-grid p,
+.about-faq p {
+  color: $editorial-muted;
+  margin: .45rem 0 0;
+  line-height: 1.58;
+}
+
+.about-timeline {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.about-timeline li {
+  display: grid;
+  grid-template-columns: 8.5rem minmax(0, 1fr);
+  gap: 1.5rem;
+  padding: .65rem 0;
+}
+
+.about-timeline time {
+  color: $editorial-muted;
+  font-size: .82rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.about-timeline span {
+  color: $text-color;
+}
+
+.about-faq {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.about-updated {
+  color: $editorial-muted;
+  margin-top: 2.75rem;
+  font-size: .86rem;
+}
+
+.resume-hero {
+  border-left: 4px solid $accent-blue;
+  max-width: 760px;
+  margin-bottom: 2.75rem;
+  padding-left: 1.15rem;
+}
+
+.resume-deck {
+  color: #38342c;
+  font-family: $editorial-serif;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.resume-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .6rem 1.1rem;
+  margin-top: 1.1rem;
+}
+
+.resume-links a {
+  border-bottom: 1px solid $accent-blue;
+  color: $text-color;
+  font-size: .92rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.resume-section {
+  border-top: 1px solid rgba($accent-blue, .28);
+  margin-top: 2.75rem;
+  padding-top: 1rem;
+}
+
+.resume-section h2 {
+  margin: 0 0 1rem;
+  color: $text-color;
+  font-size: .84rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.resume-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.resume-entry {
+  display: grid;
+  grid-template-columns: 10rem minmax(0, 1fr);
+  gap: 1.25rem;
+  margin: 0;
+  padding: 1rem 0;
+}
+
+.resume-date {
+  color: $editorial-muted;
+  font-size: .8rem;
+  font-weight: 600;
+  line-height: 1.35;
+  text-transform: uppercase;
+}
+
+.resume-entry h3 {
+  margin: 0;
+  color: $text-color;
+  font-size: 1.08rem;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.resume-affiliation,
+.resume-entry p {
+  color: $editorial-muted;
+  margin: .25rem 0 0;
+}
+
+.resume-entry ul {
+  margin: .65rem 0 0;
+  padding-left: 1.1rem;
+}
+
+.resume-entry li {
+  margin-bottom: .32rem;
+}
+
+.resume-entry li::marker {
+  color: $accent-blue;
+}
+
+.resume-list--compact .resume-entry {
+  padding: .8rem 0;
+}
+
+img[alt=guitar] {
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.site-footer {
+  border-top: 1px solid $editorial-rule;
+  padding: 1.6rem 0 2rem;
+}
+
+.footer-center {
+  text-align: center;
+}
+
+.copyright {
+  color: $editorial-muted;
+  margin-top: .75rem;
+  font-size: .78rem;
+}
+
+.footer-underline {
+  color: $editorial-muted;
+  font-size: .86rem;
+  margin: 0 .35rem;
+  text-decoration: underline;
+}
+
+.footer-underline:hover {
+  text-decoration: none;
+}
+
+.footer-separator {
+  color: $editorial-muted;
+  font-size: .86rem;
+  margin: 0 .35rem;
+}
+
+@include media-query($on-laptop) {
+  .home-issue {
+    grid-template-columns: 1fr;
+    gap: 1.75rem;
+  }
+
+  .focus-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@include media-query($on-palm) {
+  .page-content {
+    padding: 2rem 0 3rem;
+  }
+
+  .post-header {
+    margin-bottom: 1.5rem;
+    padding-bottom: .9rem;
+  }
+
+  .post-title {
+    font-size: 2.05rem;
+  }
+
+  .page-intro,
+  .about-deck,
+  .resume-deck {
+    font-size: 1.02rem;
+  }
+
+  .site-header .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: .75rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .site-nav {
+    position: static;
+    width: 100%;
+    border: 0;
+    background: transparent;
+    top: auto;
+    right: auto;
+    line-height: 1;
+    text-align: left;
+  }
+
+  .site-nav label[for="nav-trigger"],
+  .site-nav .menu-icon {
+    display: none;
+  }
+
+  .site-nav input ~ .trigger,
+  .site-nav input:checked ~ .trigger,
+  .site-nav .trigger {
+    clear: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: .65rem 1rem;
+    padding: 0;
+  }
+
+  .site-nav .page-link {
+    display: inline-block;
+    margin-left: 0;
+    padding: 0 0 .14rem;
+    font-size: .76rem;
+  }
+
+  .home-issue h1 {
+    font-size: 2.42rem;
+  }
+
+  .home-deck {
+    font-size: 1.08rem;
+  }
+
+  .home-section {
+    padding: 2.35rem 0;
+  }
+
+  .home-issue,
+  .home-issue__copy,
+  .about-hero,
+  .resume-hero {
+    padding-left: .9rem;
+  }
+
+  .focus-grid,
+  .about-facts,
+  .about-grid,
+  .about-faq,
+  .editorial-item,
+  .resume-entry,
+  .talk-entry,
+  .talk-item,
+  .weblog-entry,
+  .about-timeline li {
+    grid-template-columns: 1fr;
+    gap: .45rem;
+  }
+
+  .section-heading--with-link {
+    display: block;
+  }
+
+  .section-link {
+    display: inline-block;
+    margin-top: .25rem;
+  }
+
+  .talk-entry,
+  .talk-item,
+  .weblog-entry,
+  .editorial-item,
+  .resume-entry,
+  .about-timeline li {
+    padding: .8rem 0;
+  }
+
+  .talk-row {
+    display: block;
+  }
+
+  .talk-links {
+    margin-top: .45rem;
+  }
 }

@@ -51,7 +51,7 @@ permalink: /projects/
 .project-card {
   background: #f9f9f9;
   border: 1px solid #ddd;
-  border-radius: 12px;
+  border-radius: 0;
   padding: 1.5rem;
   text-decoration: none;
   color: inherit;

@@ -23,6 +23,7 @@ body {
        -o-font-feature-settings: "kern" 1;
           font-feature-settings: "kern" 1;
   font-kerning: normal;
+  text-rendering: optimizeLegibility;
   display: flex;
   min-height: 100vh;
   flex-direction: column;
@@ -118,8 +119,11 @@ hr {
  * Links
  */
 a {
-  color: $brand-color;
-  text-decoration: none;
+  color: $text-color;
+  text-decoration: underline;
+  text-decoration-color: rgba($accent-blue, .62);
+  text-decoration-thickness: 1px;
+  text-underline-offset: .18em;
 
   // &:visited {
   //   color: darken($brand-color, 15%);
@@ -127,7 +131,7 @@ a {
 
   &:hover {
     color: $text-color;
-    text-decoration: underline;
+    text-decoration-color: $accent-blue-ink;
   }
 
   .social-media-list &:hover {
@@ -148,7 +152,7 @@ blockquote {
   border-left: 4px solid $grey-color-light;
   padding-left: $spacing-unit / 2;
   @include relative-font-size(1.125);
-  letter-spacing: -1px;
+  letter-spacing: 0;
   font-style: italic;
 
   > :last-child {
@@ -164,9 +168,10 @@ blockquote {
 pre,
 code {
   @include relative-font-size(0.9375);
-  border: 1px solid $grey-color-light;
-  border-radius: 3px;
-  background-color: #eef;
+  border: 1px solid $editorial-rule;
+  border-radius: 0;
+  background-color: $accent-blue-soft;
+  font-family: $editorial-mono;
 }
 
 code {

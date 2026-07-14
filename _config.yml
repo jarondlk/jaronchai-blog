@@ -21,7 +21,7 @@
 title: Jaronchai
 email: jaron.dilok@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I am a Data Engineer and a researcher at Tohoku University.
+  Data engineer and marine bioinformatics researcher building clearer systems for ecological data.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jaronchai.com" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
@@ -33,7 +33,7 @@ header_pages:
   - pages/about.markdown
   - pages/weblog.markdown
   # - pages/projects.markdown
-  # - pages/talks.markdown
+  - pages/talks.markdown
   - pages/resume.markdown
   # - pages/contact.markdown
 

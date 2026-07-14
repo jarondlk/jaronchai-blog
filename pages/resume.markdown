@@ -4,83 +4,174 @@ title: Resume
 permalink: /resume/
 ---
 
-**Jaronchai Dilokkalayakul**\
-[jaron.dilok@gmail.com][mail]\
-[Jaronchai's LinkedIn][linkedin]
+<section class="resume-hero" aria-label="Resume summary">
+  <p class="section-kicker">Curriculum vitae</p>
+  <p class="resume-deck">
+    Data engineer and marine bioinformatics researcher focused on data platforms,
+    semantic search, local LLM systems, and scientific workflow infrastructure.
+  </p>
+  <nav class="resume-links" aria-label="Resume links">
+    <a href="mailto:jaron.dilok@gmail.com">jaron.dilok@gmail.com</a>
+    <a href="https://www.linkedin.com/in/jaronchai/">LinkedIn</a>
+  </nav>
+</section>
 
-[mail]: mailto:jaron.dilok@gmail.com
-[linkedin]: https://www.linkedin.com/in/jaronchai/
+<section class="resume-section" aria-labelledby="resume-experience">
+  <h2 id="resume-experience">Experience</h2>
 
-## Experience
+  <ol class="resume-list">
+    <li class="resume-entry">
+      <time class="resume-date">Nov 2024 - Present</time>
+      <div>
+        <h3>Data Engineer</h3>
+        <p class="resume-affiliation">
+          <a href="https://www.is.tohoku.ac.jp/en/">Information Biology Lab, Tohoku University</a>
+          &middot; Sendai, Japan
+        </p>
+        <ul>
+          <li>Engineered ETL pipelines for semantic vector embedding generation and indexing.</li>
+          <li>Designed and implemented on-prem LLM inference APIs for local network infrastructure.</li>
+          <li>Architected reliable server operations, backup strategies, and automated workflows.</li>
+          <li>Designed and deployed scalable vector databases on local servers for semantic search.</li>
+        </ul>
+      </div>
+    </li>
 
-**Data Engineer**, *[Information Biology Lab, Tohoku University](https://www.is.tohoku.ac.jp/en/)*\
-November 2024 – Present | Sendai, Japan
+    <li class="resume-entry">
+      <time class="resume-date">Apr 2024 - Oct 2024</time>
+      <div>
+        <h3>Data and AI Engineer</h3>
+        <p class="resume-affiliation"><a href="https://www.ibm.com/">IBM</a> &middot; Bangkok, Thailand</p>
+        <ul>
+          <li>Designed and implemented vector database architecture for a contact center optimization project.</li>
+          <li>Developed an API for vector search, reducing manual search time by 65%.</li>
+          <li>Built a modular data pipeline to extract, transform, and manage vector embedding data.</li>
+          <li>Optimized semantic search and fine-tuned large language models to improve API performance.</li>
+        </ul>
+      </div>
+    </li>
 
-- Engineered ETL pipelines for Semantic vector embedding generation and indexing.
-- Designed and implemented on-prem LLM inference APIs for local network infrastructure.
-- Architected reliable server operations and backup strategies and automated workflows and tasks.
-- Designed and deployed scalable vector databases on local servers to support local semantic search.
+    <li class="resume-entry">
+      <time class="resume-date">May 2023 - Nov 2023</time>
+      <div>
+        <h3>Data and AI Engineer Intern</h3>
+        <p class="resume-affiliation"><a href="https://www.ibm.com/">IBM</a> &middot; Bangkok, Thailand</p>
+        <ul>
+          <li>Developed a domain-specific customer service chatbot using LLMs for a leading bank in Thailand.</li>
+          <li>Executed enterprise-scale data migration with an awk-based framework and minimal downtime.</li>
+          <li>Fine-tuned LLM models and elevated extraction workflows into API-ready systems.</li>
+          <li>Participated in the IBM WatsonX Challenge 2023 on customer service automation with LLMs.</li>
+        </ul>
+      </div>
+    </li>
 
-**Data and AI Engineer**, *[IBM](https://www.ibm.com/)*\
-April 2024 – October 2024 | Bangkok, Thailand
+    <li class="resume-entry">
+      <time class="resume-date">Nov 2022 - Apr 2023</time>
+      <div>
+        <h3>AI Researcher</h3>
+        <p class="resume-affiliation">
+          <a href="http://tnic.tni.ac.th">Thai-Nichi International College</a> &middot; Bangkok, Thailand
+        </p>
+        <ul>
+          <li>Designed and developed a machine learning iOS application using Swift and SwiftUI.</li>
+          <li>Developed CNN architecture, improving application accuracy by more than 20%.</li>
+          <li>Integrated TensorFlow and Keras neural networks into a native iOS development environment.</li>
+        </ul>
+      </div>
+    </li>
 
-- Designed and implemented a vector database architecture for a contact center optimization project.
-- Developed an API to serve vector search engine, reducing manual search time by 65%.
-- Built a modular data pipeline to extract, transform, and manage vector embeddings database.
-- Optimized semantic search and fine-tuned Large Language Model to enhance API performance.
+    <li class="resume-entry">
+      <time class="resume-date">Mar 2022 - Apr 2023</time>
+      <div>
+        <h3>Computer Laboratory Assistant</h3>
+        <p class="resume-affiliation">
+          <a href="http://tnic.tni.ac.th">Thai-Nichi International College</a> &middot; Bangkok, Thailand
+        </p>
+        <ul>
+          <li>Designed and implemented hands-on laboratory stations for programming and IoT concepts.</li>
+          <li>Maintained laboratory equipment and software for reliable classroom operation.</li>
+          <li>Demonstrated IoT systems and helped observers gain practical exposure to the technology.</li>
+        </ul>
+      </div>
+    </li>
 
-**Data and AI Engineer Intern**, *[IBM](https://www.ibm.com/)*\
-May 2023 – November 2023 | Bangkok, Thailand
+    <li class="resume-entry">
+      <time class="resume-date">Nov 2021 - Mar 2022</time>
+      <div>
+        <h3>Teaching Assistant</h3>
+        <p class="resume-affiliation">
+          <a href="http://tnic.tni.ac.th">Thai-Nichi International College</a> &middot; Bangkok, Thailand
+        </p>
+        <ul>
+          <li>Assisted in the delivery of Engineering Mechanical Design course content.</li>
+          <li>Developed and administered assignments to reinforce student progress.</li>
+          <li>Managed operations for the laboratory's 3D printer.</li>
+        </ul>
+      </div>
+    </li>
+  </ol>
+</section>
 
-- Developed a domain-specific customer service chatbot using LLM for a leading bank in Thailand.
-- Executed an enterprise-scale data migration, with an awk-based framework, with minimal downtime. 
-- Fine-tuned LLM models, elevating it to an API for seamless extraction for decision-making processes.
-- Participated in the IBM WatsonX Challenge 2023, revolutionized customer service with LLM.
+<section class="resume-section" aria-labelledby="resume-education">
+  <h2 id="resume-education">Education</h2>
 
-**AI Researcher**, *[Thai-Nichi International College](http://tnic.tni.ac.th)*\
-November 2022 – April 2023 | Bangkok, Thailand
+  <ol class="resume-list">
+    <li class="resume-entry">
+      <time class="resume-date">Oct 2024 - Present</time>
+      <div>
+        <h3>Graduate School of Information Science</h3>
+        <p class="resume-affiliation"><a href="https://www.is.tohoku.ac.jp/en/">Tohoku University</a></p>
+        <ul>
+          <li>MEXT Scholarship grantee, fully funded by the Japanese government.</li>
+        </ul>
+      </div>
+    </li>
 
-- Designed and Developed a machine learning iOS application using Swift and SwiftUI within the [Data Science and AI Laboratory](https://research.tni.ac.th/).
-- Developed CNN architecture, resulting in a more than 20% increase in application accuracy.
-- Integrate Tensorflow and Keras neural network into native iOS development environment.
+    <li class="resume-entry">
+      <time class="resume-date">Jul 2020 - Mar 2024</time>
+      <div>
+        <h3>Digital Engineering, B.Eng.</h3>
+        <p class="resume-affiliation">
+          <a href="http://tnic.tni.ac.th">Thai-Nichi International College</a>
+          &middot; GPA 3.95/4.0
+        </p>
+        <ul>
+          <li>First-Class Honor and Dean's List Medal.</li>
+          <li>Medal of Academic Excellence for the highest GPA in the program.</li>
+          <li>First-ranked student and full scholarship holder covering 100% of tuition fees.</li>
+          <li>International Student Council and Department Representative.</li>
+        </ul>
+      </div>
+    </li>
+  </ol>
+</section>
 
-**Computer Laboratory Assistant**, *[Thai-Nichi International College](http://tnic.tni.ac.th)*\
-March 2022 – April 2023 | Bangkok, Thailand
+<section class="resume-section" aria-labelledby="resume-awards">
+  <h2 id="resume-awards">Awards</h2>
 
-- Designed and implemented hands-on laboratory stations for programming and IoT concepts.
-- Ensured the proper functioning of laboratory by regularly maintaining equipment and software.
-- Demonstrated IoT expertise, provide observers with practical exposure the technologies.
+  <ol class="resume-list resume-list--compact">
+    <li class="resume-entry">
+      <time class="resume-date">2024</time>
+      <div>
+        <h3>MEXT Scholarship</h3>
+        <p>Full scholarship from the Japanese government for graduate study at Tohoku University.</p>
+      </div>
+    </li>
 
-**Teaching Assistant**, *[Thai-Nichi International College](http://tnic.tni.ac.th)*\
-November 2021 – March 2022 | Bangkok, Thailand
+    <li class="resume-entry">
+      <time class="resume-date">2024</time>
+      <div>
+        <h3>Medal of Academic Excellence</h3>
+        <p>Recognized for outstanding academic performance and the highest GPA across the program.</p>
+      </div>
+    </li>
 
-- Assisted in the delivery of Engineering Mechanical Design course content.
-- Developed and administered assignments to reinforce student progress.
-- Managed the operations of the laboratory's 3D printer.
-
-## Education
-
-**Graduate School of Information Science**, *[Tohoku University](https://www.is.tohoku.ac.jp/en/)*\
-October 2024 – present
-
-- MEXT Scholarship (Monbukagakusho Scholarship) grantee, full scholarship from the Japanese government
-
-**Digital Engineering (B.Eng.)**, *[Thai-Nichi International College](http://tnic.tni.ac.th)*\
-July 2020 – March 2024 | GPA: 3.95/4.0 (First-Class Honor and Dean's List Medal)
-
-- **Medal of Academic Excellence** In recognition of outstanding academic performance, highest GPA in the program
-- First-ranked student in the program and full scholarship holder (covering 100% of tuition fees)
-- International Student Council (ISC) and Department Representative - active demonstration of leadership
-- An active participating member of the Sakura Science Club of the Japan Science and Technology Institute.
-
-## Awards
-
-**MEXT Scholarship (Monbukagakusho Scholarship)**\
-Full scholarship from the Japanese government for Masters Degree in Graduate School of Information Sciences, Tohoku University.
-
-**Medal of Academic Excellence**\
-In recognition of outstanding academic performance, highest GPA in the program for the whole 4 academic years.
-
-**Certificate of Academic Excellence in 2020 and 2021**\
-Issued by *Thai-Nichi International College*, Year 2020 and 2021\
-In recognition of outstanding academic performance, achieving the highest GPA in the program.
+    <li class="resume-entry">
+      <time class="resume-date">2020 - 2021</time>
+      <div>
+        <h3>Certificate of Academic Excellence</h3>
+        <p>Issued by Thai-Nichi International College for achieving the highest GPA in the program.</p>
+      </div>
+    </li>
+  </ol>
+</section>

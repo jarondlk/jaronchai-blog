@@ -4,110 +4,151 @@ title: About
 permalink: /about/
 ---
 
-## Timeline for context
+<section class="about-hero" aria-label="About summary">
+  <p class="section-kicker">Incoming PhD Student (October 2026)</p>
+  <p class="about-deck">
+    I am Jaronchai Dilokkalayakul, a data engineer and bioinformatics researcher, focusing on heterogeneous data integration.
+  </p>
+  <nav class="about-links" aria-label="Profile links">
+    <a href="mailto:jaron.dilok@gmail.com">Email</a>
+    <a href="{{ '/resume' | relative_url }}">Resume</a>
+    <a href="{{ '/talks' | relative_url }}">Talks</a>
+    <a href="{{ '/weblog' | relative_url }}">Writing</a>
+  </nav>
+</section>
 
-- 2001: born in Khonkaen, Thailand
-- 2012: started playing cello
-- 2013: started playing guitar
-- 2016: moved to Indiana, USA
-- 2017: moved back to Khonkaen
-- 2020: moved to Bangkok
-- 2021: started my bachelor degree + start doing teaching assistant
-- 2022: started to do research part-time
-- 2023: started interning at IBM as a Data Engineer
-- 2024: graduated with a bachelor degree with 1st class honor and medal
-- 2024 Q1: started working in IBM full-time as a Data Engineer
-- 2024 Q2: granted MEXT full ride scholarship for masters degree
-- 2024 Q4: left IBM and moved to Sendai, Japan for my masters at Tohoku University
-- Now: Masters degree, Researching, working as an IT engineer in my lab
+<section class="about-section" aria-labelledby="about-coordinates">
+  <h2 id="about-coordinates">Coordinates</h2>
+  <dl class="about-facts">
+    <div>
+      <dt>Affiliation</dt>
+      <dd>Tohoku University, Graduate School of Information Science</dd>
+    </div>
+    <div>
+      <dt>Base</dt>
+      <dd>Sendai, Japan</dd>
+    </div>
+    <div>
+      <dt>Origin</dt>
+      <dd>Bangkok, Thailand</dd>
+    </div>
+    <div>
+      <dt>Previous</dt>
+      <dd>Data and AI engineer at IBM</dd>
+    </div>
+  </dl>
+</section>
 
-&nbsp;
+<section class="about-section" aria-labelledby="about-work">
+  <h2 id="about-work">What I Work On</h2>
+  <div class="about-grid">
+    <article>
+      <h3>Bioinformatics</h3>
+      <p>
+        Biological data integraton, and AI-assisted
+        approaches for biological classification and interpretation.
+      </p>
+    </article>
+    <article>
+      <h3>Research Data Systems</h3>
+      <p>
+        Interoperatable data infrastructure: pipelines,
+        storage, semantic search, observability, and interfaces.
+      </p>
+    </article>
+    <article>
+      <h3>Practical AI</h3>
+      <p>
+        Full data pipeline deployment: retrieval, evaluation, local inference, and maintainable APIs.
+      </p>
+    </article>
+  </div>
+</section>
 
----
+<section class="about-section" aria-labelledby="about-style">
+  <h2 id="about-style">How I Work</h2>
+  <p>
+    I care about clean systems. My background moves between research,
+    data engineering, backend systems, and data infrastructure.
+  </p>
+</section>
 
-## About me, <span style="background-color:#fbffa1">Professionally</span>
+<section class="about-section" aria-labelledby="about-personal">
+  <h2 id="about-personal">Outside The Lab</h2>
+  <div class="about-grid">
+    <article>
+      <h3>Notes And Systems</h3>
+      <p>
+        Building personal knowledge systems, directories, dashboards.
+      </p>
+    </article>
+    <article>
+      <h3>Coffee</h3>
+      <p>
+        I like light roasts, and I like to keep notes on
+        what tasted interesting enough to revisit.
+      </p>
+    </article>
+    <article>
+      <h3>Music</h3>
+      <p>
+        I have played guitar and cello for years.
+      </p>
+    </article>
+  </div>
+</section>
 
-### What I Do (a non-exhaustive brain dump):
+<section class="about-section" aria-labelledby="about-timeline">
+  <h2 id="about-timeline">Short Timeline</h2>
+  <ol class="about-timeline">
+    <li>
+      <time>2024 - Now</time>
+      <span>MEXT scholar and master's student at Tohoku University in Sendai.</span>
+    </li>
+    <li>
+      <time>2024</time>
+      <span>Worked full-time as a Data and AI Engineer at IBM in Bangkok.</span>
+    </li>
+    <li>
+      <time>2023</time>
+      <span>Interned at IBM and moved deeper into data engineering and applied AI.</span>
+    </li>
+    <li>
+      <time>2020 - 2024</time>
+      <span>Completed a B.Eng. in Digital Engineering with first-class honors.</span>
+    </li>
+    <li>
+      <time>Earlier</time>
+      <span>Moved between Khon Kaen, Indiana, Bangkok, and eventually Sendai.</span>
+    </li>
+  </ol>
+</section>
 
-- **Large Language Model + RAG** and Vector Database with semantic searches. Built and train foundation models and implement within chatbots and search engine projects.
-- **Aritificial Intelligence**, back to back, from models to application, in the brach of natural language processing, computer vision, and statistical applications.
-- **Machine Learning** - full pipeline, data to feature engineering, modeling, evaluating and model implementation. Both classical and advanced models.
-- **Data Engieering** I break apart monolithic datasets and put them back together as scalable, queryable, beautiful things. Set up automated jobs with Airflow and Google Cloud implementations.
-- **IT System Engineering** - I’ve built and maintained backup systems, RAID arrays, scalable NAS setups, and quiet cron jobs that keep labs running while everyone sleeps. When I say I "watch the servers," I mean I *actually* watch the servers.
+<section class="about-section" aria-labelledby="about-faq">
+  <h2 id="about-faq">FAQ</h2>
+  <div class="about-faq">
+    <article>
+      <h3>Can we collaborate?</h3>
+      <p>
+        Yes!! Send a short note about the project, the data, and what kind of
+        outcome you are aiming for.
+      </p>
+    </article>
+    <article>
+      <h3>Do you do frontend work?</h3>
+      <p>
+        Not exactly, I can work across the stack, but my focus is data and AI infrastructure, backend, and tooling.
+      </p>
+    </article>
+    <article>
+      <h3>Coffee?</h3>
+      <p>
+        Very likely yes, especially if there is a good light roast nearby.
+      </p>
+    </article>
+  </div>
+</section>
 
-### I am researching about Microorganisms genomics using AI applications
-
-Particularly using large language models (LLMs) for various applications such as integrated in one of my porject for species classification. My research integrates bioinformatics, machine learning, and data science.
-
-One of the topic being planktons monitoring with an AI-powered analysis pipeline, to identify taxonomy and analyze plankton trends and their influence on the marine ecosystem along with LLMs technologies (and looks kinda cool doing it).
-
-#### Common Misconceptions about my field of work
-
-- Yes, I am in tech.
-- Yes, I do programming.
-- No, I don’t build websites for a living or do frontnd (this one is duct-taped together, HTML-wise)
-- However, I am mainly in the field of Data Science and Data Engineering. Even though I am doing data, I still able to do backend, which includes making API callables and building backend data pipeline.
-
----
-
-## About me, <span style="background-color:#fbffa1">Personally</span>
-
-I am a huge nerd, I'm obsessive about the right things, and chasing systems that make life just a bit more elegant.
-
-### I am a Productivity Nerd
-
-I like to have my life figured out, of sort, in a way or another. I like to have a Life dashboard, a Research dashboard, a Studies dashboard, a Finance dashboard, a Goals dashboard, a Planning dashboard, an Archive dashboard, and a Dashboard of my all dashboards.
-Osidian is supposed to be my second brain (and to be honest withthe current state of things, probably my first haha. I believe a well-structured folder helps with anxiety, and that chaos, when tagged properly, is just potential energy.
-
-> I like to have my notes [unsorted](https://en.wikipedia.org/wiki/Zettelkasten), my files [sorted](https://fortelabs.com/blog/para/), and my system [simple](https://en.wikipedia.org/wiki/Getting_Things_Done)!
-
-### I am a Coffee Nerd
-
-I love brewing a nice cup or two or twelves everyday, it's called self-care, before I go to bed, I am looking forward to brew my next cup haha. I really enjoy lighter roast, more complex coffees with interesting characters. I actively looking for new interesting cafes and roasters to try, Café-hopping is my favorite form of urban exploration.
-I also just got a new Aeropress recently, and have been trying to perfect my cold pressed methods with it, so far so good! I also have coffee tasting dashboard to keep track of ALL of my brews, so I can track what I like and what I don't.
-
-### I am a Music Nerd
-
-I’ve been playing guitar (and cello) for over a decade. Fingerstyle covers? Yes. Originals? Sometimes. Rage-quitting mid-transcription? Frequently. If we jam together and you suggest a 4/4, I’ll still play—but I’ll sneak in a 7/8 bar somewhere, you know, as a treat. This keeps me sane and curious.
-
-### More about me
-
-- I am an optimist
-- I am a minimalist. Functional Minimalist. Every byte must justify its place.
-- I single-tasker, One brain, one lane.
-- I am a Spontaneous Person - Even though I like to have plans on my fancy dashboard, I also like to be randomly called on a Saturday morning to go on a road trip to another city.
-- I use light-mode exclusively, OS, editors, note takings, Dark modes? No thanks (astigmatism says hi)
-
-### Quick Facts
-
-- Favorite editor: VSCode (light mode, obviously!!)
-- Coffee style: Mugen + Switch, light roast only
-- Weekend plans: café hopping + spontaneous train trips
-
-If you've read this far, congratulations. You're either extremely curious or just vibing. Either way: hello.
-
----
-
-## My Philosophy {#philosophy}
-
-If you're doing it alone, you're doing it wrong. 
-
----
-
-## FAQs
-
-### How are you doing today?
-
-Pretty amazing actually — thanks so much for asking! I hope you’re having an amazing day as well!
-
-### Can we collaborate on a project?
-
-Please [send over your details](mailto:jaron.dilok@gmail.com), and we can discuss the next step!
-
-### Do you want to go grab some coffee?
-
-Absolutely! Just [shoot me a message!](/contact)
-
----
-
-Site Last Update: {{ site.time | date: "%-d %B %Y" }}
+<p class="about-updated">
+  Site last updated {{ site.time | date: "%-d %B %Y" }}.
+</p>

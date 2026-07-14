@@ -1,64 +1,13 @@
-<!-- <footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-custom">
-        <p class="feed-subscribe">
-          <a href="{{ 'feed.xml' | relative_url }}">
-            <svg class="svg-icon orange">
-              <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
-            </svg><span>Subscribe</span>
-          </a>
-        </p>
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-            {{ site.author | escape }}
-            {%- else -%}
-            {{ site.title | escape }}
-            {%- endif -%}
-          </li>
-          {%- if site.email -%}
-          <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-          {%- endif -%}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-custom">
-        {%- include social.html -%}
-      </div>
-
-
-      <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
-      </div>
-    </div>
-
-  </div>
-
-</footer> -->
-<!-- <a href="https://github.com/jarondlk" rel="me" class="footer-underline">GitHub</a> -->
-
 <footer class="site-footer h-card">
-  <nav class="wrapper footer-center">
+  <nav class="wrapper footer-center" aria-label="Footer links">
     <div class="contact-list">
       <a href="mailto:{{ site.email }}" class="footer-underline">Email</a>
       <a href="https://www.linkedin.com/in/jaronchai/" rel="me" class="footer-underline">LinkedIn</a>
-      <span class="footer-underline" style="text-decoration: none ;">•</span>
-      <a href="/now" class="footer-underline">Now</a>
-
+      <span class="footer-separator" aria-hidden="true">•</span>
+      <a href="{{ '/now/' | relative_url }}" class="footer-underline">Now</a>
     </div>
   </nav>
   <div class="wrapper footer-center copyright">
-    © 2020 - <span id="current-year"></span> Jaronchai Dilokkalayakul
+    © 2020 - 2026 Jaronchai Dilokkalayakul
   </div>
 </footer>
-
-<script>
-  // Update the year dynamically
-  document.getElementById("current-year").textContent = new Date().getFullYear();
-</script>

@@ -4,33 +4,60 @@ title: Talks
 permalink: /talks/
 ---
 
-{% for talk in site.data.talks %}
-<div class="talk-entry">
-  <h3>{{ talk.title }}</h3>
-  <p><strong>Event:</strong> {{ talk.event }}</p>
-  <p><strong>Date:</strong> {{ talk.date }}</p>
-  <p><strong>Location:</strong> {{ talk.location }}</p>
-  <p>{{ talk.description }}</p>
+{% assign talks_sorted = site.data.talks | sort: "date" | reverse %}
+{% assign current_year = "" %}
 
+<p class="page-intro">
+  A record of past talks research presentations.
+</p>
+
+<div class="conference-record">
+{% for talk in talks_sorted %}
+  {% assign talk_year = talk.date | slice: 0, 4 %}
+  {% if talk_year != current_year %}
+    {% assign current_year = talk_year %}
+    <h2 class="record-year">{{ talk_year }}</h2>
+  {% endif %}
   {% assign links = talk.links %}
-  {% if links.slides or links.video or links.paper or links.abstract or links.poster %}
-    <p>
-      {% if links.slides %}<a href="{{ links.slides }}">Slides</a>{% endif %}
-      {% if links.video %}{% if links.slides %} | {% endif %}<a href="{{ links.video }}">Video</a>{% endif %}
-      {% if links.paper %}{% if links.video or links.slides %} | {% endif %}<a href="{{ links.paper }}">Paper</a>{% endif %}
-      {% if links.abstract %}{% if links.paper or links.video or links.slides %} | {% endif %}<a href="{{ links.abstract }}">Abstract</a>{% endif %}
-      {% if links.poster %}{% if links.abstract or links.paper or links.video or links.slides %} | {% endif %}<a href="{{ links.poster }}">Poster</a>{% endif %}
-    </p>
-  {% endif %}
 
-  {% if talk.images %}
-  <div class="talk-images">
-    {% for img in talk.images %}
-      <img src="{{ site.baseurl }}/{{ img }}" alt="Image from {{ talk.title }}" style="max-width: 600px; margin: 5px;">
-    {% endfor %}
-  </div>
-  {% endif %}
+  <article class="talk-entry">
+    <time class="talk-date" datetime="{{ talk.date }}">{{ talk.date | date: "%b %-d" }}</time>
+    <div class="talk-body">
+      <div class="talk-row">
+        <div class="talk-left">
+          <h3 class="talk-title">{{ talk.title }}</h3>
+          <p class="talk-meta">
+            {% if talk.event %}{{ talk.event }}{% endif %}
+            {% if talk.location %}{% if talk.event %} · {% endif %}{{ talk.location }}{% endif %}
+          </p>
+        </div>
 
-  <hr>
-</div>
+        {% if links.slides or links.video or links.paper or links.abstract or links.poster %}
+        <div class="talk-links">
+          {% if links.slides %}<a class="talk-link" href="{{ links.slides }}">Slides</a>{% endif %}
+          {% if links.video %}<a class="talk-link" href="{{ links.video }}">Video</a>{% endif %}
+          {% if links.paper %}<a class="talk-link" href="{{ links.paper }}">Paper</a>{% endif %}
+          {% if links.abstract %}<a class="talk-link" href="{{ links.abstract }}">Abstract</a>{% endif %}
+          {% if links.poster %}<a class="talk-link" href="{{ links.poster }}">Poster</a>{% endif %}
+        </div>
+        {% endif %}
+      </div>
+
+      {% if talk.description %}
+      <p class="talk-desc">{{ talk.description }}</p>
+      {% endif %}
+
+      {% if talk.images %}
+      <div class="talk-images">
+        {% for img in talk.images %}
+          <img
+            src="{{ img | relative_url }}"
+            alt="Image from {{ talk.title }}"
+            loading="lazy">
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </article>
 {% endfor %}
+</div>

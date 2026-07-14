@@ -1,5 +1,24 @@
 # TALKS
 
+- title: "Oral and poster presentation titles TBD"
+  event: "The 20th International Biotechnology Symposium and Exhibition"
+  date: "2026-06-29"
+  location: "Kobe, Japan"
+  description: >
+    Placeholder entry for oral and poster presentations at The 20th International
+    Biotechnology Symposium and Exhibition. Presentation titles, links, and images
+    will be added later.
+  links: {}
+
+- title: "Presentation title TBD"
+  event: "The 12th EAFES International Congress"
+  date: "2026-06-04"
+  location: "TBD"
+  description: >
+    Placeholder entry for an upcoming talk at The 12th EAFES International Congress.
+    Details, title, links, and images will be added later.
+  links: {}
+
 - title: "Data Integration and Platform Unification Challenges in Marine Bioinformatics"
   event: "COSMEC and ANEMONE Global Joint Symposium 2026"
   date: "2026-02-06"
@@ -23,9 +42,9 @@
     EAFES2025 Website: https://eafes2025.com/index.html
   links:
     abstract: "https://jaronchai.com/assets/talks/2025-07-20/eafes_abs.pdf"
-    poster: "https://jaronchai.com/assets/talks/2025-07-20/EAFES2025.PDF"
+    poster: "https://jaronchai.com/assets/talks/2025-07-20/EAFES2025.pdf"
   images:
-    - assets/talks/2025-07-20/eafes.png
+    - assets/talks/2025-07-20/eafes.jpg
 
 - title: "IMBC2025 Oral Presentation Awards - Automated Taxonomic Identification of Marine Plankton"
   event: "International Marine Biotechnology Congress 2025"
@@ -34,14 +53,14 @@
   description: >
     Oral presentation of my work on "Automated Taxonomic Identification of Marine Plankton Using
     a Large-Language-Model and Retrieval-Augmented-Generation Framework." With my presentation,
-    I recieived IMBC organization awards for other outstanding oral presentations.  
+    I received IMBC organization awards for other outstanding oral presentations.
     IMBC2025 Website: https://www-iuem.univ-brest.fr/imbc-2025/?lang=e
   links:
     slides: "https://jaronchai.com/assets/documents/Jaronchai_IMBC2025_small.pdf"
     abstract: "https://jaronchai.com/assets/talks/2025-07-08/imbc_abs.pdf"
   images:
-    - assets/talks/2025-07-08/imbc1.png
-    - assets/talks/2025-07-08/imbc2.png
+    - assets/talks/2025-07-08/imbc1.jpg
+    - assets/talks/2025-07-08/imbc2.jpg
     - assets/talks/2025-07-08/imbc3.png
 
 - title: "Semantic Plankton: Multimodal LLMs and RAG for Automated Ocean Microorganism Analysis"
@@ -56,7 +75,7 @@
     abstract: "https://jaronchai.com/assets/talks/2025-06-03/ESS-Ⅺ-2025_abst_Jaronchai.pdf"
     poster: "https://jaronchai.com/assets/talks/2025-06-03/semantic.pdf"
   images:
-    - assets/talks/2025-06-03/semantic.png
+    - assets/talks/2025-06-03/semantic.jpg
 
 - title: "WPI-AIMEC workshop at Hawaii University"
   event: "Advance Institute for Marine Ecosystem and Climate (AIMEC) Workshop"
