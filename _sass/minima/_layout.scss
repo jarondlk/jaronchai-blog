@@ -994,6 +994,25 @@ a.output-title:hover {
   margin-top: 2.5rem;
 }
 
+.writings-section {
+  margin-top: 2.6rem;
+}
+
+.writings-section + .writings-section {
+  border-top: 1px solid rgba($accent-blue, .18);
+  padding-top: 2.6rem;
+}
+
+.writings-section h2 {
+  margin-top: 0;
+  font-size: 1.18rem;
+  font-weight: 500;
+}
+
+.writings-section .output-list {
+  margin-top: 1.25rem;
+}
+
 .weblog-year {
   border-top: 1px solid rgba($accent-blue, .5);
   margin: 2.5rem 0 .65rem;

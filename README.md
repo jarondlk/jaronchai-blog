@@ -1,6 +1,6 @@
 # Jaronchai Blog
 
-Personal portfolio and weblog for Jaronchai Dilokkalayakul, built with Jekyll and the Minima theme.
+Personal portfolio and writing archive for Jaronchai Dilokkalayakul, built with Jekyll and the Minima theme.
 
 The site is intentionally content-driven: Markdown pages and posts provide the writing, Liquid templates assemble the homepage and archive views, and Sass partials provide the visual layer.
 
@@ -26,8 +26,8 @@ make serve PORT=4000
 
 - `_config.yml`: site metadata, navigation, plugins, and global settings.
 - `index.markdown`: homepage content and homepage-specific Liquid sections.
-- `pages/`: standalone pages such as About, Now, Uses, Talks, Resume, and Weblog.
-- `_posts/`: published weblog posts and project writeups.
+- `pages/`: standalone pages such as About, Now, Uses, Talks, Resume, and Writings.
+- `_posts/`: published writing posts and project writeups.
 - `archive/post_archive/`: archived posts kept out of the main post collection.
 - `_data/talks.yml`: structured talk metadata used by the homepage and talks page.
 - `_layouts/`: page, post, home, default, and tag layouts.

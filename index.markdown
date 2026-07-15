@@ -71,8 +71,8 @@ layout: default
 {% if research_outputs.size > 0 %}
 <section class="home-section home-outputs" aria-labelledby="research-outputs">
   <div class="section-heading">
-    <p class="section-kicker">Research outputs</p>
-    <h2 id="research-outputs">Thesis and publications</h2>
+    <p class="section-kicker">Research</p>
+    <h2 id="research-outputs">Publications</h2>
   </div>
 
   <ol class="output-list">
@@ -171,7 +171,7 @@ layout: default
       <p class="section-kicker">Selected works</p>
       <h2 id="selected-work">Projects and research notes</h2>
     </div>
-    <a class="section-link" href="{{ '/weblog' | relative_url }}">All writing</a>
+    <a class="section-link" href="{{ '/writings' | relative_url }}">All writing</a>
   </div>
 
   {% assign selected_urls = "" %}

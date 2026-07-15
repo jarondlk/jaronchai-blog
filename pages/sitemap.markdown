@@ -11,7 +11,7 @@ permalink: /sitemap/
     <span class="sitemap-arrow" aria-hidden="true">connects to</span>
     <a class="sitemap-node" href="{{ '/about/' | relative_url }}">About<span>identity</span></a>
     <a class="sitemap-node" href="{{ '/resume/' | relative_url }}">Resume<span>formal record</span></a>
-    <a class="sitemap-node" href="{{ '/weblog/' | relative_url }}">Weblog<span>writing</span></a>
+    <a class="sitemap-node" href="{{ '/writings/' | relative_url }}">Writings<span>outputs and notes</span></a>
     <a class="sitemap-node" href="{{ '/talks/' | relative_url }}">Talks<span>presentations</span></a>
     <a class="sitemap-node" href="{{ '/now/' | relative_url }}">Now<span>current state</span></a>
     <a class="sitemap-node" href="{{ '/uses/' | relative_url }}">Uses<span>tools</span></a>
@@ -38,8 +38,8 @@ permalink: /sitemap/
     <li>
       <span class="sitemap-date">Writing</span>
       <div class="sitemap-copy">
-        <a href="{{ '/weblog/' | relative_url }}">Weblog</a>
-        <p>Project notes, technical walkthroughs, and reflective updates.</p>
+        <a href="{{ '/writings/' | relative_url }}">Writings</a>
+        <p>Research outputs, project notes, technical walkthroughs, and reflective updates.</p>
       </div>
     </li>
     <li>
@@ -95,7 +95,7 @@ permalink: /sitemap/
 </section>
 
 <section class="sitemap-section" aria-labelledby="sitemap-posts">
-  <h2 id="sitemap-posts">Weblog Posts</h2>
+  <h2 id="sitemap-posts">Writing Archive</h2>
   {% assign current_year = "" %}
   <ol class="sitemap-list">
   {% for post in site.posts %}
@@ -146,7 +146,7 @@ permalink: /sitemap/
       <span class="sitemap-date">Feed</span>
       <div class="sitemap-copy">
         <a href="{{ '/feed.xml' | relative_url }}">RSS Feed</a>
-        <p>Generated feed for weblog updates.</p>
+        <p>Generated feed for writing updates.</p>
       </div>
     </li>
     <li>

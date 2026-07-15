@@ -13,7 +13,7 @@ permalink: /about/
     <a href="mailto:jaron.dilok@gmail.com">Email</a>
     <a href="{{ '/resume' | relative_url }}">Resume</a>
     <a href="{{ '/talks' | relative_url }}">Talks</a>
-    <a href="{{ '/weblog' | relative_url }}">Writing</a>
+    <a href="{{ '/writings' | relative_url }}">Writing</a>
   </nav>
 </section>
 
@@ -45,14 +45,14 @@ permalink: /about/
     <article>
       <h3>Bioinformatics</h3>
       <p>
-        Biological data integraton, and AI-assisted
+        Biological data integration and AI-assisted
         approaches for biological classification and interpretation.
       </p>
     </article>
     <article>
       <h3>Research Data Systems</h3>
       <p>
-        Interoperatable data infrastructure: pipelines,
+        Interoperable data infrastructure: pipelines,
         storage, semantic search, observability, and interfaces.
       </p>
     </article>
