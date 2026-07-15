@@ -7,4 +7,4 @@ comments: True
 project: true
 ---
 
-[Download the Automated Taxonomic Identification of Marine Plankton PDF companion]({{ site.baseurl }}/assets/documents/Jaronchai_IMBC2025_small.pdf)
+[Download the Automated Taxonomic Identification of Marine Plankton PDF companion]({{ site.baseurl }}/assets/talks/2025-07-08/imbc2025-slides.pdf)

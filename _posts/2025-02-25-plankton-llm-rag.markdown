@@ -7,4 +7,4 @@ comments: True
 project: true
 ---
 
-[Download the Plankton LLM RAG PDF companion]({{ site.baseurl }}/assets/documents/plankton_llm_rag.pdf)
+[Download the Plankton LLM RAG PDF companion]({{ site.baseurl }}/assets/talks/2025-03-04/plankton-llm-rag-companion.pdf)

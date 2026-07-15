@@ -19,14 +19,21 @@
     - assets/talks/2026-06-29/ibs2026-kobe-3.jpg
     - assets/talks/2026-06-29/ibs2026-kobe-4.jpg
 
-- title: "Presentation title TBD"
-  event: "The 12th EAFES International Congress"
+- title: "Provenance-Preserving Framework for Integrating Heterogeneous Ecosystem Monitoring Data with Large Language Models"
+  event: "Earth, Sea and Sky XII: Workshop for International Joint Graduate Program & Core Research Cluster in Earth and Environmental Sciences"
   date: "2026-06-04"
-  location: "TBD"
+  location: "Tohoku University, Sendai, Japan"
   description: >
-    Placeholder entry for an upcoming talk at The 12th EAFES International Congress.
-    Details, title, links, and images will be added later.
-  links: {}
+    Poster presentation on a provenance-preserving framework for integrating heterogeneous ecosystem
+    monitoring data with large language models, presented as the follow-up to last year's Earth, Sea
+    and Sky workshop record.
+  links:
+    website: "https://gp-ees.tohoku.ac.jp/en/activity/workshop/"
+    abstract: "/assets/talks/2026-06-04/essxii-2026-abstract.pdf"
+    poster: "/assets/talks/2026-06-04/essxii-2026-poster.pdf"
+  images:
+    - assets/talks/2026-06-04/essxii-2026-poster-photo.jpg
+    - assets/talks/2026-06-04/essxii-2026-workshop-photo.jpg
 
 - title: "Data Integration and Platform Unification Challenges in Marine Bioinformatics"
   event: "COSMEC and ANEMONE Global Joint Symposium 2026"
@@ -67,7 +74,7 @@
     I received IMBC organization awards for other outstanding oral presentations.
   links:
     website: "https://www-iuem.univ-brest.fr/imbc-2025/?lang=e"
-    slides: "https://jaronchai.com/assets/documents/Jaronchai_IMBC2025_small.pdf"
+    slides: "/assets/talks/2025-07-08/imbc2025-slides.pdf"
     abstract: "https://jaronchai.com/assets/talks/2025-07-08/imbc_abs.pdf"
     award: "https://wpi-aimec.jp/en/news/2465/"
   images:

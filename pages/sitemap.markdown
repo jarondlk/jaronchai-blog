@@ -23,7 +23,6 @@ permalink: /sitemap/
 {% assign video_count = 0 %}
 {% assign style_count = 0 %}
 {% assign other_asset_count = 0 %}
-{% assign document_asset_count = 0 %}
 {% assign talk_asset_count = 0 %}
 {% assign writing_image_asset_count = 0 %}
 {% assign general_asset_count = 0 %}
@@ -45,9 +44,7 @@ permalink: /sitemap/
   {% else %}
     {% assign other_asset_count = other_asset_count | plus: 1 %}
   {% endif %}
-  {% if asset.path contains "/assets/documents/" %}
-    {% assign document_asset_count = document_asset_count | plus: 1 %}
-  {% elsif asset.path contains "/assets/talks/" %}
+  {% if asset.path contains "/assets/talks/" %}
     {% assign talk_asset_count = talk_asset_count | plus: 1 %}
   {% elsif asset.path contains "/assets/image/" %}
     {% assign writing_image_asset_count = writing_image_asset_count | plus: 1 %}
@@ -347,25 +344,6 @@ permalink: /sitemap/
   <div class="asset-groups" aria-label="Grouped site assets">
     <details class="asset-group">
       <summary>
-        <span>Documents</span>
-        <small>{{ document_asset_count }} {% if document_asset_count == 1 %}file{% else %}files{% endif %}</small>
-      </summary>
-      <ol class="asset-list" aria-label="Document assets">
-      {% for asset in asset_files %}
-        {% if asset.path contains "/assets/documents/" %}
-          <li>
-            <span class="asset-kind">{{ asset.extname | remove_first: "." | upcase }}</span>
-            <div class="asset-copy">
-              <a href="{{ asset.path }}">{{ asset.path | remove_first: "/" }}</a>
-            </div>
-          </li>
-        {% endif %}
-      {% endfor %}
-      </ol>
-    </details>
-
-    <details class="asset-group">
-      <summary>
         <span>Talk Media</span>
         <small>{{ talk_asset_count }} {% if talk_asset_count == 1 %}file{% else %}files{% endif %}</small>
       </summary>
@@ -410,7 +388,7 @@ permalink: /sitemap/
       </summary>
       <ol class="asset-list" aria-label="General assets">
       {% for asset in asset_files %}
-        {% unless asset.path contains "/assets/documents/" or asset.path contains "/assets/talks/" or asset.path contains "/assets/image/" %}
+        {% unless asset.path contains "/assets/talks/" or asset.path contains "/assets/image/" %}
           <li>
             <span class="asset-kind">{{ asset.extname | remove_first: "." | upcase }}</span>
             <div class="asset-copy">
