@@ -28,15 +28,23 @@ layout: default
     <dl>
       <div>
         <dt>Institute</dt>
-        <dd>Tohoku University, Graduate School of Information Sciences (GSIS)</dd>
+        <dd>
+          Tohoku University, Graduate School of Information Sciences (GSIS)<a class="affiliation-link" href="https://www.is.tohoku.ac.jp/en/" aria-label="Tohoku University Graduate School of Information Sciences website"><span aria-hidden="true">↗</span></a>
+        </dd>
       </div>
       <div>
         <dt>Laboratory</dt>
-        <dd>Information Biology Laboratory</dd>
+        <dd>
+          Information Biology Laboratory<a class="affiliation-link" href="https://www.bio.is.tohoku.ac.jp/en/" aria-label="Information Biology Laboratory website"><span aria-hidden="true">↗</span></a>
+        </dd>
       </div>
       <div>
         <dt>Notes</dt>
-        <dd>Affiliated with MEXT, GP-EES, ASPIRE</dd>
+        <dd>
+          Affiliated with MEXT,
+          ASPIRE<a class="affiliation-link" href="https://www.jst.go.jp/aspire/en/about_en.html" aria-label="ASPIRE website"><span aria-hidden="true">↗</span></a>,
+          GP-EES<a class="affiliation-link" href="https://gp-ees.tohoku.ac.jp/en/" aria-label="GP-EES website"><span aria-hidden="true">↗</span></a>
+        </dd>
       </div>
     </dl>
   </aside>
@@ -100,7 +108,7 @@ layout: default
 {% if upcoming_conferences.size > 0 %}
 <section class="home-section home-upcoming" aria-labelledby="upcoming-conferences">
   <div class="section-heading">
-    <p class="section-kicker">Upcoming conferences</p>
+    <p class="section-kicker">Upcoming events</p>
     <h2 id="upcoming-conferences">Where I will be next</h2>
   </div>
 
@@ -109,9 +117,13 @@ layout: default
     <li class="upcoming-item">
       <time class="upcoming-date" datetime="{{ conference.date_start }}">{{ conference.date_label }}</time>
       <div class="upcoming-copy">
+        {% if conference.website %}
         <a class="upcoming-title" href="{{ conference.website }}">
           {{ conference.title }}<span aria-hidden="true">↗</span>
         </a>
+        {% else %}
+        <span class="upcoming-title">{{ conference.title }}</span>
+        {% endif %}
         <p class="upcoming-meta">{{ conference.location }}</p>
         {% if conference.note %}
         <p>{{ conference.note }}</p>
@@ -191,17 +203,4 @@ layout: default
     {% endif %}
   {% endfor %}
   </ol>
-</section>
-
-<section class="home-section home-index" aria-label="Personal index">
-  <nav class="index-links" aria-label="Personal index">
-    <a href="{{ '/about' | relative_url }}">About</a>
-    <a href="{{ '/now' | relative_url }}">Now</a>
-    <a href="{{ '/writings' | relative_url }}">Writings</a>
-    <a href="{{ '/talks' | relative_url }}">Talks</a>
-    <a href="{{ '/resume' | relative_url }}">Resume</a>
-    <a href="{{ '/sitemap' | relative_url }}">Metadata</a>
-    <a href="mailto:jaron.dilok@gmail.com">Email</a>
-    <a href="https://www.linkedin.com/in/jaronchai/">LinkedIn</a>
-  </nav>
 </section>
