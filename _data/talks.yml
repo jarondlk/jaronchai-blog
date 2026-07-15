@@ -1,14 +1,23 @@
 # TALKS
 
-- title: "Oral and poster presentation titles TBD"
+- title: "Provenance-Preserving Large Language Model Question-Answering System for Heterogeneous Biodiversity Monitoring Data"
   event: "The 20th International Biotechnology Symposium and Exhibition"
   date: "2026-06-29"
   location: "Kobe, Japan"
   description: >
-    Placeholder entry for oral and poster presentations at The 20th International
-    Biotechnology Symposium and Exhibition. Presentation titles, links, and images
-    will be added later.
-  links: {}
+    Oral and poster presentations on a provenance-preserving large language
+    model question-answering system for heterogeneous biodiversity monitoring
+    data.
+  links:
+    website: "https://pub.confit.atlas.jp/en/event/ibs2026"
+    slides: "/assets/talks/2026-06-29/ibs2026-slides.pdf"
+    abstract: "/assets/talks/2026-06-29/ibs2026-abstract.pdf"
+    poster: "/assets/talks/2026-06-29/ibs2026-poster.pdf"
+  images:
+    - assets/talks/2026-06-29/ibs2026-kobe-1.jpg
+    - assets/talks/2026-06-29/ibs2026-kobe-2.jpg
+    - assets/talks/2026-06-29/ibs2026-kobe-3.jpg
+    - assets/talks/2026-06-29/ibs2026-kobe-4.jpg
 
 - title: "Presentation title TBD"
   event: "The 12th EAFES International Congress"
@@ -40,9 +49,8 @@
   event: "The 11th EAFES International Congress"
   date: "2025-07-20"
   location: "Tokyo, Japan"
-  description: >
-    EAFES2025 Website: https://eafes2025.com/index.html
   links:
+    website: "https://eafes2025.com/index.html"
     abstract: "https://jaronchai.com/assets/talks/2025-07-20/eafes_abs.pdf"
     poster: "https://jaronchai.com/assets/talks/2025-07-20/EAFES2025.pdf"
   images:
@@ -56,8 +64,8 @@
     Oral presentation of my work on "Automated Taxonomic Identification of Marine Plankton Using
     a Large-Language-Model and Retrieval-Augmented-Generation Framework." With my presentation,
     I received IMBC organization awards for other outstanding oral presentations.
-    IMBC2025 Website: https://www-iuem.univ-brest.fr/imbc-2025/?lang=e
   links:
+    website: "https://www-iuem.univ-brest.fr/imbc-2025/?lang=e"
     slides: "https://jaronchai.com/assets/documents/Jaronchai_IMBC2025_small.pdf"
     abstract: "https://jaronchai.com/assets/talks/2025-07-08/imbc_abs.pdf"
   images:

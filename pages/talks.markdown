@@ -27,7 +27,7 @@ permalink: /talks/
         <div class="talk-left">
           <h3 class="talk-title">{{ talk.title }}</h3>
           <p class="talk-meta">
-            {% if talk.event %}{{ talk.event }}{% endif %}
+            {% if talk.event %}{{ talk.event }}{% if links.website %}<a class="talk-meta-link" href="{{ links.website }}" aria-label="{{ talk.event }} website"><span aria-hidden="true">↗</span></a>{% endif %}{% endif %}
             {% if talk.location %}{% if talk.event %} · {% endif %}{{ talk.location }}{% endif %}
           </p>
 

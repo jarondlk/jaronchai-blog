@@ -353,6 +353,7 @@ a:focus-visible,
 .page-link:focus-visible,
 .footer-underline:focus-visible,
 .section-link:focus-visible,
+.talk-meta-link:focus-visible,
 .talk-link:focus-visible {
   outline: 2px solid $accent-blue;
   outline-offset: .18rem;
@@ -793,6 +794,22 @@ a:focus-visible,
   margin: .25rem 0 0;
   color: $editorial-muted;
   font-size: .94rem;
+}
+
+.talk-meta-link {
+  color: $brand-color;
+  display: inline-block;
+  font-size: .72em;
+  font-weight: 700;
+  line-height: 1;
+  margin-left: .28rem;
+  text-decoration: none;
+  transform: translateY(-.08em);
+}
+
+.talk-meta-link:hover {
+  color: $text-color;
+  text-decoration: none;
 }
 
 .talk-links {
