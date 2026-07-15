@@ -647,7 +647,9 @@ a:focus-visible,
 }
 
 .editorial-list,
-.talk-list {
+.talk-list,
+.output-list,
+.upcoming-list {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -685,6 +687,118 @@ a:focus-visible,
 .editorial-title:hover {
   text-decoration: underline;
   text-decoration-color: $accent-blue;
+}
+
+.output-item {
+  display: grid;
+  grid-template-columns: 8.5rem minmax(0, 1fr);
+  gap: 1.5rem;
+  margin: 0;
+  padding: .35rem 0 0;
+}
+
+.output-type {
+  color: $editorial-muted;
+  font-size: .82rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.output-copy {
+  border-left: 2px solid rgba($accent-blue, .68);
+  padding-left: 1rem;
+}
+
+.output-status {
+  color: $brand-color;
+  font-size: .78rem;
+  font-weight: 600;
+  margin: 0 0 .25rem;
+  text-transform: uppercase;
+}
+
+.output-title {
+  color: $text-color;
+  display: inline;
+  font-size: 1.08rem;
+  font-weight: 500;
+  line-height: 1.3;
+  margin: 0;
+  text-decoration: none;
+}
+
+a.output-title:hover {
+  text-decoration: underline;
+  text-decoration-color: $accent-blue;
+}
+
+.output-meta {
+  color: $text-color;
+  font-size: .92rem;
+  margin: .3rem 0 0;
+}
+
+.output-copy p:not(.output-status):not(.output-meta) {
+  color: $editorial-muted;
+  margin: .35rem 0 0;
+  max-width: 720px;
+}
+
+.upcoming-item {
+  display: grid;
+  grid-template-columns: 8.5rem minmax(0, 1fr);
+  gap: 1.5rem;
+  margin: 0;
+  padding: .35rem 0 0;
+}
+
+.upcoming-date {
+  color: $editorial-muted;
+  font-size: .82rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.upcoming-copy {
+  border-top: 2px solid rgba($accent-blue, .62);
+  padding-top: .75rem;
+}
+
+.upcoming-title {
+  color: $text-color;
+  display: inline-flex;
+  gap: .28rem;
+  align-items: baseline;
+  font-size: 1.08rem;
+  font-weight: 500;
+  line-height: 1.3;
+  text-decoration: none;
+}
+
+.upcoming-title span {
+  color: $brand-color;
+  font-size: .72em;
+  font-weight: 700;
+}
+
+.upcoming-title:hover {
+  text-decoration: underline;
+  text-decoration-color: $accent-blue;
+}
+
+.upcoming-meta {
+  color: $text-color;
+  font-size: .92rem;
+  margin: .25rem 0 0;
+}
+
+.upcoming-copy p:not(.upcoming-meta) {
+  color: $editorial-muted;
+  margin: .35rem 0 0;
+  max-width: 720px;
 }
 
 .editorial-copy p {
@@ -1565,6 +1679,8 @@ img[alt=guitar] {
   }
 
   .focus-grid,
+  .output-item,
+  .upcoming-item,
   .about-facts,
   .about-grid,
   .about-faq,

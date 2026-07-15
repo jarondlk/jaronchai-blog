@@ -38,6 +38,7 @@
     of integrating diverse datasets and unifying platforms to enhance our understanding of marine
     ecosystems and improve conservation efforts.
   links:
+    website: "https://wpi-aimec.jp/en/event/3585/"
     slides: "https://jaronchai.com/assets/talks/2026-02-06/anemone.pdf"
     video: "/assets/talks/2026-02-06/anemone-global-data-backbone.mp4"
   video: "/assets/talks/2026-02-06/anemone-global-data-backbone.mp4"
@@ -68,6 +69,7 @@
     website: "https://www-iuem.univ-brest.fr/imbc-2025/?lang=e"
     slides: "https://jaronchai.com/assets/documents/Jaronchai_IMBC2025_small.pdf"
     abstract: "https://jaronchai.com/assets/talks/2025-07-08/imbc_abs.pdf"
+    award: "https://wpi-aimec.jp/en/news/2465/"
   images:
     - assets/talks/2025-07-08/imbc1.jpg
     - assets/talks/2025-07-08/imbc2.jpg
@@ -82,6 +84,7 @@
     focusing on the use of multimodal large language models (LLMs) and retrieval-augmented generation (RAG) techniques
     for automated analysis of ocean microorganisms.
   links:
+    website: "https://gp-ees.tohoku.ac.jp/activity/workshop/"
     abstract: "https://jaronchai.com/assets/talks/2025-06-03/ESS-Ⅺ-2025_abst_Jaronchai.pdf"
     poster: "https://jaronchai.com/assets/talks/2025-06-03/semantic.pdf"
   images:

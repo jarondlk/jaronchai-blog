@@ -4,6 +4,8 @@ layout: default
 ---
 
 {% assign talks_sorted = site.data.talks | sort: "date" | reverse %}
+{% assign research_outputs = site.data.research_outputs %}
+{% assign upcoming_conferences = site.data.upcoming_conferences | sort: "date_start" %}
 
 <section class="home-issue" aria-labelledby="home-title">
   <div class="home-issue__copy">
@@ -42,10 +44,10 @@ layout: default
 
 <section class="home-section home-section--focus" aria-labelledby="current-focus">
   <p class="section-kicker">Current focus</p>
-  <h2 id="current-focus">Making biological monitoring data interoperatable.</h2>
+  <h2 id="current-focus">Making biological monitoring data interoperable.</h2>
   <p>
-    I work on bioinformatics, data platforms, and scientific workflows enhancement.
-    Connect scattered biological data and make the evidence easier to reason with.
+    I work on bioinformatics, data platforms, and scientific workflow design.
+    The aim is to connect scattered biological data and make evidence easier to reason with.
   </p>
   <div class="focus-grid">
     <div>
@@ -62,9 +64,64 @@ layout: default
     </div>
   </div>
   <p class="home-note">
-    Peripherals: coffees, productivity tools, note takings and stationaries.
+    Peripherals: coffee, productivity tools, note taking, and stationery.
   </p>
 </section>
+
+{% if research_outputs.size > 0 %}
+<section class="home-section home-outputs" aria-labelledby="research-outputs">
+  <div class="section-heading">
+    <p class="section-kicker">Research outputs</p>
+    <h2 id="research-outputs">Thesis and publications</h2>
+  </div>
+
+  <ol class="output-list">
+  {% for output in research_outputs %}
+    <li class="output-item">
+      <p class="output-type">{{ output.type }}</p>
+      <div class="output-copy">
+        <p class="output-status">{{ output.status }}</p>
+        {% if output.url %}
+        <a class="output-title" href="{{ output.url }}">{{ output.title }}</a>
+        {% else %}
+        <h3 class="output-title">{{ output.title }}</h3>
+        {% endif %}
+        <p class="output-meta">{{ output.institution }}</p>
+        {% if output.note %}
+        <p>{{ output.note }}</p>
+        {% endif %}
+      </div>
+    </li>
+  {% endfor %}
+  </ol>
+</section>
+{% endif %}
+
+{% if upcoming_conferences.size > 0 %}
+<section class="home-section home-upcoming" aria-labelledby="upcoming-conferences">
+  <div class="section-heading">
+    <p class="section-kicker">Upcoming conferences</p>
+    <h2 id="upcoming-conferences">Where I will be next</h2>
+  </div>
+
+  <ol class="upcoming-list">
+  {% for conference in upcoming_conferences %}
+    <li class="upcoming-item">
+      <time class="upcoming-date" datetime="{{ conference.date_start }}">{{ conference.date_label }}</time>
+      <div class="upcoming-copy">
+        <a class="upcoming-title" href="{{ conference.website }}">
+          {{ conference.title }}<span aria-hidden="true">↗</span>
+        </a>
+        <p class="upcoming-meta">{{ conference.location }}</p>
+        {% if conference.note %}
+        <p>{{ conference.note }}</p>
+        {% endif %}
+      </div>
+    </li>
+  {% endfor %}
+  </ol>
+</section>
+{% endif %}
 
 <section class="home-section" aria-labelledby="recent-talks">
   <div class="section-heading section-heading--with-link">
@@ -90,13 +147,14 @@ layout: default
               {% if talk.location %}{% if talk.event %} · {% endif %}{{ talk.location }}{% endif %}
             </div>
 
-            {% if links.slides or links.video or links.paper or links.abstract or links.poster %}
+            {% if links.slides or links.video or links.paper or links.abstract or links.poster or links.award %}
             <div class="talk-links">
               {% if links.slides %}<a class="talk-link" href="{{ links.slides }}">Slides</a>{% endif %}
               {% if links.video %}<a class="talk-link" href="{{ links.video }}">Video</a>{% endif %}
               {% if links.paper %}<a class="talk-link" href="{{ links.paper }}">Paper</a>{% endif %}
               {% if links.abstract %}<a class="talk-link" href="{{ links.abstract }}">Abstract</a>{% endif %}
               {% if links.poster %}<a class="talk-link" href="{{ links.poster }}">Poster</a>{% endif %}
+              {% if links.award %}<a class="talk-link" href="{{ links.award }}">Award</a>{% endif %}
             </div>
             {% endif %}
           </div>

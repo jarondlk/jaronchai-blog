@@ -31,13 +31,14 @@ permalink: /talks/
             {% if talk.location %}{% if talk.event %} · {% endif %}{{ talk.location }}{% endif %}
           </p>
 
-          {% if links.slides or links.video or links.paper or links.abstract or links.poster %}
+          {% if links.slides or links.video or links.paper or links.abstract or links.poster or links.award %}
           <div class="talk-links">
             {% if links.slides %}<a class="talk-link" href="{{ links.slides }}">Slides</a>{% endif %}
             {% if links.video %}<a class="talk-link" href="{{ links.video }}">Video</a>{% endif %}
             {% if links.paper %}<a class="talk-link" href="{{ links.paper }}">Paper</a>{% endif %}
             {% if links.abstract %}<a class="talk-link" href="{{ links.abstract }}">Abstract</a>{% endif %}
             {% if links.poster %}<a class="talk-link" href="{{ links.poster }}">Poster</a>{% endif %}
+            {% if links.award %}<a class="talk-link" href="{{ links.award }}">Award</a>{% endif %}
           </div>
           {% endif %}
         </div>
