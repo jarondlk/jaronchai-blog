@@ -191,7 +191,7 @@ permalink: /sitemap/
       <span class="sitemap-date">Error</span>
       <div class="sitemap-copy">
         <a href="{{ '/404.html' | relative_url }}">404 Page</a>
-        <p>Fallback page for missing routes.</p>
+        <p>Fallback route for missing pages.</p>
       </div>
     </li>
   </ol>

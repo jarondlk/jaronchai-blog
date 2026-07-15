@@ -29,16 +29,15 @@ make serve PORT=4000
 - `pages/`: standalone pages such as About, Now, Talks, Resume, Writings, and Metadata.
 - `_posts/`: published writing posts, project writeups, and older archive entries kept in the main writing collection.
 - `_data/talks.yml`: structured talk metadata used by the homepage and talks page.
-- `_layouts/`: page, post, home, default, and tag layouts.
-- `_includes/`: reusable Liquid fragments for navigation, footer, social links, featured posts, and project cards.
+- `_layouts/`: default, page, and post layouts.
+- `_includes/`: reusable Liquid fragments for the document head, navigation, footer, analytics, and comments.
 - `_sass/` and `assets/main.scss`: Minima overrides and site styling.
 - `assets/`: images, PDFs, talks, documents, and static files.
-- `tag/`: tag landing pages maintained as Markdown files.
 
 ## Notes For Future Updates
 
 - Edit source files, not `_site/`; Jekyll regenerates `_site/` during builds.
 - Keep generated folders such as `_site/` and `.jekyll-cache/` out of version control.
-- Mark homepage-featured posts with `featured: true` in front matter.
-- Mark selected work with `project: true` or `featured: true` in front matter.
+- Mark selected writing with `featured: true` in front matter.
+- Mark selected work with `project: true` in front matter.
 - Add or update talk entries in `_data/talks.yml`.

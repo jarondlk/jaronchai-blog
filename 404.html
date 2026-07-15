@@ -1,24 +1,43 @@
 ---
+layout: page
+title: Page Not Found
 permalink: /404.html
-layout: default
 ---
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+<p class="page-intro">
+  This route is not part of the current site index.
+</p>
 
-<div class="container">
-
-  <div style="text-align: center;"><img src="/assets/image/404/NotFound.png"/></div>
-  <p>Not-Found logo courtesy of <a href="https://github.com/SAWARATSUKI">SAWARATSUKI</a></p>
-</div>
+<section class="sitemap-section" aria-labelledby="not-found-next">
+  <h2 id="not-found-next">Next routes</h2>
+  <ol class="sitemap-list sitemap-list--pages">
+    <li>
+      <span class="sitemap-date">Home</span>
+      <div class="sitemap-copy">
+        <a href="{{ '/' | relative_url }}">Jaronchai Dilokkalayakul</a>
+        <p>Return to the main page.</p>
+      </div>
+    </li>
+    <li>
+      <span class="sitemap-date">Writing</span>
+      <div class="sitemap-copy">
+        <a href="{{ '/writings/' | relative_url }}">Writings</a>
+        <p>Browse research outputs, project notes, and technical writing.</p>
+      </div>
+    </li>
+    <li>
+      <span class="sitemap-date">Talks</span>
+      <div class="sitemap-copy">
+        <a href="{{ '/talks/' | relative_url }}">Talks</a>
+        <p>Conference talks, posters, slides, images, and video records.</p>
+      </div>
+    </li>
+    <li>
+      <span class="sitemap-date">Index</span>
+      <div class="sitemap-copy">
+        <a href="{{ '/sitemap/' | relative_url }}">Metadata</a>
+        <p>Use the live route index to find what moved.</p>
+      </div>
+    </li>
+  </ol>
+</section>
