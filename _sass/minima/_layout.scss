@@ -1409,6 +1409,192 @@ a.output-title:hover {
   padding-left: .8rem;
 }
 
+.asset-summary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr));
+  gap: .8rem;
+  margin: 0;
+}
+
+.asset-summary-grid div {
+  border-top: 2px solid rgba($accent-blue, .5);
+  padding-top: .52rem;
+}
+
+.asset-summary-grid dt {
+  color: $text-color;
+  font-family: $editorial-serif;
+  font-size: 1.35rem;
+  line-height: 1;
+}
+
+.asset-summary-grid dd {
+  color: $editorial-muted;
+  font-size: .72rem;
+  font-weight: 600;
+  line-height: 1.35;
+  margin: .22rem 0 0;
+  text-transform: uppercase;
+}
+
+.asset-groups {
+  margin-top: 1.35rem;
+  border-top: 1px solid rgba($accent-blue, .22);
+}
+
+.asset-group {
+  border-bottom: 1px solid rgba($accent-blue, .16);
+}
+
+.asset-group summary {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1rem;
+  align-items: baseline;
+  cursor: pointer;
+  padding: .8rem 0;
+  color: $text-color;
+  font-weight: 500;
+  list-style: none;
+}
+
+.asset-group summary::-webkit-details-marker {
+  display: none;
+}
+
+.asset-group summary::before {
+  content: "+";
+  color: $accent-blue;
+  font-family: $editorial-mono;
+  font-size: .82rem;
+  font-weight: 500;
+  margin-right: .45rem;
+}
+
+.asset-group[open] summary::before {
+  content: "-";
+}
+
+.asset-group summary span {
+  display: inline-flex;
+  align-items: baseline;
+}
+
+.asset-group summary small {
+  color: $editorial-muted;
+  font-size: .74rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.asset-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.asset-list li {
+  display: grid;
+  grid-template-columns: 6.2rem minmax(0, 1fr);
+  gap: 1.25rem;
+  border-top: 1px solid rgba($accent-blue, .1);
+  padding: .4rem 0;
+}
+
+.asset-kind {
+  color: $editorial-muted;
+  font-size: .72rem;
+  font-weight: 600;
+  line-height: 1.45;
+  text-transform: uppercase;
+}
+
+.asset-copy a {
+  border-bottom: 1px solid rgba($accent-blue, .45);
+  color: $text-color;
+  font-family: $editorial-mono;
+  font-size: .82rem;
+  line-height: 1.45;
+  overflow-wrap: anywhere;
+  text-decoration: none;
+}
+
+.asset-copy a:hover {
+  border-bottom-color: $accent-blue;
+}
+
+.asset-copy p {
+  color: $editorial-muted;
+  font-size: .82rem;
+  margin: .16rem 0 0;
+}
+
+.design-guide-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 2rem;
+}
+
+.metadata-design h3 {
+  margin: 0 0 .65rem;
+  color: $text-color;
+  font-size: .78rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.palette-list--compact {
+  margin: .35rem 0 0;
+}
+
+.palette-list--compact li {
+  grid-template-columns: 1.55rem minmax(0, 1fr);
+  gap: .55rem;
+  padding: .52rem 0;
+}
+
+.palette-list--compact .palette-swatch {
+  width: 1rem;
+  height: 1rem;
+  margin-top: .24rem;
+}
+
+.palette-list--compact p {
+  font-size: .88rem;
+  line-height: 1.35;
+}
+
+.type-specimen-list--compact {
+  margin: .35rem 0 0;
+}
+
+.type-specimen-list--compact .type-specimen {
+  grid-template-columns: 1fr;
+  gap: .25rem;
+  padding: .7rem 0;
+}
+
+.type-specimen-list--compact .type-specimen__sample {
+  margin: 0;
+}
+
+.type-specimen-list--compact .type-specimen--serif .type-specimen__sample {
+  font-size: 1.5rem;
+}
+
+.type-specimen-list--compact .type-specimen--sans .type-specimen__sample {
+  font-size: 1.1rem;
+}
+
+.type-specimen-list--compact .type-specimen--mono .type-specimen__sample {
+  font-size: .86rem;
+}
+
+.type-specimen-list--compact .type-specimen h3 {
+  margin-top: .15rem;
+}
+
 .sitemap-list {
   list-style: none;
   margin: 0;
@@ -1730,6 +1916,20 @@ img[alt=guitar] {
   .metadata-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1rem .8rem;
+  }
+
+  .asset-summary-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .asset-list li {
+    grid-template-columns: 1fr;
+    gap: .15rem;
+  }
+
+  .design-guide-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
   }
 
   .sitemap-list--pages {
