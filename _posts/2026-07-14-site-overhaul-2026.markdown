@@ -77,36 +77,35 @@ Added sitemap.
 
 ## Palette
 
-The color system is intentionally small. The main idea is: warm paper, dark text,
-baby blue structure, and two secondary colors kept mostly in reserve.
+The main idea: paper, dark text, blue structure.
 
 <ul class="palette-list">
   <li>
     <span class="palette-swatch" style="--swatch: #fffefd"></span>
     <div>
       <strong>Warm paper</strong> <code>#fffefd</code>
-      <p>The background. Almost white, but a little softer than pure white.</p>
+      <p>The background. Almost white.</p>
     </div>
   </li>
   <li>
     <span class="palette-swatch" style="--swatch: #23201b"></span>
     <div>
       <strong>Ink</strong> <code>#23201b</code>
-      <p>The main text color. Dark, warm, and less harsh than black.</p>
+      <p>The main text color.</p>
     </div>
   </li>
   <li>
     <span class="palette-swatch" style="--swatch: #5f6970"></span>
     <div>
       <strong>Muted text</strong> <code>#5f6970</code>
-      <p>Used for metadata, dates, secondary descriptions, and quiet context.</p>
+      <p>Used for metadata, dates, secondary descriptions, context.</p>
     </div>
   </li>
   <li>
     <span class="palette-swatch" style="--swatch: #56B4E9"></span>
     <div>
       <strong>Baby blue accent</strong> <code>#56B4E9</code>
-      <p>The main identity color: section rules, active navigation, focus lines, and small structural accents.</p>
+      <p>The main structural accents.</p>
     </div>
   </li>
   <li>
