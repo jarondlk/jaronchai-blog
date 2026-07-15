@@ -1,26 +1,60 @@
 ---
 layout: page
-title: Sitemap
+title: Metadata
 permalink: /sitemap/
 ---
 
-<section class="sitemap-section" aria-labelledby="sitemap-relations">
-  <h2 id="sitemap-relations">Relations</h2>
-  <div class="sitemap-network" aria-label="Main site relationships">
-    <a class="sitemap-node sitemap-node--root" href="{{ '/' | relative_url }}">Home<span>entry point</span></a>
-    <span class="sitemap-arrow" aria-hidden="true">connects to</span>
-    <a class="sitemap-node" href="{{ '/about/' | relative_url }}">About<span>identity</span></a>
-    <a class="sitemap-node" href="{{ '/resume/' | relative_url }}">Resume<span>formal record</span></a>
-    <a class="sitemap-node" href="{{ '/writings/' | relative_url }}">Writings<span>outputs and notes</span></a>
-    <a class="sitemap-node" href="{{ '/talks/' | relative_url }}">Talks<span>presentations</span></a>
-    <a class="sitemap-node" href="{{ '/now/' | relative_url }}">Now<span>current state</span></a>
-    <a class="sitemap-node" href="{{ '/uses/' | relative_url }}">Uses<span>tools</span></a>
-  </div>
+{% assign public_page_count = 7 %}
+{% assign utility_count = 3 %}
+{% assign talks_sorted = site.data.talks | sort: "date" | reverse %}
+{% assign talk_count = talks_sorted | size %}
+{% assign research_output_count = site.data.research_outputs | size %}
+{% assign upcoming_count = site.data.upcoming_conferences | size %}
+{% assign note_count = 0 %}
+{% for post in site.posts %}
+  {% unless post.path contains "template" %}
+    {% assign note_count = note_count | plus: 1 %}
+  {% endunless %}
+{% endfor %}
+
+<p class="page-intro">
+  A live site overview for content counts and route checking.
+</p>
+
+<section class="sitemap-section metadata-section" aria-labelledby="metadata-overview">
+  <h2 id="metadata-overview">Overview</h2>
+  <dl class="metadata-grid" aria-label="Site metadata summary">
+    <div>
+      <dt>{{ public_page_count }}</dt>
+      <dd>Pages</dd>
+    </div>
+    <div>
+      <dt>{{ talk_count }}</dt>
+      <dd>Talk records</dd>
+    </div>
+    <div>
+      <dt>{{ research_output_count }}</dt>
+      <dd>Research outputs</dd>
+    </div>
+    <div>
+      <dt>{{ note_count }}</dt>
+      <dd>Writing notes</dd>
+    </div>
+    <div>
+      <dt>{{ upcoming_count }}</dt>
+      <dd>Upcoming</dd>
+    </div>
+    <div>
+      <dt>{{ utility_count }}</dt>
+      <dd>Utility routes</dd>
+    </div>
+  </dl>
+  <p class="metadata-note">Counts are generated from the route list, posts, and data files during the Jekyll build.</p>
 </section>
 
 <section class="sitemap-section" aria-labelledby="sitemap-pages">
   <h2 id="sitemap-pages">Pages</h2>
-  <ol class="sitemap-list">
+  <ol class="sitemap-list sitemap-list--pages">
     <li>
       <span class="sitemap-date">Home</span>
       <div class="sitemap-copy">
@@ -64,33 +98,31 @@ permalink: /sitemap/
       </div>
     </li>
     <li>
-      <span class="sitemap-date">Tools</span>
-      <div class="sitemap-copy">
-        <a href="{{ '/uses/' | relative_url }}">Uses</a>
-        <p>Hardware, software, services, and working setup notes.</p>
-      </div>
-    </li>
-    <li>
-      <span class="sitemap-date">Older</span>
-      <div class="sitemap-copy">
-        <a href="{{ '/projects/' | relative_url }}">Projects</a>
-        <p>Older project index kept visible for reference.</p>
-      </div>
-    </li>
-    <li>
-      <span class="sitemap-date">Contact</span>
-      <div class="sitemap-copy">
-        <a href="{{ '/contact/' | relative_url }}">Contact</a>
-        <p>Email and profile links.</p>
-      </div>
-    </li>
-    <li>
       <span class="sitemap-date">Index</span>
       <div class="sitemap-copy">
-        <a href="{{ '/sitemap/' | relative_url }}">Sitemap</a>
-        <p>This structural index.</p>
+        <a href="{{ '/sitemap/' | relative_url }}">Metadata</a>
+        <p>Live site overview, route index, and content counts.</p>
       </div>
     </li>
+  </ol>
+</section>
+
+<section class="sitemap-section" aria-labelledby="sitemap-outputs">
+  <h2 id="sitemap-outputs">Research Outputs</h2>
+  <ol class="sitemap-list">
+  {% for output in site.data.research_outputs %}
+    <li>
+      <span class="sitemap-date">{{ output.type }}</span>
+      <div class="sitemap-copy">
+        {% if output.url %}
+        <a href="{{ output.url }}">{{ output.title }}</a>
+        {% else %}
+        <span class="sitemap-title">{{ output.title }}</span>
+        {% endif %}
+        <p>{{ output.status }}{% if output.institution %} · {{ output.institution }}{% endif %}</p>
+      </div>
+    </li>
+  {% endfor %}
   </ol>
 </section>
 
@@ -122,7 +154,6 @@ permalink: /sitemap/
 
 <section class="sitemap-section" aria-labelledby="sitemap-talks">
   <h2 id="sitemap-talks">Talk Records</h2>
-  {% assign talks_sorted = site.data.talks | sort: "date" | reverse %}
   <ol class="sitemap-list">
   {% for talk in talks_sorted %}
     <li>
@@ -142,6 +173,13 @@ permalink: /sitemap/
 <section class="sitemap-section" aria-labelledby="sitemap-utility">
   <h2 id="sitemap-utility">Utility</h2>
   <ol class="sitemap-list">
+    <li>
+      <span class="sitemap-date">Redirect</span>
+      <div class="sitemap-copy">
+        <a href="{{ '/weblog/' | relative_url }}">Weblog</a>
+        <p>Compatibility route that forwards readers to Writings.</p>
+      </div>
+    </li>
     <li>
       <span class="sitemap-date">Feed</span>
       <div class="sitemap-copy">

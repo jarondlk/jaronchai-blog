@@ -26,9 +26,8 @@ make serve PORT=4000
 
 - `_config.yml`: site metadata, navigation, plugins, and global settings.
 - `index.markdown`: homepage content and homepage-specific Liquid sections.
-- `pages/`: standalone pages such as About, Now, Uses, Talks, Resume, and Writings.
-- `_posts/`: published writing posts and project writeups.
-- `archive/post_archive/`: archived posts kept out of the main post collection.
+- `pages/`: standalone pages such as About, Now, Talks, Resume, Writings, and Metadata.
+- `_posts/`: published writing posts, project writeups, and older archive entries kept in the main writing collection.
 - `_data/talks.yml`: structured talk metadata used by the homepage and talks page.
 - `_layouts/`: page, post, home, default, and tag layouts.
 - `_includes/`: reusable Liquid fragments for navigation, footer, social links, featured posts, and project cards.
@@ -41,5 +40,5 @@ make serve PORT=4000
 - Edit source files, not `_site/`; Jekyll regenerates `_site/` during builds.
 - Keep generated folders such as `_site/` and `.jekyll-cache/` out of version control.
 - Mark homepage-featured posts with `featured: true` in front matter.
-- Mark project cards with `project: true` in front matter.
+- Mark selected work with `project: true` or `featured: true` in front matter.
 - Add or update talk entries in `_data/talks.yml`.

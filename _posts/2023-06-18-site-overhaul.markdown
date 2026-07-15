@@ -12,4 +12,4 @@ stuff wise, so for this update I've changed the look of the site a little bit.
 And added two pages
 
 [Now](/now)
-[Uses](/uses)
+Uses page, retired during the 2026 streamline.

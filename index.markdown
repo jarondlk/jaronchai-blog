@@ -197,8 +197,10 @@ layout: default
   <nav class="index-links" aria-label="Personal index">
     <a href="{{ '/about' | relative_url }}">About</a>
     <a href="{{ '/now' | relative_url }}">Now</a>
-    <a href="{{ '/uses' | relative_url }}">Uses</a>
+    <a href="{{ '/writings' | relative_url }}">Writings</a>
+    <a href="{{ '/talks' | relative_url }}">Talks</a>
     <a href="{{ '/resume' | relative_url }}">Resume</a>
+    <a href="{{ '/sitemap' | relative_url }}">Metadata</a>
     <a href="mailto:jaron.dilok@gmail.com">Email</a>
     <a href="https://www.linkedin.com/in/jaronchai/">LinkedIn</a>
   </nav>

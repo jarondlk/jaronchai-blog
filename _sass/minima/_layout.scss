@@ -1381,46 +1381,39 @@ a.output-title:hover {
   text-transform: uppercase;
 }
 
-.sitemap-network {
+.metadata-grid {
   display: grid;
-  grid-template-columns: 1.15fr auto repeat(6, minmax(0, 1fr));
-  gap: .7rem;
-  align-items: stretch;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: .8rem;
+  margin: 0;
 }
 
-.sitemap-node {
-  display: block;
-  border-left: 2px solid rgba($accent-blue, .72);
+.metadata-grid div {
+  border-top: 2px solid rgba($accent-blue, .62);
+  padding-top: .62rem;
+}
+
+.metadata-grid dt {
   color: $text-color;
-  min-height: 4.3rem;
-  padding: .15rem 0 .15rem .65rem;
-  text-decoration: none;
+  font-family: $editorial-serif;
+  font-size: 1.55rem;
+  line-height: 1;
 }
 
-.sitemap-node--root {
-  border-left-color: $accent-blue;
-}
-
-.sitemap-arrow {
-  align-self: center;
+.metadata-grid dd {
   color: $editorial-muted;
-  font-size: .72rem;
+  font-size: .75rem;
   font-weight: 600;
+  line-height: 1.35;
+  margin: .25rem 0 0;
   text-transform: uppercase;
 }
 
-.sitemap-node:hover {
-  color: $text-color;
-  text-decoration: underline;
-  text-decoration-color: $accent-blue;
-}
-
-.sitemap-node span {
-  display: block;
+.metadata-note {
+  border-left: 2px solid $accent-blue;
   color: $editorial-muted;
-  font-size: .78rem;
-  line-height: 1.35;
-  margin-top: .12rem;
+  margin: 1.25rem 0 0;
+  padding-left: .8rem;
 }
 
 .sitemap-list {
@@ -1437,7 +1430,29 @@ a.output-title:hover {
   padding: .75rem 0;
 }
 
-.sitemap-list li:first-child {
+.sitemap-list--pages {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: .9rem 1.75rem;
+}
+
+.sitemap-list--pages li,
+.sitemap-list--pages li:first-child {
+  display: block;
+  border-top: 1px solid rgba($accent-blue, .22);
+  padding: .7rem 0 .4rem;
+}
+
+.sitemap-list--pages .sitemap-date {
+  display: block;
+  margin-bottom: .18rem;
+}
+
+.sitemap-list--pages .sitemap-copy p {
+  font-size: .9rem;
+}
+
+.sitemap-list:not(.sitemap-list--pages) li:first-child {
   border-top: 0;
   padding-top: 0;
 }
@@ -1459,6 +1474,11 @@ a.output-title:hover {
 
 .sitemap-copy a:hover {
   border-bottom-color: $accent-blue;
+}
+
+.sitemap-title {
+  color: $text-color;
+  font-weight: 500;
 }
 
 .sitemap-copy p {
@@ -1708,15 +1728,19 @@ img[alt=guitar] {
   .talk-entry,
   .talk-item,
   .weblog-entry,
-  .sitemap-network,
   .sitemap-list li,
   .about-timeline li {
     grid-template-columns: 1fr;
     gap: .45rem;
   }
 
-  .sitemap-arrow {
-    align-self: start;
+  .metadata-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem .8rem;
+  }
+
+  .sitemap-list--pages {
+    grid-template-columns: 1fr;
   }
 
   .section-heading--with-link {
