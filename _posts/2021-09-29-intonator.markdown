@@ -10,9 +10,11 @@ project: false
 
 [Intonator][link] intonate tone of text with the help of machine learning model trained using Support vector machines classification and Natural language processing methods. Using Flask library to wrap the model into a web app.
 
+Archive note: the original hosted demo is no longer maintained; the source code remains available on GitHub.
+
 In linguistics, intonation is variation in spoken pitch when used, for distinguishing a range of functions such as indicating the attitudes, emotions and **sentiment of the speaker**, focusing on important elements and features of the message. With this definition, we strive to make an application determined to achieve the capability to intonate, hence, begins the development of [Intonator][link].
 
-[link]: https://web-production-165a.up.railway.app
+[link]: https://github.com/jarondlk/intonator
 
 The development process of Intonator are:
 
