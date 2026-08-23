@@ -1211,14 +1211,7 @@ a.output-title:hover {
   display: grid;
   grid-template-columns: minmax(9rem, 13rem) minmax(0, 1fr);
   gap: 1.5rem;
-  border-top: 1px solid rgba($accent-blue, .2);
-  padding: .85rem 0;
-}
-
-.about-facts > div:last-child,
-.about-grid article:last-child,
-.about-faq article:last-child {
-  border-bottom: 1px solid rgba($accent-blue, .2);
+  padding: .55rem 0;
 }
 
 .about-facts dt {
