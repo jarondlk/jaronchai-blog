@@ -51,29 +51,15 @@ layout: default
 </section>
 
 <section class="home-section home-section--focus" aria-labelledby="current-focus">
-  <p class="section-kicker">Current focus</p>
-  <h2 id="current-focus">Making biological monitoring data interoperable.</h2>
-  <p>
-    I work on bioinformatics, data platforms, and scientific workflow design.
-    The aim is to connect scattered biological data and make evidence easier to reason with.
-  </p>
-  <div class="focus-grid">
-    <div>
-      <h3>AI and LLM</h3>
-      <p>Large Language Models, multimodal models, RAG.</p>
-    </div>
-    <div>
-      <h3>Data Infrastructure</h3>
-      <p>Batch, streaming, storage, monitoring.</p>
-    </div>
-    <div>
-      <h3>Science Communication</h3>
-      <p>Talks, presentation, posters.</p>
-    </div>
+  <div class="focus-lead">
+    <p class="section-kicker">Current focus</p>
+    <h2 id="current-focus">Making biological monitoring data interoperable.</h2>
+    <p>
+      I work across bioinformatics, data infrastructure, and scientific workflow design,
+      connecting scattered biological data so evidence is easier to reason with.
+      <span class="focus-topics">AI and LLM <span aria-hidden="true">•</span> Data Infrastructure <span aria-hidden="true">•</span> Science Communication</span>
+    </p>
   </div>
-  <p class="home-note">
-    Peripherals: coffee, productivity tools, note taking, and stationery.
-  </p>
 </section>
 
 {% if research_outputs.size > 0 %}

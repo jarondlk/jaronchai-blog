@@ -4,12 +4,7 @@ title: Resume
 permalink: /resume/
 ---
 
-<section class="resume-hero" aria-label="Resume summary">
-  <p class="section-kicker">Curriculum vitae</p>
-  <p class="resume-deck">
-    Data engineer and marine bioinformatics researcher focused on data platforms,
-    semantic search, local LLM systems, and scientific workflow infrastructure.
-  </p>
+<section class="resume-hero" aria-label="Resume contacts">
   <nav class="resume-links" aria-label="Resume links">
     <a href="mailto:jaron.dilok@gmail.com">jaron.dilok@gmail.com</a>
     <a href="https://www.linkedin.com/in/jaronchai/">LinkedIn</a>
