@@ -4,15 +4,15 @@ title: Writings
 permalink: /writings/
 ---
 
-<p class="page-intro">
+<!-- <p class="page-intro">
   Research outputs, project notes, technical walkthroughs, and reflective updates.
-</p>
+</p> -->
 
 {% assign research_outputs = site.data.research_outputs %}
 
 {% if research_outputs.size > 0 %}
 <section class="writings-section" aria-labelledby="writing-outputs">
-  <p class="section-kicker">Research outputs</p>
+  <!-- <p class="section-kicker">Research outputs</p> -->
   <h2 id="writing-outputs">Publications and thesis</h2>
 
   <ol class="output-list">
@@ -38,7 +38,7 @@ permalink: /writings/
 {% endif %}
 
 <section class="writings-section" aria-labelledby="writing-notes">
-  <p class="section-kicker">Notes archive</p>
+  <!-- <p class="section-kicker">Notes archive</p> -->
   <h2 id="writing-notes">Notes and project writing</h2>
 
   {% assign current_year = "" %}

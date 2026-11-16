@@ -7,9 +7,9 @@ permalink: /talks/
 {% assign talks_sorted = site.data.talks | sort: "date" | reverse %}
 {% assign current_year = "" %}
 
-<p class="page-intro">
+<!-- <p class="page-intro">
   A record of past talks research presentations.
-</p>
+</p> -->
 
 <div class="conference-record">
 {% for talk in talks_sorted %}

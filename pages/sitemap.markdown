@@ -54,9 +54,9 @@ permalink: /sitemap/
   {% endif %}
 {% endfor %}
 
-<p class="page-intro">
+<!-- <p class="page-intro">
   A live site overview for content counts and route checking.
-</p>
+</p> -->
 
 <section class="sitemap-section metadata-section" aria-labelledby="metadata-overview">
   <h2 id="metadata-overview">Overview</h2>

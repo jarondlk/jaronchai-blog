@@ -5,7 +5,7 @@ permalink: /now/
 ---
 
 <section class="now-hero" aria-label="Now summary">
-  <p class="section-kicker">Now</p>
+  <!-- <p class="section-kicker">Now</p> -->
   <p class="now-deck">
     Currently in Sendai, pursuing my PhD at Tohoku University after entering
     the doctoral course in October 2026.
@@ -20,15 +20,6 @@ permalink: /now/
     monitoring workflows, and practical AI systems that make scattered evidence
     easier to use.
   </p>
-</section>
-
-<section class="now-section" aria-labelledby="now-building">
-  <h2 id="now-building">Building</h2>
-  <ul class="now-list">
-    <li>Research data pipelines and platform notes for marine bioinformatics.</li>
-    <li>Cleaner ways to explain talks, posters, and technical projects.</li>
-    <li>This site, slowly turning it into a sharper academic home base.</li>
-  </ul>
 </section>
 
 <section class="now-section" aria-labelledby="now-outside">

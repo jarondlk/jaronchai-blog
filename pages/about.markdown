@@ -5,9 +5,9 @@ permalink: /about/
 ---
 
 <section class="about-hero" aria-label="About summary">
-  <p class="section-kicker">PhD Student at Tohoku University</p>
+  <!-- <p class="section-kicker">PhD Student at Tohoku University</p> -->
   <p class="about-deck">
-    I am Jaronchai Dilokkalayakul, a data engineer and bioinformatics researcher, focusing on heterogeneous data integration.
+    I am Jaronchai Dilokkalayakul, a PhD Student at Tohoku University, and a data engineer and bioinformatics researcher, focusing on heterogeneous data integration.
   </p>
   <nav class="about-links" aria-label="Profile links">
     <a href="mailto:jaron.dilok@gmail.com">Email</a>

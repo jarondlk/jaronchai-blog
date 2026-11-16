@@ -24,7 +24,7 @@ layout: default
   </div>
 
   <aside class="home-brief" aria-label="Current coordinates">
-    <p class="home-brief__label">Current Affiliations</p>
+    <!-- <p class="home-brief__label">Current Affiliations</p> -->
     <dl>
       <div>
         <dt>Institute</dt>
