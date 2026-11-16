@@ -489,11 +489,6 @@ a:focus-visible,
   padding: .75rem 0 2.75rem;
 }
 
-.home-issue__copy {
-  border-left: 4px solid $accent-blue;
-  padding-left: 1.15rem;
-}
-
 .home-kicker,
 .section-kicker {
   margin-bottom: .85rem;
@@ -711,11 +706,6 @@ a:focus-visible,
   text-transform: uppercase;
 }
 
-.output-copy {
-  border-left: 2px solid rgba($accent-blue, .68);
-  padding-left: 1rem;
-}
-
 .output-status {
   color: $brand-color;
   font-size: .78rem;
@@ -809,11 +799,6 @@ a.output-title:hover {
 .editorial-copy p {
   margin: .35rem 0 0;
   line-height: 1.55;
-}
-
-.home-archive .section-heading {
-  border-left: 0;
-  padding-left: 0;
 }
 
 .home-archive .section-kicker {
@@ -1150,10 +1135,8 @@ a.output-title:hover {
 }
 
 .about-hero {
-  border-left: 4px solid $accent-blue;
   max-width: 780px;
   margin-bottom: 2.75rem;
-  padding-left: 1.15rem;
 }
 
 .about-deck {
@@ -1282,10 +1265,8 @@ a.output-title:hover {
 }
 
 .now-hero {
-  border-left: 4px solid $accent-blue;
   max-width: 760px;
   margin-bottom: 2.75rem;
-  padding-left: 1.15rem;
 }
 
 .now-deck {
@@ -1340,10 +1321,8 @@ a.output-title:hover {
 }
 
 .now-note {
-  border-left: 2px solid $accent-blue;
   margin-top: 2.5rem;
   max-width: 720px;
-  padding-left: .9rem;
 }
 
 .sitemap-section {
@@ -1390,10 +1369,8 @@ a.output-title:hover {
 }
 
 .metadata-note {
-  border-left: 2px solid $accent-blue;
   color: $editorial-muted;
   margin: 1.25rem 0 0;
-  padding-left: .8rem;
 }
 
 .asset-summary-grid {
@@ -1654,10 +1631,8 @@ a.output-title:hover {
 }
 
 .resume-hero {
-  border-left: 4px solid $accent-blue;
   max-width: 760px;
   margin-bottom: 2.75rem;
-  padding-left: 1.15rem;
 }
 
 .resume-links {
@@ -1861,14 +1836,6 @@ img[alt=guitar] {
 
   .home-section {
     padding: 2.35rem 0;
-  }
-
-  .home-issue,
-  .home-issue__copy,
-  .about-hero,
-  .resume-hero,
-  .now-hero {
-    padding-left: .9rem;
   }
 
   .output-item,
