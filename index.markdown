@@ -14,17 +14,17 @@ layout: default
       Jaronchai
       <span>Dilokkalayakul</span>
     </h1>
-    <p class="home-deck">
+    <!-- <p class="home-deck">
       Data engineer and bioinformatics researcher, focusing on heterogeneous data integration.
-    </p>
+    </p> -->
 
     <p class="home-context">
-      Tohoku University, Sendai. From Bangkok, previously data engineer at IBM.
+      Data engineer and bioinformatics researcher, focusing on heterogeneous data integration. Tohoku University, Sendai. From Bangkok, previously data engineer at IBM.
     </p>
   </div>
 
   <aside class="home-brief" aria-label="Current coordinates">
-    <!-- <p class="home-brief__label">Current Affiliations</p> -->
+    <p class="home-brief__label">Current Affiliations</p>
     <dl>
       <div>
         <dt>Institute</dt>
@@ -66,7 +66,7 @@ layout: default
 {% if research_outputs.size > 0 %}
 <section class="home-section home-outputs" aria-labelledby="research-outputs">
   <div class="section-heading">
-    <p class="section-kicker">Research</p>
+    <!-- <p class="section-kicker">Research</p> -->
     <h2 id="research-outputs">Publications</h2>
   </div>
 
@@ -125,7 +125,7 @@ layout: default
 <section class="home-section" aria-labelledby="recent-talks">
   <div class="section-heading section-heading--with-link">
     <div>
-      <p class="section-kicker">Conference record</p>
+      <!-- <p class="section-kicker">Conference record</p> -->
       <h2 id="recent-talks">Recent talks</h2>
     </div>
     <a class="section-link" href="{{ '/talks' | relative_url }}">All talks</a>
@@ -167,8 +167,8 @@ layout: default
 <section class="home-section home-archive" aria-labelledby="selected-work">
   <div class="section-heading section-heading--with-link">
     <div>
-      <p class="section-kicker">Selected works</p>
-      <h2 id="selected-work">Projects and research notes</h2>
+      <!-- <p class="section-kicker">Selected works</p> -->
+      <h2 id="selected-work">Selected notes</h2>
     </div>
     <a class="section-link" href="{{ '/writings' | relative_url }}">All writing</a>
   </div>
