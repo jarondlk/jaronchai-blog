@@ -7,10 +7,10 @@ permalink: /now/
 <section class="now-hero" aria-label="Now summary">
   <p class="section-kicker">Now</p>
   <p class="now-deck">
-    Currently in Sendai, finishing my master's chapter at Tohoku University and
-    preparing for PhD work starting in October 2026.
+    Currently in Sendai, pursuing my PhD at Tohoku University after entering
+    the doctoral course in October 2026.
   </p>
-  <p class="now-updated">Updated 14 July 2026 · Sendai, Japan</p>
+  <p class="now-updated">Updated 16 November 2026 · Sendai, Japan</p>
 </section>
 
 <section class="now-section" aria-labelledby="now-research">
