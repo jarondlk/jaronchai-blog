@@ -9,7 +9,8 @@ permissions:
 
 jobs:
   build-and-check:
-    runs-on: ubuntu-latest
+    # Keep the runner compatible with the Ruby patch pinned in .ruby-version.
+    runs-on: ubuntu-24.04
 
     steps:
       - name: Check out repository
