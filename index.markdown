@@ -24,7 +24,7 @@ layout: default
   </div>
 
   <aside class="home-brief" aria-label="Current coordinates">
-    <p class="home-brief__label">Current Affiliations</p>
+    <!-- <p class="home-brief__label">Current Affiliations</p> -->
     <dl>
       <div>
         <dt>Institute</dt>
@@ -39,9 +39,10 @@ layout: default
         </dd>
       </div>
       <div>
-        <dt>Notes</dt>
+        <dt>Affiliated with</dt>
         <dd>
-          Affiliated with MEXT,
+          WPI-AIMEC,
+          MEXT,
           ASPIRE<a class="affiliation-link" href="https://www.jst.go.jp/aspire/en/about_en.html" aria-label="ASPIRE website"><span aria-hidden="true">↗</span></a>,
           GP-EES<a class="affiliation-link" href="https://gp-ees.tohoku.ac.jp/en/" aria-label="GP-EES website"><span aria-hidden="true">↗</span></a>
         </dd>
@@ -74,7 +75,7 @@ layout: default
     <li class="output-item">
       <p class="output-type">{{ output.type }}</p>
       <div class="output-copy">
-        <p class="output-status">{{ output.status }}</p>
+        <!-- <p class="output-status">{{ output.status }}</p> -->
         {% if output.url %}
         <a class="output-title" href="{{ output.url }}">{{ output.title }}</a>
         {% else %}
