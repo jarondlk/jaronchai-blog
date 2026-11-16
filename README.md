@@ -11,10 +11,13 @@ Use Ruby through rbenv. This repository pins Ruby in `.ruby-version`.
 ```sh
 make install
 make build
+make test
 make serve
 ```
 
 The Makefile uses `rbenv exec bundle` when rbenv is available, which keeps the project on the pinned Ruby even if the system `bundle` appears earlier in `PATH`.
+
+`make test` builds the site and checks generated HTML, internal links, images, and scripts without relying on external websites. The same check runs in GitHub Actions on pushes and pull requests.
 
 The preview server defaults to <http://127.0.0.1:4001/> because port `4000` is often used by other local Jekyll projects. Override it when needed:
 
