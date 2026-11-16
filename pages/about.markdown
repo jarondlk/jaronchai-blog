@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 <section class="about-hero" aria-label="About summary">
-  <p class="section-kicker">Incoming PhD Student (October 2026)</p>
+  <p class="section-kicker">PhD Student at Tohoku University</p>
   <p class="about-deck">
     I am Jaronchai Dilokkalayakul, a data engineer and bioinformatics researcher, focusing on heterogeneous data integration.
   </p>
@@ -22,7 +22,7 @@ permalink: /about/
   <dl class="about-facts">
     <div>
       <dt>Affiliation</dt>
-      <dd>Tohoku University, Graduate School of Information Science</dd>
+      <dd>Tohoku University, Graduate School of Information Sciences</dd>
     </div>
     <div>
       <dt>Base</dt>
@@ -102,8 +102,12 @@ permalink: /about/
   <h2 id="about-timeline">Short Timeline</h2>
   <ol class="about-timeline">
     <li>
-      <time>2024 - Now</time>
-      <span>MEXT scholar and master's student at Tohoku University in Sendai.</span>
+      <time>October 2026 - Now</time>
+      <span>PhD student at Tohoku University in Sendai.</span>
+    </li>
+    <li>
+      <time>2024 - 2026</time>
+      <span>Master's studies at Tohoku University as a MEXT scholar.</span>
     </li>
     <li>
       <time>2024</time>

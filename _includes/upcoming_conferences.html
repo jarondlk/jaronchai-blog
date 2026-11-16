@@ -1,0 +1,2 @@
+{%- assign today = site.time | date: "%Y-%m-%d" -%}
+{%- assign upcoming_conferences = site.data.upcoming_conferences | where_exp: "conference", "conference.date_end >= today" | sort: "date_start" -%}

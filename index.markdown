@@ -5,11 +5,11 @@ layout: default
 
 {% assign talks_sorted = site.data.talks | sort: "date" | reverse %}
 {% assign research_outputs = site.data.research_outputs %}
-{% assign upcoming_conferences = site.data.upcoming_conferences | sort: "date_start" %}
+{% include upcoming_conferences.html %}
 
 <section class="home-issue" aria-labelledby="home-title">
   <div class="home-issue__copy">
-    <p class="home-kicker">Incoming PhD Student (October 2026)</p>
+    <p class="home-kicker">PhD Student at Tohoku University</p>
     <h1 id="home-title">
       Jaronchai
       <span>Dilokkalayakul</span>

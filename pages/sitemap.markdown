@@ -9,7 +9,8 @@ permalink: /sitemap/
 {% assign talks_sorted = site.data.talks | sort: "date" | reverse %}
 {% assign talk_count = talks_sorted | size %}
 {% assign research_output_count = site.data.research_outputs | size %}
-{% assign upcoming_count = site.data.upcoming_conferences | size %}
+{% include upcoming_conferences.html %}
+{% assign upcoming_count = upcoming_conferences | size %}
 {% assign note_count = 0 %}
 {% for post in site.posts %}
   {% unless post.path contains "template" %}

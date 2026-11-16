@@ -112,9 +112,18 @@ permalink: /resume/
 
   <ol class="resume-list">
     <li class="resume-entry">
-      <time class="resume-date">Oct 2024 - Present</time>
+      <time class="resume-date">Oct 2026 - Present</time>
       <div>
-        <h3>Graduate School of Information Science</h3>
+        <h3>PhD, Information Sciences</h3>
+        <p class="resume-affiliation"><a href="https://www.is.tohoku.ac.jp/en/">Tohoku University</a></p>
+        <p>Graduate School of Information Sciences, Information Biology Laboratory.</p>
+      </div>
+    </li>
+
+    <li class="resume-entry">
+      <time class="resume-date">2024 - 2026</time>
+      <div>
+        <h3>Master's studies, Information Sciences</h3>
         <p class="resume-affiliation"><a href="https://www.is.tohoku.ac.jp/en/">Tohoku University</a></p>
         <ul>
           <li>MEXT Scholarship grantee, fully funded by the Japanese government.</li>
