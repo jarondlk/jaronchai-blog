@@ -1,5 +1,31 @@
 # TALKS
 
+- title: "A Provenance-Preserving LLM-Assisted Interface for Heterogeneous Marine Observations in Digital Twins of the Ocean"
+  event: "DITTO Summit 2026"
+  date: "2026-11-11"
+  location: "Yokohama, Japan"
+  description: >
+    Presented a provenance-preserving framework for coastal ecosystem 
+    monitoring that integrates heterogeneous marine observations and analyses into a unified, 
+    traceable knowledge base.
+  links:
+    website: "https://www.jamstec.go.jp/j/pr-event/ditto_summit2026/"
+    abstract: "/assets/talks/2026-11-11/ditto2026-abstract.pdf"
+  images:
+
+- title: "OCEAN Platform: Ocean Coastal Ecosystem Archive Network Platform"
+  event: "2nd ASPIRE Graduate Student Symposium"
+  date: "2026-11-09"
+  location: "Sendai, Japan"
+  description: >
+    Oral presentations on an ocean coastal ecosystem archive network platform (OCEAN Platform) for
+    integrating heterogeneous ecosystem monitoring data with large language models, presented as the
+    follow-up to last year's ASPIRE workshop record.
+  links:
+    website: "https://sites.google.com/tohoku.ac.jp/wpi-aimecaspire/home?pli=1&authuser=0"
+  images:
+    - assets/talks/2026-11-09/aspire.png
+
 - title: "Provenance-Preserving Large Language Model Question-Answering System for Heterogeneous Biodiversity Monitoring Data"
   event: "The 20th International Biotechnology Symposium and Exhibition"
   date: "2026-06-29"
@@ -10,6 +36,7 @@
     data.
   links:
     website: "https://pub.confit.atlas.jp/en/event/ibs2026"
+    website: "https://wpi-aimec.jp/en/activities/5409/"
     slides: "/assets/talks/2026-06-29/ibs2026-slides.pdf"
     abstract: "/assets/talks/2026-06-29/ibs2026-abstract.pdf"
     poster: "/assets/talks/2026-06-29/ibs2026-poster.pdf"
